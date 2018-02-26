@@ -51,13 +51,13 @@ export default {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|wxs)$/,
         include: /src/,
         exclude: /node_modules/,
         use: ['babel-loader', shouldLint && 'eslint-loader'].filter(Boolean),
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|wxss)$/,
         include: /src/,
         use: [
           ...relativeFileLoader('wxss'),
@@ -72,7 +72,7 @@ export default {
         ],
       },
       {
-        test: /\.(json|png|jpg|gif|wxss)$/,
+        test: /\.(json|png|jpg|gif|svg)$/,
         include: /src/,
         use: relativeFileLoader(),
       },

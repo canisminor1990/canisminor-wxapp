@@ -31,6 +31,10 @@
       "prettier --trailing-comma all --single-quote --write",
       "git add"
     ],
+    "src/**/*.json": [
+      "prettier --trailing-comma all --single-quote --write",
+      "git add"
+    ],
     "src/**/*.js": ["eslint --fix", "lint:style", "git add"]
   },
   "dependencies": {
