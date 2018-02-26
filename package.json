@@ -10,9 +10,9 @@
   },
   "private": true,
   "scripts": {
-    "start": "rm -rf build/* && clear && webpack --watch",
-    "build":
-      "rm -rf dist/* && clear && cross-env NODE_ENV=production webpack -p",
+    "start": "yarn clear && webpack --watch",
+    "build": "yarn clear && cross-env NODE_ENV=production webpack -p",
+    "clear": "rm -rf dist/* && clear",
     "lint": "lint-staged",
     "lint:es": "eslint --fix --ext .js src"
   },

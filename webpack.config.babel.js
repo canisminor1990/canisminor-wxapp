@@ -45,7 +45,7 @@ export default {
   output: {
     filename: '[name].js',
     publicPath: '/',
-    path: isDev ? resolve('build') : resolve('dist'),
+    path: resolve('dist'),
   },
 
   module: {
@@ -54,7 +54,15 @@ export default {
         test: /\.js$/,
         include: /src/,
         exclude: /node_modules/,
-        use: ['babel-loader', shouldLint && 'eslint-loader'].filter(Boolean),
+        use: [
+          { loader: 'babel-loader' },
+          {
+            loader: 'eslint-loader',
+            options: {
+              fix: true,
+            },
+          },
+        ],
       },
       {
         test: /\.scss$/,

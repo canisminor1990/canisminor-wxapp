@@ -1,9 +1,9 @@
 {
   "pages": [
-    "routes/intro/index",
-    "routes/blog/index",
-    "routes/projects/index",
-    "routes/contact/index"
+    "routes/Intro/index",
+    "routes/Blog/index",
+    "routes/Project/index",
+    "routes/Contact/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,25 +19,25 @@
     "list": [
       {
         "text": "Intro",
-        "pagePath": "routes/intro/index",
+        "pagePath": "routes/Intro/index",
         "iconPath": "images/tabbar/intro.png",
         "selectedIconPath": "images/tabbar/intro-active.png"
       },
       {
         "text": "Blog",
-        "pagePath": "routes/blog/index",
+        "pagePath": "routes/Blog/index",
         "iconPath": "images/tabbar/blog.png",
         "selectedIconPath": "images/tabbar/blog-active.png"
       },
       {
         "text": "Projects",
-        "pagePath": "routes/projects/index",
+        "pagePath": "routes/Project/index",
         "iconPath": "images/tabbar/project.png",
         "selectedIconPath": "images/tabbar/project-active.png"
       },
       {
         "text": "Contact",
-        "pagePath": "routes/contact/index",
+        "pagePath": "routes/Contact/index",
         "iconPath": "images/tabbar/contact.png",
         "selectedIconPath": "images/tabbar/contact-active.png"
       }
