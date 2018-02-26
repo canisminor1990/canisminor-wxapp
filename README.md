@@ -1,4 +1,4 @@
-# dva-wxapp
+# canisminor-wxapp
 使用 `webpack`, `babel`,  开发的微信小程序项目脚手架,集成了dva-core,
 
 
