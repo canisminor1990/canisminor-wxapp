@@ -23,7 +23,7 @@
 			"prettier --trailing-comma all --single-quote --write",
 			"git add"
 		],
-		"./package.json": [
+		"package.json": [
 			"prettier --trailing-comma all --single-quote --write",
 			"git add"
 		],
@@ -33,9 +33,6 @@
 			"git add"
 		],
 		"src/**/*.js": ["eslint --fix", "lint:style", "git add"]
-	},
-	"engines": {
-		"node": ">=4.2.1"
 	},
 	"dependencies": {
 		"dva-core": "^1.1.0",
