@@ -13,8 +13,7 @@
     "start": "rm -rf build/* && webpack --watch",
     "build": "rm -rf dist/* && cross-env NODE_ENV=production webpack -p",
     "lint": "lint-staged",
-    "lint:es": "eslint --fix --ext .js src",
-    "pre-commit": "lint-staged"
+    "lint:es": "eslint --fix --ext .js src"
   },
   "pre-commit": ["lint"],
   "lint-staged": {
