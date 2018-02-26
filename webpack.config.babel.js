@@ -61,13 +61,7 @@ export default {
         include: /src/,
         use: [
           ...relativeFileLoader('wxss'),
-          {
-            loader: 'postcss-loader',
-            options: {
-              config: { path: 'postcss.config.js' },
-              sourceMap: isDev,
-            },
-          },
+          { loader: resolve('scripts/px2rpx.js') },
           {
             loader: 'sass-loader',
             options: {
@@ -93,6 +87,7 @@ export default {
               name: '[path][name].[ext]',
             },
           },
+          { loader: resolve('scripts/px2rpx.js') },
           {
             loader: 'wxml-loader',
             options: {
