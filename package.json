@@ -10,7 +10,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "clear && webpack --watch",
+    "start": "rm -rf build/* && clear && webpack --watch",
     "build":
       "rm -rf dist/* && clear && cross-env NODE_ENV=production webpack -p",
     "lint": "lint-staged",
@@ -35,7 +35,7 @@
       "prettier --trailing-comma all --single-quote --write",
       "git add"
     ],
-    "src/**/*.js": ["eslint --fix", "lint:style", "git add"]
+    "src/**/*.js": ["eslint --fix", "git add"]
   },
   "dependencies": {
     "dva-core": "^1.1.0",
@@ -80,6 +80,7 @@
     "prettier": "^1.10.2",
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
+    "weact-cli": "^0.6.3",
     "webpack": "^3.10.0",
     "wxapp-webpack-plugin": "^0.17.2",
     "wxml-loader": "^0.1.1"

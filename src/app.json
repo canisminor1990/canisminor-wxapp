@@ -1,12 +1,46 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/about/index"
+  "pages": [
+    "routes/intro/index",
+    "routes/blog/index",
+    "routes/projects/index",
+    "routes/contact/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ffffff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "CanisMinor",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#BBBFC8",
+    "selectedColor": "#50E3C2",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "Intro",
+        "pagePath": "routes/intro/index",
+        "iconPath": "images/tabbar/intro.png",
+        "selectedIconPath": "images/tabbar/intro-active.png"
+      },
+      {
+        "text": "Blog",
+        "pagePath": "routes/blog/index",
+        "iconPath": "images/tabbar/blog.png",
+        "selectedIconPath": "images/tabbar/blog-active.png"
+      },
+      {
+        "text": "Projects",
+        "pagePath": "routes/projects/index",
+        "iconPath": "images/tabbar/project.png",
+        "selectedIconPath": "images/tabbar/project-active.png"
+      },
+      {
+        "text": "Contact",
+        "pagePath": "routes/contact/index",
+        "iconPath": "images/tabbar/contact.png",
+        "selectedIconPath": "images/tabbar/contact-active.png"
+      }
+    ]
   }
 }

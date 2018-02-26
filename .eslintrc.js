@@ -50,6 +50,7 @@ module.exports = {
 		'react/no-children-prop'      : [0],
 		'no-self-compare'             : [0],
 		'prefer-promise-reject-errors': [0],
-		'no-unused-vars'              : [1]
+		'no-unused-vars'              : [0]
+		//'no-unused-vars'              : [1]
 	}
 };
