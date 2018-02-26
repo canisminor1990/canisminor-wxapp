@@ -26,7 +26,7 @@
       "prettier --trailing-comma all --single-quote --write",
       "git add"
     ],
-    "./*.js": ["eslint --fix", "git add"],
+    "webpack.config.babel.js": ["eslint --fix", "git add"],
     "src/**/*.scss": [
       "prettier --trailing-comma all --single-quote --write",
       "git add"
