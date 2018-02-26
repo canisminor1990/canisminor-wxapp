@@ -8,7 +8,7 @@ const page = mergeOptions(
       this.queryWeather();
     },
   },
-  carousel,
+  carousel
 );
 
 const mapState = ({ index, loading }) => {

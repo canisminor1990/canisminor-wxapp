@@ -98,7 +98,7 @@ function mergeOptions(target, ...args) {
         for (const key in source) {
           if (hasOwn.call(source, key)) {
             const strat = strats[key] || defaultStrat;
-            if (key === 'data' && target[key] == undefined) {
+            if (key === 'data' && target[key] === undefined) {
               target[key] = {};
             }
             target[key] = strat(target[key], source[key], key);

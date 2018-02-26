@@ -14,12 +14,7 @@ const is = (x, y) => {
 const shallowEqual = (objA, objB) => {
   if (is(objA, objB)) return true;
 
-  if (
-    typeof objA !== 'object' ||
-    objA === null ||
-    typeof objB !== 'object' ||
-    objB === null
-  ) {
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
     return false;
   }
 
@@ -67,13 +62,11 @@ const createConnect = (mapStateToProps, mapDispatchToProps) => {
         this.unsubscribe = app._store.subscribe(onStateChange.bind(this));
         onStateChange.apply(this);
       }
-      if (page.onLoad && typeof page.onLoad === 'function')
-        page.onLoad.call(this, options);
+      if (page.onLoad && typeof page.onLoad === 'function') page.onLoad.call(this, options);
     }
 
     function onUnload() {
-      if (page.onUnload && typeof page.onUnload === 'function')
-        page.onUnload.call(this);
+      if (page.onUnload && typeof page.onUnload === 'function') page.onUnload.call(this);
       if (this.unsubscribe) {
         this.unsubscribe();
         this.unsubscribe = null;
@@ -85,7 +78,7 @@ const createConnect = (mapStateToProps, mapDispatchToProps) => {
       page,
       mapDispatch(app._store.dispatch),
       { dispatch: app._store.dispatch },
-      { onLoad, onUnload },
+      { onLoad, onUnload }
     );
   };
 };

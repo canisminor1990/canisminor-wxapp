@@ -17,7 +17,9 @@
 		"lint": "lint-staged",
 		"lint:es": "eslint --fix --ext .js src"
 	},
-	"pre-commit": ["lint"],
+	"pre-commit": [
+		"lint"
+	],
 	"lint-staged": {
 		"README.md": [
 			"prettier --trailing-comma all --single-quote --write",
@@ -27,12 +29,19 @@
 			"prettier --trailing-comma all --single-quote --write",
 			"git add"
 		],
-		"./*.js": ["eslint --fix", "git add"],
+		"./*.js": [
+			"eslint --fix",
+			"git add"
+		],
 		"src/**/*.scss": [
 			"prettier --trailing-comma all --single-quote --write",
 			"git add"
 		],
-		"src/**/*.js": ["eslint --fix", "lint:style", "git add"]
+		"src/**/*.js": [
+			"eslint --fix",
+			"lint:style",
+			"git add"
+		]
 	},
 	"dependencies": {
 		"dva-core": "^1.1.0",
@@ -55,6 +64,7 @@
 		"create-wxapp-page": "^2.0.6",
 		"cross-env": "^5.1.3",
 		"css-loader": "^0.28.10",
+		"eslint": "^4.18.1",
 		"eslint-config-prettier": "^2.9.0",
 		"eslint-config-standard": "^10.2.1",
 		"eslint-plugin-flowtype": "^2.37.0",

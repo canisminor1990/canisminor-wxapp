@@ -9,23 +9,20 @@ export default {
     weather: {},
     title: 'hello world',
     carousel: {
-      indicatorDots: true, //显示面板指示点
-      autoplay: true, //自动切换
-      interval: 2000, //自动切换时间间隔
-      duration: 1000, //滑动动画时长
+      indicatorDots: true, // 显示面板指示点
+      autoplay: true, // 自动切换
+      interval: 2000, // 自动切换时间间隔
+      duration: 1000, // 滑动动画时长
       height: 200,
       images: [
         {
-          imgUrl:
-            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842648526.jpg',
+          imgUrl: 'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842648526.jpg',
         },
         {
-          imgUrl:
-            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842684646.jpg',
+          imgUrl: 'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842684646.jpg',
         },
         {
-          imgUrl:
-            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842759450.jpg',
+          imgUrl: 'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842759450.jpg',
         },
       ],
     },
@@ -106,12 +103,12 @@ export default {
   },
 
   subscriptions: {
-    //监控获取用户信息
+    // 监控获取用户信息
     setup({ dispatch }) {
       dispatch({ type: 'watchLogin' });
     },
 
-    //监控位置变化
+    // 监控位置变化
     watchLocation({ dispatch }) {
       dispatch({ type: 'watchLocation' });
     },

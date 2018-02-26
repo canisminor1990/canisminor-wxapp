@@ -76,7 +76,7 @@ const request = (url, options) => {
       })
       .then(response => {
         // getApp().log(JSON.stringify(response));
-        //业务数据异常
+        // 业务数据异常
         if (response.statusCode < 200 || response.statusCode >= 300) {
           let errors = {
             error: -1,
@@ -89,7 +89,7 @@ const request = (url, options) => {
           }
           reject(errors);
         }
-        //正确返回
+        // 正确返回
         resolve(response.data);
       })
       .catch(err => {
