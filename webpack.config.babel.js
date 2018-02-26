@@ -1,8 +1,8 @@
 import { resolve, join } from 'path';
-import { DefinePlugin, EnvironmentPlugin, optimize } from 'webpack';
+import { DefinePlugin, EnvironmentPlugin, IgnorePlugin, optimize } from 'webpack';
 import WXAppWebpackPlugin, { Targets } from 'wxapp-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import MinifyPlugin from 'babel-minify-webpack-plugin';
 
 const {NODE_ENV, LINT, NO_LINT} = process.env;
 const isDev                     = NODE_ENV !== 'production';
@@ -101,7 +101,8 @@ export default {
 		new DefinePlugin({__DEV__: isDev}),
 		new WXAppWebpackPlugin({clear: !isDev}),
 		new optimize.ModuleConcatenationPlugin(),
-		new CopyWebpackPlugin(copyConfig())
+		new CopyWebpackPlugin(copyConfig()),
+		!isDev && new MinifyPlugin(),
 	].filter(Boolean),
 	devtool     : isDev ? 'source-map' : false,
 	resolve     : {
