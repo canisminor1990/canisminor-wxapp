@@ -8,7 +8,7 @@ const noPromiseMethods = {
   hideNavigationBarLoading: 1,
   drawCanvas: 1,
   canvasToTempFilePath: 1,
-  hideKeyboard: 1
+  hideKeyboard: 1,
 };
 
 /* globals wx, getApp, getCurrentPages */
@@ -23,14 +23,14 @@ const weex = {
   // getCurrentPages() 优雅的封装
   get currentPages() {
     return getCurrentPages();
-  }
+  },
 };
 
-Object.keys(wx).forEach((key) => {
+Object.keys(wx).forEach(key => {
   if (
-    noPromiseMethods[key]                        // 特别指定的方法
-    || /^(on|create|stop|pause|close)/.test(key) // 以on* create* stop* pause* close* 开头的方法
-    || /\w+Sync$/.test(key)                      // 以Sync结尾的方法
+    noPromiseMethods[key] || // 特别指定的方法
+    /^(on|create|stop|pause|close)/.test(key) || // 以on* create* stop* pause* close* 开头的方法
+    /\w+Sync$/.test(key) // 以Sync结尾的方法
   ) {
     // 不进行Promise封装
     weex[key] = (...args) => wx[key](...args);
@@ -50,7 +50,7 @@ Object.keys(wx).forEach((key) => {
           } else {
             reject(err);
           }
-        }
+        },
       });
       wx[key](options);
     });
@@ -79,8 +79,7 @@ function mergeHook(target, source) {
   return target;
 }
 
-['onLoad', 'onReady', 'onShow', 'onHide', 'onUnload']
-.forEach((hook) => {
+['onLoad', 'onReady', 'onShow', 'onHide', 'onUnload'].forEach(hook => {
   strats[hook] = mergeHook;
 });
 
@@ -88,20 +87,18 @@ function mergeHook(target, source) {
  * Default strategy.
  */
 function defaultStrat(target, source) {
-  return source === undefined
-    ? target
-    : source;
+  return source === undefined ? target : source;
 }
 
 function mergeOptions(target, ...args) {
   const hasOwn = Object.prototype.hasOwnProperty;
   if (target) {
-    args.forEach((source) => {
+    args.forEach(source => {
       if (source) {
         for (const key in source) {
           if (hasOwn.call(source, key)) {
             const strat = strats[key] || defaultStrat;
-            if (key==='data' && target[key]==undefined) {
+            if (key === 'data' && target[key] == undefined) {
               target[key] = {};
             }
             target[key] = strat(target[key], source[key], key);
@@ -113,9 +110,6 @@ function mergeOptions(target, ...args) {
   return target;
 }
 
-export {
-  mergeOptions,
-  connect,
-};
+export { mergeOptions, connect };
 
 export default weex;

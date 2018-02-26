@@ -14,8 +14,12 @@ const is = (x, y) => {
 const shallowEqual = (objA, objB) => {
   if (is(objA, objB)) return true;
 
-  if (typeof objA !== 'object' || objA === null ||
-      typeof objB !== 'object' || objB === null) {
+  if (
+    typeof objA !== 'object' ||
+    objA === null ||
+    typeof objB !== 'object' ||
+    objB === null
+  ) {
     return false;
   }
 
@@ -25,8 +29,7 @@ const shallowEqual = (objA, objB) => {
   if (keysA.length !== keysB.length) return false;
 
   for (let i = 0; i < keysA.length; i++) {
-    if (!hasOwn.call(objB, keysA[i]) ||
-        !is(objA[keysA[i]], objB[keysA[i]])) {
+    if (!hasOwn.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
       return false;
     }
   }
@@ -41,18 +44,19 @@ const createConnect = (mapStateToProps, mapDispatchToProps) => {
   const app = wx.app;
   const mapState = mapStateToProps || defaultMapStateToProps;
   // const mapDispatch = mapDispatchToProps && typeof mapDispatchToProps === 'object' ?
-    // dispatch => bindActionCreators(mapDispatchToProps, dispatch) : defaultMapDispatchToProps;
+  // dispatch => bindActionCreators(mapDispatchToProps, dispatch) : defaultMapDispatchToProps;
 
   const mapDispatch = mapDispatchToProps || defaultMapDispatchToProps;
 
-  return (page) => {
+  return page => {
     function onStateChange() {
       if (this.unsubscribe) {
         const state = app._store.getState();
         const mappedState = mapState(state);
         if (!shallowEqual(this.data, mappedState)) {
           this.setData(mappedState);
-          if (page.onStateChange && typeof page.onStateChange === 'function') page.onStateChange.call(this);
+          if (page.onStateChange && typeof page.onStateChange === 'function')
+            page.onStateChange.call(this);
         }
       }
     }
@@ -63,22 +67,25 @@ const createConnect = (mapStateToProps, mapDispatchToProps) => {
         this.unsubscribe = app._store.subscribe(onStateChange.bind(this));
         onStateChange.apply(this);
       }
-      if (page.onLoad && typeof page.onLoad === 'function') page.onLoad.call(this, options);
+      if (page.onLoad && typeof page.onLoad === 'function')
+        page.onLoad.call(this, options);
     }
 
     function onUnload() {
-      if (page.onUnload && typeof page.onUnload === 'function') page.onUnload.call(this);
+      if (page.onUnload && typeof page.onUnload === 'function')
+        page.onUnload.call(this);
       if (this.unsubscribe) {
         this.unsubscribe();
         this.unsubscribe = null;
       }
     }
 
-    return Object.assign({},
+    return Object.assign(
+      {},
       page,
       mapDispatch(app._store.dispatch),
-      {dispatch: app._store.dispatch},
-      { onLoad, onUnload }
+      { dispatch: app._store.dispatch },
+      { onLoad, onUnload },
     );
   };
 };

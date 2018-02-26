@@ -19,19 +19,19 @@ export default {
     getUserInfoSuccess(state, action) {
       const { userInfo } = action.payload;
       return { ...state, userInfo };
-    }
+    },
   },
 
   effects: {
     *getSysInfo(action, { call, put }) {
       const sysInfo = yield call(wx.getSystemInfo);
-      yield put({ type: 'getSysInfoSuccess', payload: sysInfo })
+      yield put({ type: 'getSysInfoSuccess', payload: sysInfo });
     },
 
     *getLocation(action, { call, put }) {
       try {
         const location = yield call(wx.getLocation);
-        yield put({ type: 'getLocationSuccess', payload: location })
+        yield put({ type: 'getLocationSuccess', payload: location });
       } catch (e) {
         console.log(e);
       }
@@ -47,7 +47,7 @@ export default {
       } catch (e) {
         /* handle error */
         yield call(wx.login);
-        const res  = yield call(wx.getUserInfo);
+        const res = yield call(wx.getUserInfo);
         userInfo = res.userInfo;
         yield call(wx.setStorage, { key: 'userInfo', data: userInfo });
       }
@@ -63,7 +63,6 @@ export default {
         put({ type: 'getLocation' }),
         put({ type: 'getSysInfo' }),
       ]);
-    }
- },
-
+    },
+  },
 };

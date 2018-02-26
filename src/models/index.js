@@ -9,20 +9,26 @@ export default {
     weather: {},
     title: 'hello world',
     carousel: {
-      indicatorDots: true,  //显示面板指示点
-      autoplay: true,     //自动切换
-      interval: 2000,    //自动切换时间间隔
-      duration: 1000,    //滑动动画时长
+      indicatorDots: true, //显示面板指示点
+      autoplay: true, //自动切换
+      interval: 2000, //自动切换时间间隔
+      duration: 1000, //滑动动画时长
       height: 200,
-      images: [{
-        imgUrl: "http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842648526.jpg",
-      }, {
-        imgUrl: "http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842684646.jpg",
-      }, {
-        imgUrl: "http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842759450.jpg",
-      }],
+      images: [
+        {
+          imgUrl:
+            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842648526.jpg',
+        },
+        {
+          imgUrl:
+            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842684646.jpg',
+        },
+        {
+          imgUrl:
+            'http://imgcdnali.ylallinone.com/pcImg/2017-05-03/14937842759450.jpg',
+        },
+      ],
     },
-
   },
 
   reducers: {
@@ -48,7 +54,7 @@ export default {
         ...state,
         userInfo,
       };
-    }
+    },
   },
 
   effects: {
@@ -72,16 +78,16 @@ export default {
       const pics = carousel.images.map(img => img.imgUrl);
       wx.previewImage({
         current: pic.imgUrl, // 当前显示图片的http链接
-        urls: pics,// 需要预览的图片http链接列表
+        urls: pics, // 需要预览的图片http链接列表
       });
     },
 
     *watchLocation(action, { put, take, select, takeEvery }) {
-      let { location } = yield select(state => state.app );
+      let { location } = yield select(state => state.app);
       if (!location) {
-        yield takeEvery('app/getLocationSuccess', function* (action1) {
-            location = action1.payload;
-            yield put({ type: 'getLocationSuccess', payload: { location } });
+        yield takeEvery('app/getLocationSuccess', function*(action1) {
+          location = action1.payload;
+          yield put({ type: 'getLocationSuccess', payload: { location } });
         });
       } else {
         yield put({ type: 'getLocationSuccess', payload: { location } });
@@ -89,15 +95,14 @@ export default {
     },
 
     *watchLogin(action, { call, put, take, select, takeEvery }) {
-      let { userInfo } = yield select(state => state.app );
+      let { userInfo } = yield select(state => state.app);
 
       if (isEmpty(userInfo)) {
         const action1 = yield take('app/getUserInfoSuccess');
         userInfo = action1.payload.userInfo;
       }
       yield put({ type: 'getUserInfoSuccess', payload: { userInfo } });
-
-    }
+    },
   },
 
   subscriptions: {
@@ -109,6 +114,6 @@ export default {
     //监控位置变化
     watchLocation({ dispatch }) {
       dispatch({ type: 'watchLocation' });
-    }
-  }
-}
+    },
+  },
+};

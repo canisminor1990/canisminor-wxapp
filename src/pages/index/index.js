@@ -2,23 +2,26 @@ import connect from '../../utils/connect.js';
 import carousel from '../../components/carousel/carousel.js';
 import wx, { mergeOptions } from '../../utils/wx.js';
 
-const page = mergeOptions({
-  onLoad(options) {
-     this.queryWeather();
+const page = mergeOptions(
+  {
+    onLoad(options) {
+      this.queryWeather();
+    },
   },
-},carousel);
+  carousel,
+);
 
-const mapState = ({index, loading}) => {
+const mapState = ({ index, loading }) => {
   return {
     ...index,
     loading,
   };
 };
 
-const mapFunc = (dispatch) => {
+const mapFunc = dispatch => {
   return {
-    queryWeather(){
-      dispatch({ type: 'index/queryWeather' })   ;
+    queryWeather() {
+      dispatch({ type: 'index/queryWeather' });
     },
 
     queryLocation() {
@@ -28,10 +31,9 @@ const mapFunc = (dispatch) => {
     onTapCarouselItem(e) {
       dispatch({
         type: 'index/onTapCarousel',
-        payload: { pic: e.currentTarget.dataset.pic }
+        payload: { pic: e.currentTarget.dataset.pic },
       });
     },
-
   };
 };
 

@@ -10,7 +10,7 @@ const makeOptions = (url, options) => {
     type: 'json',
     contentType: 'application/json',
     crossOrigin: true,
-    credentials: undefined
+    credentials: undefined,
   };
 
   let thisoptions = {};
@@ -66,12 +66,15 @@ const request = (url, options) => {
   }
 
   return new Promise((resolve, reject) => {
-    wx.request({
-      url: requestUrl,
-      method,
-      data: body,
-      header,
-      dataType: type}).then(response => {
+    wx
+      .request({
+        url: requestUrl,
+        method,
+        data: body,
+        header,
+        dataType: type,
+      })
+      .then(response => {
         // getApp().log(JSON.stringify(response));
         //业务数据异常
         if (response.statusCode < 200 || response.statusCode >= 300) {
@@ -88,9 +91,15 @@ const request = (url, options) => {
         }
         //正确返回
         resolve(response.data);
-      }).catch(err => {
+      })
+      .catch(err => {
         // getApp().log(JSON.stringify(err));
-        reject({ error: -1, message: '系统异常，请查看response', err, request: url });
+        reject({
+          error: -1,
+          message: '系统异常，请查看response',
+          err,
+          request: url,
+        });
       });
   });
 };
