@@ -1,0 +1,54 @@
+@import 'import';
+button {
+  border-radius: 0;
+  display: inline-block;
+  height: 44px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  &.primary {
+    background-color: #222;
+  }
+
+  &.primary-hover {
+    background-color: $c-primary;
+  }
+
+  &.outline {
+    background-color: transparent;
+    border: 1px solid #222;
+    color: #222;
+    .icon {
+      border-color: #222;
+    }
+  }
+
+  &.outline-hover {
+    border: 1px solid $c-primary;
+    color: $c-primary;
+    .icon {
+      border-color: $c-primary;
+    }
+  }
+}
+slot {
+  display: inline-block;
+}
+.icon {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  margin-bottom: 0.15rem;
+}
+.left {
+  transform: rotate(-135deg);
+}
+
+.right {
+  transform: rotate(45deg);
+}
+
+.full {
+  width: 100%;
+}

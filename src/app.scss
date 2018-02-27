@@ -1,4 +1,4 @@
-@import 'var';
+@import 'import';
 @import 'root';
 page {
   color: #333;
@@ -12,6 +12,7 @@ page {
   box-sizing: border-box;
   font-family: 'cm-font', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
     sans-serif;
+  font-weight: 400;
 }
 
 view {

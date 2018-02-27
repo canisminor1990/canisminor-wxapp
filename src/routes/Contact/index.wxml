@@ -1,7 +1,7 @@
 <view class="container">
 	<Title title="{{ title.title }}" desc="{{ title.desc }}"/>
-	<view class="contact-box" wx:for="{{ contactData }}" wx:key="contact">
-		<Icon type="contact-{{ item[0] }}" color="#666" size="20px"/>
+	<view class="contact-box" wx:for="{{ contactData }}" wx:key="{{ item[0] }}">
+		<Iconfont type="contact-{{ item[0] }}" color="#666" size="20px"/>
 		<text class="contact-text">{{ item[1] }}</text>
 	</view>
 </view>

@@ -1,0 +1,7 @@
+<view class="header">
+	<view class="icon">
+		<Iconfont type="doc-{{ content.type }}" size="4rem" color="#fff"/>
+	</view>
+	<text class="title">{{ content.text }}</text>
+	<text class="desc">{{ content.desc }}</text>
+</view>

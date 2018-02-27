@@ -1,12 +1,14 @@
-@import 'var';
+@import 'import';
 @import './intro-1';
 @import './intro-2';
+@import './intro-3';
+@import './intro-4';
 
 .container {
   width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 0.9rem;
 }

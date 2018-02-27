@@ -1,0 +1,25 @@
+@import 'import';
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 1rem;
+  width: 120px;
+}
+
+.icon {
+  align-items: center;
+  border: 3px solid #fff;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin-bottom: 24px;
+  width: 80px;
+}
+
+.text {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,6 @@
+<view class="showcase">
+	<view class="item" wx:for="{{ content }}" wx:key="{{ index }}">
+		<text class="title">{{ item.title }}</text>
+		<text class="desc">{{ item.desc }}</text>
+	</view>
+</view>

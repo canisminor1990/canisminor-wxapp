@@ -1,0 +1,55 @@
+.intro-4 {
+  padding: 3rem 1rem;
+  > view {
+    width: 100%;
+  }
+  .intro {
+    border-bottom: 1px solid $c-split;
+  }
+
+  .school {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-direction: column;
+  }
+
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .desc {
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  .awards {
+    border-top: 1px solid $c-split;
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    padding-top: 6rem;
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}

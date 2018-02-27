@@ -1,0 +1,28 @@
+@import 'import';
+
+.showcase {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item {
+  margin: 2rem;
+
+  > text {
+    display: block;
+    text-align: center;
+  }
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 0.3rem;
+}
+
+.desc {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+}

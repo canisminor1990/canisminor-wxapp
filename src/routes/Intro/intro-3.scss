@@ -1,0 +1,56 @@
+.intro-3 {
+  padding: 3rem 1rem;
+  .intro {
+    border-bottom: 1px solid $c-split;
+    padding-bottom: 8rem !important;
+  }
+
+  .avatar {
+    border-bottom: 1px solid $c-split;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    padding-bottom: 6rem;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    background: url('https://canisminor.cc/img/pro-avatar.png') no-repeat;
+    background-size: 100% auto;
+    height: 202px;
+    margin: 0 54px 4rem;
+    min-width: 195px;
+    width: 195px;
+  }
+
+  .text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc {
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    margin-top: 1.2rem;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  .info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo {
+    background-image: url('https://canisminor.cc/img/logo.gif'),
+      url('https://canisminor.cc/img/pro-1.png');
+    background-repeat: no-repeat;
+    background-position: 420px * 0.6 center, center;
+    background-size: 92px * 0.6 auto, 600px * 0.6 auto;
+    height: 300px * 0.6;
+    width: 600px * 0.6;
+  }
+}

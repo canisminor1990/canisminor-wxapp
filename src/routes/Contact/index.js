@@ -1,6 +1,10 @@
-import { wx, mergeOptions, connect } from '../../utils';
+import { wx, connect } from '../../utils';
 
-const page = {};
+const page = {
+  onLoad() {
+    wx.setNavigationBarTitle({ title: 'Contact' });
+  },
+};
 
 const mapState = ({ app, data, loading }) => {
   return {

@@ -1,0 +1,22 @@
+<view class="intro-4 container">
+	<DocTitle content="{{ homeToc[1] }}"/>
+	<view class="school">
+		<Iconfont type="caa-logo" color="#62e6ac" size="3.8rem"/>
+		<view class="content">
+			<Iconfont type="caa-text" size="2rem"/>
+			<text class="desc">
+				China Academy of Art<br/>
+				Top Art School World Ranking: 7th
+			</text>
+		</view>
+	</view>
+	<view class="row">
+		<Showcase content="{{ showcase_2 }}"/>
+		<view class="awards" wx:if="{{ showView === false }}">
+			<AwardList content="{{ awardList }}"/>
+		</view>
+		<Btn class="button" type="outline" wx:if="{{ showView === true }}" bindtap="handleShow">
+			Show Awards
+		</Btn>
+	</view>
+</view>

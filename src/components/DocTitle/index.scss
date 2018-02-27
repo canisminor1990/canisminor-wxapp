@@ -1,0 +1,38 @@
+@import 'import';
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  > view {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.icon {
+  align-items: center;
+  background: $c-primary;
+  color: #fff;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  width: 64px !important;
+}
+
+.title {
+  color: #222;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.desc {
+  margin-bottom: 4rem;
+}

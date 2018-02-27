@@ -1,0 +1,16 @@
+<view class="intro-3 container">
+	<DocTitle content="{{ homeToc[0] }}" />
+	<view class="avatar">
+		<view class="img" />
+		<view class="text">
+			<Iconfont type="name" size="2rem" />
+			<text class="desc">
+				{{ introduction }}
+			</text>
+		</view>
+	</view>
+	<view class="info">
+		<view class="logo" />
+		<Showcase content="{{ showcase_1 }}" />
+	</view>
+</view>

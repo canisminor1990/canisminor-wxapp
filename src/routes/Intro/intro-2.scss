@@ -1,5 +1,6 @@
 .intro-2 {
   background: $c-primary;
+  padding: 3rem 1rem;
   text {
     text-align: center;
     color: #fff;
@@ -14,7 +15,7 @@
   }
 
   .subtitle {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 2rem;
     margin-top: 3rem;
@@ -25,5 +26,9 @@
     margin-bottom: 54px;
     font-size: 0.8rem;
   }
-  padding: 1rem;
+  .toc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

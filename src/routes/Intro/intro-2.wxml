@@ -1,5 +1,8 @@
 <view class="intro-2 container">
-	<text class="title" >Introduciton</text>
+	<text class="title">Introduciton</text>
 	<text class="subtitle">UI/UX DESIGNER. FE DEVELOPER.</text>
 	<text class="desc">Hi,这里是杨昱帆，感谢您花时间浏览我的Resume.以下将会分7个版块阐述我的技术栈和知识构成</text>
+	<view class="toc">
+		<IntroIcon wx:for="{{ homeToc }}" wx:key="{{ item.type }}" type="{{ item.type }}" text="{{ item.text }}"/>
+	</view>
 </view>

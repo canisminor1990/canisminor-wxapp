@@ -1,0 +1,6 @@
+<view class="box">
+	<view class="icon">
+		<Iconfont type="doc-{{ type }}" size="64px" color="#fff"/>
+	</view>
+	<text class="text">{{ text }}</text>
+</view>

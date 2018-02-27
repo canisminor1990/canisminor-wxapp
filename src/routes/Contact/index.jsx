@@ -1,8 +1,9 @@
 import { usingComponents } from  '../../components';
 
 const components = [
-	'Icon',
-	'Title'
+	'Iconfont',
+	'Title',
+	'Btn'
 ];
 
 export default {
