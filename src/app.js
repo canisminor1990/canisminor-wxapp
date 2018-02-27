@@ -1,8 +1,7 @@
 import * as core from 'dva-core';
 import createLogger from 'redux-logger';
 import createLoading from 'dva-loading';
-import modelRoot from './models/Root.js';
-import modelIntro from './models/Intro.js';
+import models from './models';
 
 // 创建app
 const dvapp = core.create(
@@ -24,8 +23,9 @@ const dvapp = core.create(
 );
 
 // 加载model
-dvapp.model(modelRoot);
-dvapp.model(modelIntro);
+models.forEach(model => {
+  dvapp.model(model);
+});
 
 // 加载plugin
 dvapp.use(createLoading({ effects: true }));

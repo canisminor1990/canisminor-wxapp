@@ -1,5 +1,4 @@
-import api from '../utils/api/api.js';
-import wx from '../utils/wx.js';
+import { wx, api } from '../utils';
 import { isEmpty } from 'lodash';
 
 export default {

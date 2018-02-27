@@ -22,12 +22,15 @@ module.exports = {
 		}
 	},
 	globals      : {
+		'__DEV__'  : true,
 		'window'   : true,
 		'document' : true,
 		'navigator': true,
-		'__DEV__'  : true,
 		'App'      : true,
-		'Page'     : true
+		'Page'     : true,
+		'Component': true,
+		'wx'       : true,
+		'getApp'   : true
 	},
 	env          : {
 		'es6'     : true,

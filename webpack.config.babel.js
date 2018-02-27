@@ -43,13 +43,12 @@ export default {
       './src/app.jsx',
     ],
   },
-  target: Targets['Wechat'],
   output: {
     filename: '[name].js',
     publicPath: '/',
     path: resolve('dist'),
   },
-
+  target: Targets['Wechat'],
   module: {
     rules: [
       {
@@ -95,13 +94,7 @@ export default {
         test: /\.wxml$/,
         include: resolve('src'),
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              context: 'src/',
-              name: '[path][name].[ext]',
-            },
-          },
+          ...relativeFileLoader('wxml'),
           { loader: rpxLoader },
           {
             loader: 'wxml-loader',

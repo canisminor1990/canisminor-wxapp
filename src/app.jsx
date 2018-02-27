@@ -34,11 +34,13 @@ const tabBar = {
 	]
 };
 
-const pages = []
-routes.forEach(route => pages.push(join('routes', route, 'index')));
+const pages = [];
+routes.forEach(item => pages.push(join('routes', item, 'index')));
+
+
 
 export default {
-	pages : pages,
-	window: window,
-	tabBar: tabBar
+	pages          : pages,
+	window         : window,
+	tabBar         : tabBar,
 };

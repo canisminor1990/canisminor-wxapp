@@ -82,7 +82,6 @@
     "sass-loader": "^6.0.6",
     "weact-cli": "^0.6.3",
     "webpack": "^3.10.0",
-    "wxapp-webpack-plugin": "^0.17.2",
     "wxml-loader": "^0.1.1"
   }
 }

@@ -1,5 +1,3 @@
-// import { bindActionCreators } from 'redux';
-//
 import wx from './wx.js';
 
 const hasOwn = Object.prototype.hasOwnProperty;

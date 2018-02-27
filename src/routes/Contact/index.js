@@ -1,6 +1,12 @@
-import connect from '../../utils/connect.js';
-import wx from '../../utils/wx.js';
+import { wx, connect } from '../../utils';
 
 const page = {};
 
-Page(connect()(page));
+const mapState = ({ data, loading }) => {
+  return {
+    ...data,
+    loading,
+  };
+};
+
+Page(connect(mapState)(page));

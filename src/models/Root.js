@@ -1,4 +1,4 @@
-import wx from '../utils/wx.js';
+import { wx } from '../utils';
 
 export default {
   namespace: 'app',
@@ -12,10 +12,6 @@ export default {
       const sysInfo = action.payload;
       return { ...state, sysInfo };
     },
-    getLocationSuccess(state, action) {
-      const location = action.payload;
-      return { ...state, location };
-    },
     getUserInfoSuccess(state, action) {
       const { userInfo } = action.payload;
       return { ...state, userInfo };
@@ -26,15 +22,6 @@ export default {
     *getSysInfo(action, { call, put }) {
       const sysInfo = yield call(wx.getSystemInfo);
       yield put({ type: 'getSysInfoSuccess', payload: sysInfo });
-    },
-
-    *getLocation(action, { call, put }) {
-      try {
-        const location = yield call(wx.getLocation);
-        yield put({ type: 'getLocationSuccess', payload: location });
-      } catch (e) {
-        console.log(e);
-      }
     },
 
     *getUserInfo(action, { call, put }) {
@@ -60,8 +47,8 @@ export default {
     *init(action, { all, put }) {
       yield all([
         put({ type: 'getUserInfo' }),
-        put({ type: 'getLocation' }),
         put({ type: 'getSysInfo' }),
+        put({ type: 'data/queryData' }),
       ]);
     },
   },
