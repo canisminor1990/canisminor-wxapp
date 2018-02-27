@@ -1,15 +1,16 @@
 import { resolve, join } from 'path';
 import { DefinePlugin, EnvironmentPlugin, IgnorePlugin, optimize } from 'webpack';
-import WXAppWebpackPlugin, { Targets } from 'wxapp-webpack-plugin';
+import WXAppWebpackPlugin, { Targets } from './lib/wxappPlugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import MinifyPlugin from 'babel-minify-webpack-plugin';
 
-const { NODE_ENV, LINT, NO_LINT } = process.env;
+const { NODE_ENV } = process.env;
 const isDev = NODE_ENV !== 'production';
-const shouldLint = true;
-const copyFile = ['app.json', 'ext.json', 'project.config.json', 'images'];
+const rpxLoader = resolve('lib/rpxLoader.js');
+const jsx2jsonLoader = resolve('lib/jsx2jsonLoader.js');
 
 const copyConfig = (config = []) => {
+  const copyFile = ['project.config.json', 'img'];
   copyFile.forEach(file => config.push({ from: join('./src', file), to: file }));
   return config;
 };
@@ -39,6 +40,7 @@ export default {
       `es6-promise/dist/es6-promise.auto${isDev ? '.min' : ''}.js`,
       './src/utils/bomPolyfill.js',
       './src/app.js',
+      './src/app.jsx',
     ],
   },
   target: Targets['Wechat'],
@@ -69,7 +71,7 @@ export default {
         include: /src/,
         use: [
           ...relativeFileLoader('wxss'),
-          { loader: resolve('scripts/px2rpx.js') },
+          { loader: rpxLoader },
           {
             loader: 'sass-loader',
             options: {
@@ -78,6 +80,11 @@ export default {
             },
           },
         ],
+      },
+      {
+        test: /.jsx$/,
+        include: /src/,
+        use: [...relativeFileLoader('json'), { loader: jsx2jsonLoader }],
       },
       {
         test: /\.(json|png|jpg|gif|wxss)$/,
@@ -95,7 +102,7 @@ export default {
               name: '[path][name].[ext]',
             },
           },
-          { loader: resolve('scripts/px2rpx.js') },
+          { loader: rpxLoader },
           {
             loader: 'wxml-loader',
             options: {
