@@ -1,0 +1,29 @@
+.intro-2 {
+  background: $c-primary;
+  text {
+    text-align: center;
+    color: #fff;
+  }
+  .title {
+    border: 3px solid #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    padding: 0.4rem 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .desc {
+    line-height: 1.5;
+    margin-bottom: 54px;
+    font-size: 0.8rem;
+  }
+  padding: 1rem;
+}
