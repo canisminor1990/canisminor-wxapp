@@ -1,4 +1,16 @@
-.aa {
-  background-color: red;
-  margin-top: 21px;
+.container {
+  padding: 1rem;
+  width: 100%;
+}
+.contact-box {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(#000, 0.08);
+}
+.contact-text {
+  margin-left: 1rem;
+  color: #666;
+  font-size: 0.9rem;
 }

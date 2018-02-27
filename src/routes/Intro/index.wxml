@@ -1,16 +1,4 @@
-<!--index.wxml-->
+<include src="./intro-1.wxml"/>
+<include src="./intro-2.wxml"/>
 
-<view class="body">
-	<text class="indexTitle">我是connect的data:</text>
-	<text class="">{{title}}</text>
-	<Icon></Icon>
-	<view style="margin:20px; padding: 20px;width: 100%;border-top: 1px solid #f2f2f2;height: 1px"/>
 
-	<view style="margin:20px; padding: 20px;width: 100%;border-top: 1px solid #f2f2f2;height: 1px"/>
-	<text class="indexTitle" style="margin-top:20px;">我是subscription(监控到获取用户信息后触发(仅触发一次)):</text>
-	<view>
-		<image style="width: 200px;height:200px" src="{{userInfo.avatarUrl}}"/>
-	</view>
-	<view>{{userInfo.nickName}}</view>
-
-</view>

@@ -1,0 +1,26 @@
+@import 'var';
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.title,
+.desc {
+  color: #222;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}

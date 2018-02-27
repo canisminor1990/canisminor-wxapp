@@ -1,7 +1,7 @@
-import { usingComponents } from '../../utils';
+import { usingComponents } from  '../../components';
 
 const components = [
-	'Icon'
+	'Icon',
 ];
 
 export default {

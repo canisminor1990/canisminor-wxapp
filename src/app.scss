@@ -1,15 +1,20 @@
 @import 'var';
 @import 'root';
-
-.body {
-  height: 100%;
+page {
+  color: #333;
+  position: relative;
+  min-height: 100%;
   width: 100%;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   box-sizing: border-box;
   font-family: 'cm-font', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
     sans-serif;
+}
+
+view {
+  position: relative;
+  box-sizing: border-box;
 }

@@ -6,7 +6,6 @@ import MinifyPlugin from 'babel-minify-webpack-plugin';
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV !== 'production';
-const rpxLoader = resolve('lib/rpxLoader.js');
 const jsx2jsonLoader = resolve('lib/jsx2jsonLoader.js');
 
 const copyConfig = (config = []) => {
@@ -40,7 +39,6 @@ export default {
       `es6-promise/dist/es6-promise.auto${isDev ? '.min' : ''}.js`,
       './src/utils/bomPolyfill.js',
       './src/app.js',
-      './src/app.jsx',
     ],
   },
   output: {
@@ -70,7 +68,13 @@ export default {
         include: /src/,
         use: [
           ...relativeFileLoader('wxss'),
-          { loader: rpxLoader },
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: loader => [require('postcss-pxtorem')({ rootValue: 16 })],
+              sourceMap: isDev,
+            },
+          },
           {
             loader: 'sass-loader',
             options: {
@@ -83,7 +87,11 @@ export default {
       {
         test: /.jsx$/,
         include: /src/,
-        use: [...relativeFileLoader('json'), { loader: jsx2jsonLoader }],
+        use: [
+          ...relativeFileLoader('json'),
+          { loader: jsx2jsonLoader },
+          { loader: 'babel-loader' },
+        ],
       },
       {
         test: /\.(json|png|jpg|gif|wxss)$/,
@@ -94,8 +102,13 @@ export default {
         test: /\.wxml$/,
         include: resolve('src'),
         use: [
-          ...relativeFileLoader('wxml'),
-          { loader: rpxLoader },
+          {
+            loader: 'file-loader',
+            options: {
+              context: 'src/',
+              name: '[path][name].[ext]',
+            },
+          },
           {
             loader: 'wxml-loader',
             options: {

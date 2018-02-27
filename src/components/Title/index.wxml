@@ -1,0 +1,4 @@
+<view class="box">
+	<text class="title">{{ title }}</text>
+	<text class="desc">{{ desc }}</text>
+</view>

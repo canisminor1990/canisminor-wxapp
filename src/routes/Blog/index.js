@@ -1,6 +1,17 @@
-import connect from '../../utils/connect.js';
-import wx from '../../utils/wx.js';
+import { wx, mergeOptions, connect } from '../../utils';
 
 const page = {};
 
-Page(connect()(page));
+const mapState = ({ app, data, loading }) => {
+  return {
+    title: {
+      title: "Let's talk",
+      desc: 'Feel free 2 contact me 😘',
+    },
+    ...app,
+    ...data,
+    loading,
+  };
+};
+
+Page(connect(mapState)(page));

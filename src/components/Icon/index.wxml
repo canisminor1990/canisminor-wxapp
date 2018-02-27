@@ -1,1 +1,3 @@
-<text class="cm-iconfont icon-{{ type }}" />
+<text class="cm-iconfont icon-{{ type }}"
+      style="wide:{{ size }};height: {{ size }}; font-size: {{ size }}; color: {{ color }}"
+/>
