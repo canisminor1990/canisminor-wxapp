@@ -75,17 +75,14 @@
     "file-loader": "^1.1.9",
     "glob": "^7.1.2",
     "lint-staged": "^4.2.3",
-    "marked": "^0.3.17",
     "node-sass": "^4.7.2",
     "path": "^0.12.7",
     "postcss-loader": "^2.1.1",
     "postcss-pxtorem": "^4.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.10.2",
-    "prismjs": "^1.8.1",
-    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
-    "weact-cli": "^0.6.3",
+    "towxml": "^1.5.2",
     "webpack": "^3.10.0",
     "wxml-loader": "^0.1.1"
   }

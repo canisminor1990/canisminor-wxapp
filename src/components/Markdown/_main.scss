@@ -1,0 +1,292 @@
+.h2w {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  word-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.h2w__main {
+  padding: 0 1rem;
+}
+/**标题**/
+
+.h2w__h1,
+.h2w__h2,
+.h2w__h3,
+.h2w__h4,
+.h2w__h5,
+.h2w__h6 {
+  font-weight: bold;
+}
+.h2w__h1 {
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  font-size: 42px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.h2w__h2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 40px;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+.h2w__h3 {
+  font-size: 38px;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+.h2w__h4 {
+  font-size: 36px;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+.h2w__h5 {
+  font-size: 34px;
+  padding-bottom: 2px;
+  margin-bottom: 12px;
+}
+.h2w__h6 {
+  margin-bottom: 12px;
+}
+/**表格**/
+
+.h2w__table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  margin-bottom: 40px;
+  .h2w__tr:nth-child(2n) {
+    background-color: red;
+  }
+}
+.h2w__colgroup {
+  display: table-column-group;
+}
+.h2w__col {
+  display: table-column;
+}
+.h2w__thead {
+  display: table-header-group;
+}
+.h2w__tbody {
+  display: table-row-group;
+}
+.h2w__tfoot {
+  display: table-footer-group;
+}
+.h2w__tr {
+  display: table-row;
+}
+.h2w__th,
+.h2w__td {
+  padding: 8px 16px;
+  font-size: 28px;
+  border-width: 1px;
+  border-style: solid;
+  display: table-cell;
+}
+.h2w__th {
+  font-weight: bold;
+}
+/**代码块**/
+
+.h2w__pre {
+  padding: 20px;
+  font-size: 28px;
+  word-break: normal;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 40px;
+  white-space: pre;
+  overflow-x: auto;
+  .h2w__code {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+}
+.h2w__code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
+    monospace, 'STHeitiTC-Light', 'Microsoft YaHei Light', -apple-system,
+    system-ui, BlinkMacSystemFont;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  font-size: 80%;
+}
+.h2w__pre {
+  .h2w__span,
+  .h2w__a,
+  .h2w__span,
+  .h2w__b,
+  .h2w__strong,
+  .h2w__i,
+  .h2w__em {
+    display: inline;
+  }
+}
+/**列表**/
+
+.h2w__ul,
+.h2w__ol {
+  margin-bottom: 40px;
+  padding-left: 1rem;
+}
+.h2w__ul .h2w__ol,
+.h2w__ol .h2w__ul {
+  margin-bottom: 0;
+}
+.h2w__li {
+  display: list-item;
+}
+/**一级ol样式**/
+
+.h2w__ol {
+  list-style-type: decimal;
+}
+/**二级ol样式**/
+
+.h2w__ul .h2w__ol,
+.h2w__ol .h2w__ol {
+  list-style-type: lower-roman;
+}
+/**三级ol样式**/
+
+.h2w__ul {
+  .h2w__ul .h2w__ol,
+  .h2w__ol .h2w__ol {
+    list-style-type: lower-alpha;
+  }
+}
+.h2w__ol {
+  .h2w__ul .h2w__ol,
+  .h2w__ol .h2w__ol {
+    list-style-type: lower-alpha;
+  }
+}
+/**一级ul样式**/
+
+.h2w__ul {
+  list-style-type: disc;
+  .h2w__ul {
+    list-style-type: circle;
+  }
+}
+/**二级ul样式**/
+
+.h2w__ol {
+  .h2w__ul {
+    list-style-type: circle;
+  }
+  .h2w__ol .h2w__ul,
+  .h2w__ul .h2w__ul {
+    list-style-type: square;
+  }
+}
+/**三级样式**/
+
+.h2w__ul {
+  .h2w__ol .h2w__ul,
+  .h2w__ul .h2w__ul {
+    list-style-type: square;
+  }
+}
+/**块元素**/
+
+.h2w__p {
+  margin-bottom: 40px;
+}
+.h2w__div {
+}
+.h2w__blockquote {
+  border-left-width: 8px;
+  border-left-style: solid;
+  padding: 0 20px;
+}
+/**内连元素**/
+
+.h2w__a,
+.h2w__span,
+.h2w__b,
+.h2w__strong,
+.h2w__i,
+.h2w__em {
+  display: inline-block;
+}
+.h2w__b,
+.h2w__strong {
+  font-weight: bold;
+}
+.h2w__i,
+.h2w__em {
+  font-style: italic;
+}
+/**文本删除线**/
+
+.h2w__s,
+.h2w__strike,
+.h2w__del {
+  text-decoration: line-through;
+}
+/**文本下划线**/
+
+.h2w__ins,
+.h2w__u {
+  text-decoration: underline;
+}
+/**链接**/
+
+.h2w__a {
+  margin: 0 8px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  line-height: 1;
+}
+.h2w__hr {
+  height: 8px;
+  margin: 40px 0;
+}
+/**荧光标记**/
+
+.h2w__mark {
+  border-radius: 4px;
+}
+/**上标、下标**/
+
+.h2w__sup,
+.h2w__sub {
+  font-size: 75%;
+  position: relative;
+}
+.h2w__sup {
+  top: -0.5em;
+}
+.h2w__sub {
+  bottom: -0.25em;
+}
+/**emoji表情**/
+
+.h2w__g-emoji {
+  margin: 0 0.1em;
+  font-family: 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+/**内置元素**/
+
+image,
+video {
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+image {
+  height: auto;
+}
+video {
+  height: 220px;
+}

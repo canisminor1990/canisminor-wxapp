@@ -1,6 +1,7 @@
-<import src="./wxParse/wxParse.wxml"/>
+<import src="./entry.wxml"/>
+
 
 <view class="showcase">
 	<view class="title">{{ content.title }}</view>
-	<template is="wxParse" data="{{ wxParseData:markdown.nodes }}"/>
+	<template is="entry" data="{{...markdown}}"/>
 </view>

@@ -1,5 +1,4 @@
 @import 'import';
-@import './wxParse/wxParse';
-image {
-  width: 100%;
-}
+@import 'main';
+@import 'light';
+@import 'highlight';
