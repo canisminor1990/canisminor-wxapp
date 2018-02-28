@@ -2,15 +2,18 @@
   padding: 3rem 0;
   width: 100%;
 }
-.contact-box {
+.contact {
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  background: #fff;
-  box-shadow: 0 4px 16px rgba(#000, 0.08);
-}
-.contact-text {
-  margin-left: 1rem;
-  color: #666;
-  font-size: 0.9rem;
+  .box {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(#000, 0.08);
+  }
+  .text {
+    margin-left: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+  }
 }

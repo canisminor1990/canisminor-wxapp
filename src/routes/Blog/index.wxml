@@ -1,6 +1,12 @@
-<view class="container">
+<scroll-view
+		style="height: {{ sysInfo.windowHeight }}px; width: {{ sysInfo.windowWidth }}px;"
+		scroll-y="true"
+		bindscrolltoupper="pullDownRefresh"
+		bindscrolltolower="pullUpLoad"
+>
+	<view class="container" wx:for="{{ blogToc }}" wx:key="{{ index }}">
+		<Markdown content="{{ item }}"/>
+	</view>
+</scroll-view>
 
-
-</view>
-
-<TabbarShadow />
+<TabbarShadow/>

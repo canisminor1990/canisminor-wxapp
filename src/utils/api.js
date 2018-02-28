@@ -5,10 +5,10 @@ const get = url => {
 };
 
 export default {
-  queryWeather() {
-    return get('https://canisminor.cc/raw-data');
-  },
   queryData() {
     return get('https://canisminor.cc/raw-data');
+  },
+  queryBlogToc() {
+    return get('https://canisminor.cc/api/blog/toc');
   },
 };

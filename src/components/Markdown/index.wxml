@@ -1,0 +1,6 @@
+<import src="./wxParse/wxParse.wxml"/>
+
+<view class="showcase">
+	<view class="title">{{ content.title }}</view>
+	<template is="wxParse" data="{{ wxParseData:markdown.nodes }}"/>
+</view>
