@@ -5,3 +5,5 @@
 		<text class="contact-text">{{ item[1] }}</text>
 	</view>
 </view>
+
+<TabbarShadow />

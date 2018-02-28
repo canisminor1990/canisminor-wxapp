@@ -1,0 +1,32 @@
+.intro-6 {
+  padding: 3rem 1rem;
+  border-bottom: 1px solid $c-split;
+
+  .item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+
+  image.true {
+    box-shadow: 0 14px 48px 0 rgba(0, 0, 0, 0.06);
+    margin: 1rem;
+  }
+
+  .desc {
+    color: #666;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    max-width: 640px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    margin: 0.4rem;
+    width: 100%;
+  }
+}

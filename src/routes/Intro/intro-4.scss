@@ -1,5 +1,7 @@
 .intro-4 {
   padding: 3rem 1rem;
+  border-bottom: 1px solid $c-split;
+
   > view {
     width: 100%;
   }
@@ -34,7 +36,7 @@
     border-top: 1px solid $c-split;
     display: flex;
     justify-content: center;
-    margin: 4rem auto;
+    margin: 1rem auto;
     padding-top: 6rem;
     width: 80%;
     padding-left: 1rem;

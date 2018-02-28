@@ -5,13 +5,12 @@
 		<view class="content">
 			<Iconfont type="caa-text" size="2rem"/>
 			<text class="desc">
-				China Academy of Art<br/>
-				Top Art School World Ranking: 7th
+				{{ introduction[1] }}
 			</text>
 		</view>
 	</view>
 	<view class="row">
-		<Showcase content="{{ showcase_2 }}"/>
+		<Showcase content="{{ showcase[1] }}"/>
 		<view class="awards" wx:if="{{ showView === false }}">
 			<AwardList content="{{ awardList }}"/>
 		</view>

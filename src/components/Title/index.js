@@ -1,4 +1,4 @@
-Component({
+const component = {
   properties: {
     title: {
       type: String,
@@ -9,4 +9,6 @@ Component({
       value: 'desc',
     },
   },
-});
+};
+
+Component(component);

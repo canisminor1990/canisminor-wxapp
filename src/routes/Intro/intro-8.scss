@@ -1,0 +1,37 @@
+.intro-8 {
+  padding: 3rem 1rem;
+  border-bottom: 1px solid $c-split;
+  .box {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+    max-width: 900px;
+  }
+
+  .item {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 4px 16px 1px rgba(0, 0, 0, 0.07);
+    display: flex;
+    font-size: 1re;
+    color: #666;
+    height: 44px;
+    margin: 0.5rem;
+    padding-left: 0.4rem;
+    padding-right: 1.3rem;
+    white-space: nowrap;
+  }
+
+  .icon {
+    height: 32px;
+    margin-right: 0.5rem;
+    width: 32px;
+  }
+
+  .emoji {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+  }
+}

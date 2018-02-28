@@ -1,0 +1,10 @@
+<view class="list">
+	<view wx:for="{{ array }}" wx:key="content">
+		<view class="item" wx:for="{{ item }}" wx:for-item="list" wx:for-index="key" wx:key="list">
+			<Iconfont color="#62e6ac" type="{{ key === 0 ? 'point-main' : 'point'}}" />
+			<view class="desc">
+				<text>{{ list }}</text>
+			</view>
+		</view>
+	</view>
+</view>

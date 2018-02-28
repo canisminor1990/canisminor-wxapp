@@ -1,0 +1,6 @@
+<view class="intro-5 container">
+	<DocTitle content="{{ homeToc[2] }}" />
+	<view>
+		<ExpList content="{{ expList }}" />
+	</view>
+</view>

@@ -1,4 +1,4 @@
-Component({
+const component = {
   properties: {
     type: String,
     text: {
@@ -6,4 +6,6 @@ Component({
       value: 'text',
     },
   },
-});
+};
+
+Component(component);

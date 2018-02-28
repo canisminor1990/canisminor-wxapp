@@ -1,0 +1,25 @@
+<view class="intro-6 container">
+	<DocTitle content="{{ homeToc[3] }}"/>
+	<view class="item" wx:for="{{ specList }}" wx:key="{{ index }}">
+		<image
+				wx:for="{{ item.img }}"
+				wx:key="img"
+				wx:for-item="img"
+				class="{{ item.shadow }}"
+				mode="widthFix"
+				lazy-load="true"
+				src="https://canisminor.cc/{{ img.src }}"
+		/>
+		<text class="desc">{{ item.desc }}</text>
+		<Btn wx:for="{{ item.btn }}"
+		     wx:key="btn"
+		     wx:for-item="btn"
+		     wx:for-index="num"
+		     class="btn"
+		     type="{{ num > 0 ? 'outline' : 'primary'}}"
+		     icon="right"
+		>
+			{{ btn.title }}
+		</Btn>
+	</view>
+</view>

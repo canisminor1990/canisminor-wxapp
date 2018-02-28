@@ -1,0 +1,17 @@
+<view class="intro-7 container">
+	<DocTitle content="{{ homeToc[4] }}" />
+	<view class="box">
+		<view class="card" wx:for="{{ vdSkillList }}" wx:key="card">
+			<view class="title">{{ item.title }}</view>
+			<view class="desc">
+				<text wx:for="{{ item.item }}" wx:for-item="desc" wx:key="desc">{{ desc }}</text>
+			</view>
+		</view>
+	</view>
+	<view class="color">
+		<view class="item" />
+		<view class="item" />
+		<view class="item" />
+		<view class="item" />
+	</view>
+</view>

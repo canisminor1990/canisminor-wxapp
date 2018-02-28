@@ -5,12 +5,12 @@
 		<view class="text">
 			<Iconfont type="name" size="2rem" />
 			<text class="desc">
-				{{ introduction }}
+				{{ introduction[0] }}
 			</text>
 		</view>
 	</view>
 	<view class="info">
 		<view class="logo" />
-		<Showcase content="{{ showcase_1 }}" />
+		<Showcase content="{{ showcase[0] }}" />
 	</view>
 </view>

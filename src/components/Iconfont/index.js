@@ -1,9 +1,6 @@
-Component({
+const component = {
   properties: {
-    type: {
-      type: String,
-      value: 'point',
-    },
+    type: String,
     color: {
       type: String,
       value: '#333',
@@ -13,4 +10,6 @@ Component({
       value: '16px',
     },
   },
-});
+};
+
+Component(component);

@@ -2,3 +2,10 @@
 <include src="./intro-2.wxml"/>
 <include src="./intro-3.wxml"/>
 <include src="./intro-4.wxml"/>
+<include src="./intro-5.wxml"/>
+<include src="./intro-6.wxml"/>
+<include src="./intro-7.wxml"/>
+<include src="./intro-8.wxml"/>
+<include src="./intro-9.wxml"/>
+
+<TabbarShadow />

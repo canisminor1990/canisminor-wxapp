@@ -1,0 +1,16 @@
+.intro-9 {
+  padding: 3rem 1rem;
+  .box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+  image {
+    box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    max-width: 90%;
+  }
+}

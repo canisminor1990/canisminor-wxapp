@@ -1,0 +1,9 @@
+.tabbar-shadow {
+  width: 100%;
+  position: fixed;
+  height: 4px;
+  background: linear-gradient(to top, rgba(#000, 0.05), transparent);
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+}

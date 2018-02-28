@@ -23,8 +23,8 @@ const buildTab = name => ({
 
 const tabBar = {
 	color          : '#BBBFC8',
-	selectedColor  : '#50E3C2',
-	borderStyle    : 'black',
+	selectedColor  : '#222',
+	borderStyle    : 'white',
 	backgroundColor: '#fff',
 	list           : [
 		buildTab('Intro'),

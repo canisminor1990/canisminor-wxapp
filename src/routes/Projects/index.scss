@@ -1,14 +1,12 @@
-.indexTitle {
-  background-color: red;
-  margin-top: 21px;
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
 }
 
-.indexBtn {
-  width: 100%;
-  margin-top: 21px;
-}
-
-.ss {
-  width: 100%;
-  margin-top: 1px;
+.title {
+  padding: 3rem 0;
 }

@@ -1,4 +1,6 @@
 <view class="container">
-<web-view src="https://canisminor.cc/blog" />
+
 
 </view>
+
+<TabbarShadow />

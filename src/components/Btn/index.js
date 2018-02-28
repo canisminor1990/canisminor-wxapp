@@ -1,4 +1,4 @@
-Component({
+const component = {
   properties: {
     type: {
       type: String,
@@ -13,4 +13,6 @@ Component({
       value: true,
     },
   },
-});
+};
+
+Component(component);

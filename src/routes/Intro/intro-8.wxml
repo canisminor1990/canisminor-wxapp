@@ -1,0 +1,20 @@
+<view class="intro-8 container">
+	<DocTitle content="{{ homeToc[5] }}" />
+	<view class="box">
+		<view class="item" wx:for="{{ feSkillList }}" wx:key="index">
+				<image
+						class="icon"
+						src="/img/fe/{{ item.icon }}.png"
+						lazy-load="true"
+						mode="widthFix"
+				/>
+		{{ item.title }}
+		</view>
+		<view class="item">
+			<view class="emoji">
+				💅
+			</view>
+			Styled Components
+		</view>
+	</view>
+</view>

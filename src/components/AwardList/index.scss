@@ -1,0 +1,29 @@
+@import 'import';
+
+.list {
+  margin-bottom: 2rem;
+  max-width: 480px;
+}
+
+.item {
+  align-items: center;
+  display: flex;
+  margin-bottom: 0.75rem;
+
+  > text {
+    color: $c-primary;
+    font-size: 24px;
+  }
+}
+
+.desc {
+  color: #666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+
+  > text {
+    margin-bottom: 0.3rem;
+  }
+}

@@ -1,0 +1,13 @@
+<view class="list">
+	<view class="item" wx:for="{{ array }}" wx:key="content">
+		<view class="img"
+		      style="background-image: url('https://canisminor.cc/img/{{ item.img }}.png');box-shadow:0 12px 24px 0  {{ item.color }};"/>
+		<view class="content">
+			<text class="title">{{ item.title }}</text>
+			<text class="time">{{ item.time }}</text>
+			<text class="desc">
+				{{ item.desc }}
+			</text>
+		</view>
+	</view>
+</view>

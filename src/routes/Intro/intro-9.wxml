@@ -1,0 +1,12 @@
+<view class="intro-9 container">
+	<DocTitle content="{{ homeToc[6] }}" />
+	<view class="box">
+		<image
+				class="img"
+				src="https://canisminor.cc/img/por-1.png"
+				lazy-load="true"
+				mode="widthFix"
+		/>
+		<Btn icon="right">Discover project story</Btn>
+	</view>
+</view>
