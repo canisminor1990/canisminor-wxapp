@@ -7,6 +7,10 @@ const component = {
         this.setData({ classname: `iconfont cm-iconfont icon-${value}` });
       },
     },
+    widthFix: {
+      type: Boolean,
+      value: false,
+    },
     color: {
       type: String,
       value: '#333',

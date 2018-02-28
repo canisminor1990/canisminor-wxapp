@@ -4,7 +4,8 @@ const components = [
 	'TabbarShadow',
 	'Iconfont',
 	'Btn',
-	'Markdown'
+	'Markdown',
+	'Tags'
 ];
 
 export default {

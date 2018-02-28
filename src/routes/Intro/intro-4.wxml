@@ -3,7 +3,7 @@
 	<view class="school">
 		<Iconfont type="caa-logo" color="#62e6ac" size="3.8rem"/>
 		<view class="content">
-			<Iconfont type="caa-text" size="2rem"/>
+			<Iconfont type="caa-text" size="2rem" widthFix="true"/>
 			<text class="desc">
 				{{ introduction[1] }}
 			</text>

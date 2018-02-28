@@ -1,4 +1,22 @@
-.cc {
-  background-color: red;
-  margin-top: 21px;
+@import 'import';
+.container {
+  padding: 0 1rem;
+}
+.title {
+  border: none !important;
+  color: #222;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.post {
+  border-bottom: 1px solid $c-split;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+}
+.footer {
+  margin: 4rem 0;
 }

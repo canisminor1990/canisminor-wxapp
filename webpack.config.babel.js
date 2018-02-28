@@ -128,7 +128,7 @@ export default {
     new CopyWebpackPlugin(copyConfig()),
     !isDev && new MinifyPlugin(),
   ].filter(Boolean),
-  devtool: isDev ? 'source-map' : false,
+  devtool: false,
   resolve: {
     modules: [resolve(__dirname, 'src'), 'node_modules'],
   },

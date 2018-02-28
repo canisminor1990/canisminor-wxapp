@@ -1,0 +1,16 @@
+@import 'import';
+.tags {
+  margin-bottom: 2rem;
+}
+
+.tag {
+  font-size: 0.8rem;
+  background: #fff;
+  box-shadow: 0 2px 12px 0 rgba(#000, 0.08);
+  display: inline-block;
+  height: 38px;
+  line-height: 38px;
+  margin-right: 0.8rem;
+  padding: 0 1rem;
+  white-space: nowrap;
+}

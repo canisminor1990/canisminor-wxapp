@@ -4,8 +4,15 @@
 		bindscrolltoupper="pullDownRefresh"
 		bindscrolltolower="pullUpLoad"
 >
-	<view class="container" wx:for="{{ blogToc }}" wx:key="{{ index }}">
-		<Markdown content="{{ item }}"/>
+	<view class="container">
+		<view class="post" wx:for="{{ blogToc }}" wx:key="post" wx:if="{{ index <= page }}">
+			<view class="title">{{ item.title }}</view>
+			<Markdown content="{{ item }}"/>
+			<view class="footer">
+				<Tags content="{{ item.tag }}"/>
+				<Btn icon="right">Read More</Btn>
+			</view>
+		</view>
 	</view>
 </scroll-view>
 

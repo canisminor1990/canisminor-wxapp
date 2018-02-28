@@ -3,7 +3,7 @@
   "setting": {
     "urlCheck": true,
     "es6": false,
-    "postcss": false,
+    "postcss": true,
     "minified": true,
     "newFeature": true
   },

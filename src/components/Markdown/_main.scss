@@ -5,10 +5,9 @@
   word-wrap: break-word;
   word-break: break-all;
 }
-
 .h2w__main {
-  padding: 0 1rem;
 }
+
 /**标题**/
 
 .h2w__h1,
@@ -17,51 +16,48 @@
 .h2w__h4,
 .h2w__h5,
 .h2w__h6 {
-  font-weight: bold;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.h2w__h1,
+.h2w__h2 {
+  margin-top: 4rem;
+}
+.h2w__h3,
+.h2w__h4 {
+  margin-top: 3rem;
 }
 .h2w__h1 {
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  font-size: 42px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  font-size: 1.7rem;
 }
 .h2w__h2 {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  font-size: 40px;
-  padding-bottom: 8px;
-  margin-bottom: 18px;
+  font-size: 1.5rem;
+
+  &:after {
+    color: #e3e3e3;
+    content: ' #';
+  }
 }
 .h2w__h3 {
-  font-size: 38px;
-  padding-bottom: 6px;
-  margin-bottom: 12px;
+  font-size: 1.4rem;
 }
 .h2w__h4 {
-  font-size: 36px;
-  padding-bottom: 4px;
-  margin-bottom: 12px;
+  font-size: 1.3rem;
 }
 .h2w__h5 {
-  font-size: 34px;
-  padding-bottom: 2px;
-  margin-bottom: 12px;
+  font-size: 1.2rem;
 }
 .h2w__h6 {
-  margin-bottom: 12px;
+  font-size: 1rem;
 }
 /**表格**/
 
 .h2w__table {
-  width: 100%;
+  border: 2px solid #eee;
   border-collapse: collapse;
   border-spacing: 0;
-  display: table;
-  margin-bottom: 40px;
-  .h2w__tr:nth-child(2n) {
-    background-color: red;
-  }
+  width: 100%;
 }
 .h2w__colgroup {
   display: table-column-group;
@@ -71,6 +67,8 @@
 }
 .h2w__thead {
   display: table-header-group;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  color: #333;
 }
 .h2w__tbody {
   display: table-row-group;
@@ -83,43 +81,52 @@
 }
 .h2w__th,
 .h2w__td {
-  padding: 8px 16px;
-  font-size: 28px;
+  border: 0.5px solid #f8f8f8;
+  padding: 1rem;
   border-width: 1px;
   border-style: solid;
   display: table-cell;
 }
 .h2w__th {
   font-weight: bold;
+  font-weight: 600;
 }
 /**代码块**/
+.h2w__code {
+  $code-color: desaturate($c-primary, 60%);
+  display: inline-block;
+  background: rgba($code-color, 0.12);
+  border-radius: 3px;
+  color: darken($code-color, 40%);
+  font-family: $font-code;
+  font-size: 0.8em;
+  font-weight: 400;
+  padding: 0 0.4em;
+  margin: 0 0.2em;
+}
 
 .h2w__pre {
-  padding: 20px;
-  font-size: 28px;
+  padding: 1rem;
+  font-size: 0.8rem;
   word-break: normal;
-  border-width: 1px;
-  border-style: solid;
-  margin-bottom: 40px;
   white-space: pre;
   overflow-x: auto;
+  display: block;
+  background: #272822;
+  color: #ddd;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: $font-code;
   .h2w__code {
+    background: transparent;
+    color: #ddd;
+    line-height: 1.8;
     padding: 0;
     border: 0;
     font-size: 100%;
   }
 }
-.h2w__code {
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
-    monospace, 'STHeitiTC-Light', 'Microsoft YaHei Light', -apple-system,
-    system-ui, BlinkMacSystemFont;
-  padding: 4px 8px;
-  margin: 0 4px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 8px;
-  font-size: 80%;
-}
+
 .h2w__pre {
   .h2w__span,
   .h2w__a,
@@ -136,14 +143,25 @@
 .h2w__ul,
 .h2w__ol {
   margin-bottom: 40px;
-  padding-left: 1rem;
+  list-style: none;
+  padding: 0;
+  padding-left: 0.25rem;
 }
 .h2w__ul .h2w__ol,
 .h2w__ol .h2w__ul {
   margin-bottom: 0;
 }
 .h2w__li {
-  display: list-item;
+  padding-left: 1.5rem;
+
+  &:before {
+    content: '◆';
+    font-size: 0.5em;
+    margin-left: -1.5rem;
+    margin-top: 0.3rem;
+    opacity: 0.5;
+    position: absolute;
+  }
 }
 /**一级ol样式**/
 
@@ -199,15 +217,36 @@
 }
 /**块元素**/
 
-.h2w__p {
-  margin-bottom: 40px;
+.h2w__p,
+.h2w__pre,
+.h2w__blockquote,
+.h2w__ul,
+.h2w__ol {
+  margin-bottom: 1.5rem;
 }
-.h2w__div {
+
+.h2w__kbd {
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 2px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  display: inline-block;
+  font-family: $font-code;
+  font-size: 0.9em;
+  height: 1.2em;
+  line-height: 1.2em;
+  padding: 0 0.4em 1.3em;
 }
 .h2w__blockquote {
-  border-left-width: 8px;
-  border-left-style: solid;
-  padding: 0 20px;
+  border-left: 4px solid $c-primary;
+  padding-left: 1.5rem;
+  width: 100%;
+  color: #888;
+  view,
+  text {
+    color: #888;
+  }
 }
 /**内连元素**/
 
@@ -217,11 +256,11 @@
 .h2w__strong,
 .h2w__i,
 .h2w__em {
-  display: inline-block;
+  display: inline;
 }
 .h2w__b,
 .h2w__strong {
-  font-weight: bold;
+  font-weight: 600 !important;
 }
 .h2w__i,
 .h2w__em {
@@ -243,10 +282,7 @@
 /**链接**/
 
 .h2w__a {
-  margin: 0 8px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  line-height: 1;
+  color: darken($c-primary, 15%);
 }
 .h2w__hr {
   height: 8px;
@@ -276,17 +312,4 @@
   margin: 0 0.1em;
   font-family: 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji',
     'Segoe UI Symbol';
-}
-/**内置元素**/
-
-image,
-video {
-  width: 100%;
-  margin: 0 auto 20px auto;
-}
-image {
-  height: auto;
-}
-video {
-  height: 220px;
 }

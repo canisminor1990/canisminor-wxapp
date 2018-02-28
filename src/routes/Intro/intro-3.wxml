@@ -3,7 +3,7 @@
 	<view class="avatar">
 		<view class="img" />
 		<view class="text">
-			<Iconfont type="name" size="2rem" />
+			<Iconfont type="name" size="2rem" widthFix="true"/>
 			<text class="desc">
 				{{ introduction[0] }}
 			</text>

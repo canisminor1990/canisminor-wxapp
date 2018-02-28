@@ -1,3 +1,3 @@
 <text class="{{ classname }}"
-      style="wide:{{ size }};height: {{ size }}; font-size: {{ size }};line-height: {{ size }}; color: {{ color }}"
+      style="width:{{ widthFix ? 'auto' : size }};height: {{ size }}; font-size: {{ size }};line-height: {{ size }}; color: {{ color }}"
 />

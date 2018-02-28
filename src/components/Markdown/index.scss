@@ -1,4 +1,26 @@
 @import 'import';
 @import 'main';
-@import 'light';
 @import 'highlight';
+@import 'image';
+
+.title {
+  border: none !important;
+  color: #222;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.time {
+  color: #999;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+
+  > text {
+    font-size: 0.9em;
+  }
+}

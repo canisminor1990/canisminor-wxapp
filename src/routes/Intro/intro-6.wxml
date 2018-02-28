@@ -1,6 +1,6 @@
 <view class="intro-6 container">
 	<DocTitle content="{{ homeToc[3] }}"/>
-	<view class="item" wx:for="{{ specList }}" wx:key="{{ index }}">
+	<view class="item" wx:for="{{ specList }}" wx:key="item">
 		<image
 				wx:for="{{ item.img }}"
 				wx:key="img"

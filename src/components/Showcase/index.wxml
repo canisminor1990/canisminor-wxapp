@@ -1,5 +1,5 @@
 <view class="showcase">
-	<view class="item" wx:for="{{ content }}" wx:key="{{ index }}">
+	<view class="item" wx:for="{{ content }}" wx:key="item">
 		<text class="title">{{ item.title }}</text>
 		<text class="desc">{{ item.desc }}</text>
 	</view>

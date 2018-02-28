@@ -1,7 +1,7 @@
 <view class="intro-8 container">
 	<DocTitle content="{{ homeToc[5] }}" />
 	<view class="box">
-		<view class="item" wx:for="{{ feSkillList }}" wx:key="index">
+		<view class="item" wx:for="{{ feSkillList }}" wx:key="item">
 				<image
 						class="icon"
 						src="/img/fe/{{ item.icon }}.png"

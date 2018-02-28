@@ -6,6 +6,10 @@ const page = {
     this.queryBlogToc();
   },
 
+  data: {
+    page: 1,
+  },
+
   pullDownRefresh: function() {
     console.log('下拉刷新....');
     this.queryBlogToc();
