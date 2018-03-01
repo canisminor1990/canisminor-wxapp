@@ -1,4 +1,5 @@
-<view class="container">
+<view class="page container">
+	<Navbar/>
 	<Title title="{{ title.title }}" desc="{{ title.desc }}"/>
 	<view class="contact">
 		<view class="box" wx:for="{{ contactData }}" wx:key="box">

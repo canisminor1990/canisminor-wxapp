@@ -2,6 +2,7 @@ import { usingComponents } from  '../../components';
 
 const components = [
 	'TabbarShadow',
+
 	'Iconfont',
 	'Btn',
 	'Markdown',
@@ -9,5 +10,5 @@ const components = [
 ];
 
 export default {
-	...usingComponents(components)
+	...usingComponents(components),
 };

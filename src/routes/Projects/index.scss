@@ -1,4 +1,6 @@
+@import 'import';
 .container {
+  @include showup;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -8,5 +10,6 @@
 }
 
 .title {
-  padding: 3rem 0;
+  padding: 2rem 0;
+  @include showup;
 }

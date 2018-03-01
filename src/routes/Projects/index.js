@@ -2,7 +2,14 @@ import { wx, connect } from '../../utils';
 
 const page = {
   onLoad() {
-    wx.setNavigationBarTitle({ title: 'ProjectStory' });
+    wx.setNavigationBarTitle({ title: 'Project Story' });
+    this.queryProjects();
+  },
+  onShareAppMessage() {
+    return {
+      title: 'CanisMinor - Projects',
+      path: '/routes/Projects/index',
+    };
   },
   data: {
     title: {
@@ -12,12 +19,20 @@ const page = {
   },
 };
 
-const mapState = ({ app, data, loading }) => {
+const mapState = ({ app, projects, loading }) => {
   return {
     ...app,
-    ...data,
+    projects,
     loading,
   };
 };
 
-Page(connect(mapState)(page));
+const mapFunc = dispatch => {
+  return {
+    queryProjects() {
+      dispatch({ type: 'projects/queryProjects' });
+    },
+  };
+};
+
+Page(connect(mapState, mapFunc)(page));

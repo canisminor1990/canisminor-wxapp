@@ -14,8 +14,28 @@ page {
     sans-serif;
   font-weight: 400;
 }
-
 view {
   position: relative;
   box-sizing: border-box;
+}
+.page {
+  width: 100%;
+  @include showup;
+}
+.nav-holder {
+  height: 64px;
+}
+.fade {
+}
+.show {
+  @include showup;
+  height: auto !important;
+  > view,
+  text {
+    @include showup;
+  }
+}
+.hide {
+  opacity: 0;
+  height: 44px;
 }

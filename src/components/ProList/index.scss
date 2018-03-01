@@ -1,0 +1,67 @@
+@import 'import';
+
+.list {
+  @include showup;
+  margin-bottom: 3rem;
+}
+.content {
+  @include showup;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid $c-split;
+  > image,
+  video {
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.title {
+  font-size: 1.4rem;
+  padding: 0 1rem 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  text-align: right;
+
+  &:before {
+    background: $c-primary;
+    bottom: 0;
+    content: '';
+    height: 4px;
+    position: absolute;
+    right: 1rem;
+    width: 2rem;
+  }
+}
+
+.icon {
+  color: #747c83;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  opacity: 0.5;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.icon-show {
+  transform: rotate(90deg);
+}
+
+.num {
+  color: #ddd;
+
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.unshow {
+  height: 0;
+}

@@ -1,19 +1,18 @@
-<scroll-view
-		style="height: {{ sysInfo.windowHeight }}px; width: {{ sysInfo.windowWidth }}px;"
-		scroll-y="true"
-		bindscrolltoupper="pullDownRefresh"
-		bindscrolltolower="pullUpLoad"
->
+<view class="page">
 	<view class="container">
-		<view class="post" wx:for="{{ blogToc }}" wx:key="post" wx:if="{{ index <= page }}">
-			<view class="title">{{ item.title }}</view>
-			<Markdown content="{{ item }}"/>
-			<view class="footer">
-				<Tags content="{{ item.tag }}"/>
-				<Btn icon="right">Read More</Btn>
+		<view wx:for="{{ blogToc }}"
+		      wx:key="post"
+		      id="{{ index }}" class="post hide {{ show[index] ? 'show' : '' }}"
+		      wx:if="{{ showId >= index -1 }}"
+		>
+				<view class="title">{{ item.title }}</view>
+				<Markdown content="{{ item }}"/>
+				<view class="footer">
+					<Tags content="{{ item.tag }}"/>
+					<Btn icon="right">Read More</Btn>
+				</view>
 			</view>
-		</view>
 	</view>
-</scroll-view>
+</view>
 
 <TabbarShadow/>

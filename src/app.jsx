@@ -4,14 +4,15 @@ const routes = [
 	'Intro',
 	'Blog',
 	'Projects',
-	'Contact'
+	'Contact',
+	'Qrcode'
 ];
 
 const window = {
 	navigationBarTitleText      : 'CanisMinor',
 	navigationBarTextStyle      : 'black',
 	backgroundTextStyle         : 'light',
-	navigationBarBackgroundColor: '#fff'
+	navigationBarBackgroundColor: 'transparent',
 };
 
 const buildTab = name => ({
@@ -37,10 +38,8 @@ const tabBar = {
 const pages = [];
 routes.forEach(item => pages.push(join('routes', item, 'index')));
 
-
-
 export default {
-	pages          : pages,
-	window         : window,
-	tabBar         : tabBar,
+	pages : pages,
+	window: window,
+	tabBar: tabBar
 };

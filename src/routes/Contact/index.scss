@@ -1,7 +1,9 @@
+@import 'import';
+
 .container {
   padding: 3rem 0;
-  width: 100%;
   .contact {
+    @include showup;
     padding: 1rem;
   }
   .box {

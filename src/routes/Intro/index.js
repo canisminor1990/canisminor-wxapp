@@ -1,32 +1,32 @@
-import { wx, connect } from '../../utils';
-import { fill } from 'lodash';
+import { wx, connect, scroll } from '../../utils';
 
 const page = {
   onLoad() {
     wx.setNavigationBarTitle({ title: 'CanisMinor' });
   },
-
+  onShareAppMessage() {
+    return {
+      title: 'CanisMinor',
+      path: '/routes/Intro/index',
+    };
+  },
   data: {
     title: {
       title: 'CanisMinor',
       desc: 'UI / UX Designer & FE Developer',
     },
     showView: true,
-    page: 1,
+    showId: 1,
   },
-
-  handleShow: function() {
+  onPageScroll: scroll,
+  handleShow() {
     this.setData({ showView: false });
   },
-
-  pullDownRefresh: function() {
-    console.log('下拉刷新....');
-    this.queryData();
+  handleDiscover() {
+    wx.switchTab({ url: '/routes/Projects/index' });
   },
-
-  pullUpLoad: function() {
-    this.setData({ page: this.data.page + 1 });
-    console.log('上拉拉加载更多....' + this.data.page);
+  handleNav() {
+    wx.navigateTo({ url: '/routes/Qrcode/index?src=123' });
   },
 };
 

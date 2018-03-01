@@ -1,5 +1,5 @@
 <button type="primary" class="{{ type }} {{ full ? 'full' : null }}" hover-class="{{ type }}-hover">
-	<view class="icon left" wx:if="{{ icon === 'left' }}"/>
-	<slot/>
-	<view class="icon right" wx:if="{{ icon === 'right' }}"/>
+		<view class="icon left" wx:if="{{ icon === 'left' }}"/>
+		<slot/>
+		<view class="icon right" wx:if="{{ icon === 'right' }}"/>
 </button>

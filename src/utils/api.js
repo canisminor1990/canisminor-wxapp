@@ -11,4 +11,7 @@ export default {
   queryBlogToc() {
     return get('https://canisminor.cc/api/blog/toc');
   },
+  queryProjects() {
+    return get('https://canisminor.cc/api/project/toc');
+  },
 };

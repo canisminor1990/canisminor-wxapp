@@ -14,7 +14,7 @@ const component = {
       observer: function(value) {
         const markdown = towxml.toJson(value.body, 'markdown');
         this.setData({
-          markdown: markdown,
+          markdown,
           time: timeFormat(value.filename),
         });
       },

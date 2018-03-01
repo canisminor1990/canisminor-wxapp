@@ -1,0 +1,3 @@
+<view class="unshow {{ showup ? 'showup' : '' }}">
+	<slot />
+</view>

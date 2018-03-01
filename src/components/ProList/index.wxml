@@ -1,0 +1,20 @@
+<view class="list">
+	<view class="title" bindtap="handleShow">
+		<view class="icon {{ show ? 'icon-show' : ''}}">+</view>
+		<text class="num">{{ numTilte }}</text>{{ content.title }}
+	</view>
+	<view class="content" wx:if="{{ show }}">
+		<image wx:if="{{ imgList }}"
+		       wx:for="{{ imgList }}"
+		       wx:key="image"
+		       src="{{ item }}"
+		       lazy-load="true"
+		       mode="widthFix"
+		/>
+		<video wx:if="{{ video }}" src="{{ video }}"/>
+		<view class="footer" wx:if="{{ btn }}">
+			<Btn icon="right">{{ btn.title }}</Btn>
+		</view>
+	</view>
+
+</view>

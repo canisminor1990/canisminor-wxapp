@@ -1,27 +1,27 @@
 import { wx, api } from '../utils';
 
 export default {
-  namespace: 'blog',
+  namespace: 'projects',
 
   state: {
-    blogToc: [],
+    projects: [],
   },
 
   reducers: {
-    queryBlogTocSuccess(state, action) {
-      const blogToc = action.payload.Data;
-      return { ...state, blogToc };
+    queryProjectsSuccess(state, action) {
+      const projects = action.payload.Data;
+      return projects;
     },
   },
 
   effects: {
-    *queryBlogToc(action, { call, put }) {
+    *queryProjects(action, { call, put }) {
       wx.showLoading({ title: 'Loading' });
       try {
-        const Data = yield call(api.queryBlogToc);
+        const Data = yield call(api.queryProjects);
         wx.hideLoading();
         wx.stopPullDownRefresh();
-        yield put({ type: 'queryBlogTocSuccess', payload: { Data } });
+        yield put({ type: 'queryProjectsSuccess', payload: { Data } });
       } catch (e) {
         wx.hideLoading();
         wx.stopPullDownRefresh();

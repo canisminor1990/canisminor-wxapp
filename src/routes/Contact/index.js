@@ -4,6 +4,12 @@ const page = {
   onLoad() {
     wx.setNavigationBarTitle({ title: 'Contact' });
   },
+  onShareAppMessage() {
+    return {
+      title: 'CanisMinor - Contact',
+      path: '/routes/Contact/index',
+    };
+  },
   data: {
     title: {
       title: "Let's talk",

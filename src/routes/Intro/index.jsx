@@ -2,6 +2,7 @@ import { usingComponents } from  '../../components';
 
 const components = [
 	'TabbarShadow',
+	
 	'Iconfont',
 	'Btn',
 	'Title',
@@ -9,7 +10,8 @@ const components = [
 	'DocTitle',
 	'Showcase',
 	'AwardList',
-	'ExpList'
+	'ExpList',
+	'LazyLoad'
 ];
 
 export default {
