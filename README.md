@@ -13,6 +13,7 @@
 ## Intro
 
 * 支持引用 `node_modules` 模块
+* 使用 `jsx` 编写小程序 `json` 配置文件
 * 支持通过配置 `alias` 来避免 `../../../` 之类的模块引用
 * 通过 `babel` 支持更丰富的 `ES6` 兼容，包括 `async/await`
 * 内置 `promise` 和 `lodash`（`lodash` 按需引入相应模块，不会全部引入）
@@ -31,7 +32,32 @@ $ yarn start
 $ yarn build
 ```
 
-## 一些 issule
+### 文件结构
+
+```
++ components
+  + component
+	  - index.jsx
+	  - index.js
+	  - index.scss
+	  - index.wxml
+	...
++ routes
+  + route
+	  - index.jsx
+	  - index.js
+	  - index.scss
+	  - index.wxml
+	...
++ styles
+	- ...import.scss
++ img
++ models
++ utils
+- app.jsx
+- app.js
+- app.scss
+```
 
 ## Link
 
