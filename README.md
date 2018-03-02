@@ -12,7 +12,8 @@
 
 * 支持引用 `node_modules` 模块
 * 使用 `jsx` 编写小程序 `json` 配置文件
-* 使用 `postcss` 和 `scss` 编写 `.wxss` 文件
+* 使用 `scss` 编写 `.wxss` 文件
+* 长度单位使用 `postcss` 自动转为 `rem` 拒绝奇怪的 `rpx`
 * 支持通过配置 `alias` 来避免 `../../../` 之类的模块引用
 * 通过 `babel` 支持更丰富的 `ES6` 兼容，包括 `async/await`
 * 内置 `promise` 和 `lodash`（`lodash` 按需引入相应模块，不会全部引入）
@@ -59,7 +60,14 @@ $ yarn build
 - app.scss
 ```
 
-## Link
+## WxApp
+
+* [wxa 框架](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html)
+* [wxa 组件](https://mp.weixin.qq.com/debug/wxadoc/dev/component/)
+* [wxa api](https://mp.weixin.qq.com/debug/wxadoc/dev/api/)
+* [wxa 开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
+
+## Links
 
 * [wxml-loader](https://github.com/Cap32/wxml-loader)
 * [wxapp-webpack-plugin](https://github.com/Cap32/wxapp-webpack-plugin)
