@@ -23,6 +23,10 @@
 * 完整 `markdown` 解析方案
 * 所有外链自动转换为 `qrcode`
 
+## Preview
+
+<img src="https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/preview.png?raw=true" width="900" />
+
 ## Dev
 
 ```bash
