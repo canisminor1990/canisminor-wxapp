@@ -2,7 +2,7 @@ const component = {
   properties: {
     content: {
       type: Array,
-      observer: function(value) {
+      observer(value) {
         let string = JSON.stringify(value)
           .replace(/\|/g, /\n/)
           .replace(/\//g, '');

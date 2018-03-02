@@ -1,17 +1,22 @@
 import request from './request.js';
-
+import { join } from 'path';
 const get = url => {
   return request(url, { method: 'GET' });
 };
 
+const API = 'https://canisminor.cc/';
+
 export default {
   queryData() {
-    return get('https://canisminor.cc/raw-data');
+    return get(API + 'raw-data');
   },
   queryBlogToc() {
-    return get('https://canisminor.cc/api/blog/toc');
+    return get(API + join('api', 'blog', 'toc'));
+  },
+  queryBlogPage(path) {
+    return get(API + join('api', 'blog', path));
   },
   queryProjects() {
-    return get('https://canisminor.cc/api/project/toc');
+    return get(API + join('api', 'project', 'toc'));
   },
 };

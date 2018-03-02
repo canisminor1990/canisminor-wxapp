@@ -1,3 +1,14 @@
-<view>
-	qrcode
+<view class="page">
+	<view class="qrcode">
+		<text class="title" wx:if="{{ title }}">{{ title }}</text>
+		<image
+				src="{{ src }}"
+				mode="widthFix"
+				bindtap="previewImage"
+		/>
+		<text  class="desc">/ {{ desc ? desc : 'Press to save qrcode' }} /</text>
+		<Btn wx:if="{{ isShare }}" bindtap="handleBack" type="outline" class="btn">
+			Go Back
+		</Btn>
+	</view>
 </view>

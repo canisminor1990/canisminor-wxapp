@@ -11,3 +11,18 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
+@mixin fadeout {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  animation: fadeout 0.4s forwards ease-in;
+}
+@keyframes fadeout {
+  0% {
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 80px, 0);
+    display: none;
+  }
+}

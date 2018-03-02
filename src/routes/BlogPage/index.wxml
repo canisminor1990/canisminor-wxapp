@@ -1,0 +1,14 @@
+<view class="page">
+	<view class="container">
+			<view class="title">{{ blogPage.title }}</view>
+			<Markdown content="{{ blogPage }}" loading="{{ loading.global }}"/>
+			<view class="footer">
+				<Tags content="{{ blogPage.tag }}"/>
+				<Btn icon="left"
+				     bindtap="handleBack"
+				>
+					Go Back
+				</Btn>
+			</view>
+		</view>
+</view>

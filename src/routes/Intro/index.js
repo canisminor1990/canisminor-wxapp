@@ -1,33 +1,43 @@
-import { wx, connect, scroll } from '../../utils';
+import { wx, connect, scroll, handleNav, handleShare } from '../../utils';
 
 const page = {
   onLoad() {
     wx.setNavigationBarTitle({ title: 'CanisMinor' });
+    this.splash();
   },
-  onShareAppMessage() {
-    return {
-      title: 'CanisMinor',
-      path: '/routes/Intro/index',
-    };
-  },
+  onShareAppMessage: () => handleShare('Intro'),
+  onPageScroll: scroll,
   data: {
     title: {
       title: 'CanisMinor',
       desc: 'UI / UX Designer & FE Developer',
     },
+    splash: 'The collection of curriculum vitae \nand recent projects',
+    typing: '',
+    splashDone: false,
     showView: true,
     showId: 1,
   },
-  onPageScroll: scroll,
+  splash() {
+    const str = this.data.splash;
+    let i = 0;
+    const that = this;
+    function typist() {
+      let Typing = that.data.typing;
+      if (i <= str.length) {
+        Typing = str.slice(0, i++);
+        setTimeout(typist, 50); // 递归调用
+      } else {
+        that.setData({ splashDone: true });
+      }
+      that.setData({ typing: Typing });
+    }
+    typist();
+  },
   handleShow() {
     this.setData({ showView: false });
   },
-  handleDiscover() {
-    wx.switchTab({ url: '/routes/Projects/index' });
-  },
-  handleNav() {
-    wx.navigateTo({ url: '/routes/Qrcode/index?src=123' });
-  },
+  handleNav,
 };
 
 const mapState = ({ app, data, loading }) => {

@@ -1,9 +1,10 @@
 import { usingComponents } from  '../../components';
 
 const components = [
-	'Title',
+	'Btn'
 ];
 
 export default {
+	disableScroll:true,
 	...usingComponents(components)
 };

@@ -1,12 +1,13 @@
 @import 'import';
-button {
+.btn {
   border-radius: 0;
-  display: inline-block;
   height: 44px;
+  line-height: 44px;
   padding: 0 24px;
   box-sizing: border-box;
   &.primary {
     background-color: #222;
+    color: #fff;
   }
 
   &.primary-hover {

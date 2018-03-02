@@ -8,10 +8,15 @@
     "email": "i@canisminor.cc",
     "url": "https://canisminor.cc/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:canisminor1990/canisminor-wxapp.git",
+    "coding": "git@git.coding.net:canisminor1990/canisminor-wxapp.git"
+  },
   "private": true,
   "scripts": {
     "start": "yarn clear && webpack --watch",
-    "build": "yarn clear && cross-env NODE_ENV=production webpack -p",
+    "build": "yarn clear && cross-env NODE_ENV=production webpack",
     "clear": "rm -rf dist/* && clear",
     "lint": "lint-staged",
     "lint:es": "eslint --fix --ext .js src"
@@ -81,6 +86,7 @@
     "postcss-pxtorem": "^4.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.10.2",
+    "query-string": "^5.1.0",
     "sass-loader": "^6.0.6",
     "towxml": "^1.5.2",
     "webpack": "^3.10.0",

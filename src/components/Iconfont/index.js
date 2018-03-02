@@ -2,7 +2,7 @@ const component = {
   properties: {
     type: {
       type: String,
-      observer: function(value) {
+      observer(value) {
         this.setData({ classname: `iconfont cm-iconfont icon-${value}` });
       },
     },

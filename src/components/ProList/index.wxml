@@ -10,10 +10,15 @@
 		       src="{{ item }}"
 		       lazy-load="true"
 		       mode="widthFix"
+		       data-src="{{ item }}"
+		       bindtap="previewImage"
 		/>
 		<video wx:if="{{ video }}" src="{{ video }}"/>
 		<view class="footer" wx:if="{{ btn }}">
-			<Btn icon="right">{{ btn.title }}</Btn>
+			<Btn data-url="{{ btn.url }}"
+			     data-title="{{ btn.title }}"
+					 bindtap="handleNav"
+			     icon="right">{{ btn.title }}</Btn>
 		</view>
 	</view>
 

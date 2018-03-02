@@ -1,5 +1,7 @@
-<view class="page">
-	<include src="./intro-1.wxml"/>
+<include src="./splash.wxml"/>
+
+<view class="page" hidden="{{ !splashDone }}">
+	<include src="./intro-1.wxml" wx:if="{{ splashDone }}"/>
 	<view id="1" class="hide {{ show[1] ? 'show' : '' }}">
 		<include src="./intro-2.wxml"/>
 	</view>

@@ -1,16 +1,12 @@
-import { wx, connect, scroll } from '../../utils';
+import { wx, connect, scroll, handleShare, handleNav } from '../../utils';
 
 const page = {
   onLoad() {
     wx.setNavigationBarTitle({ title: 'Blog' });
     this.queryBlogToc();
   },
-  onShareAppMessage() {
-    return {
-      title: 'CanisMinor - Blog',
-      path: '/routes/Blog/index',
-    };
-  },
+  onShareAppMessage: () => handleShare('Blog'),
+  onPageScroll: scroll,
   data: {
     page: 1,
     title: {
@@ -20,13 +16,13 @@ const page = {
     show: { 0: true },
     showId: 0,
   },
-  onPageScroll: scroll,
+  handleNav,
 };
 
 const mapState = ({ app, blog, loading }) => {
   return {
     ...app,
-    ...blog,
+    blogToc: blog.blogToc,
     loading,
   };
 };

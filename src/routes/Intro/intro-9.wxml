@@ -7,6 +7,6 @@
 				lazy-load="true"
 				mode="widthFix"
 		/>
-		<Btn icon="right" bindtap="handleDiscover">Discover project story</Btn>
+		<Btn icon="right" openType="switchTab" url="/routes/Projects/index">Discover project story</Btn>
 	</view>
 </view>

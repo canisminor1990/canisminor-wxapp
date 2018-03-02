@@ -1,1 +1,46 @@
 @import 'import';
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrcode {
+  background: #fff;
+  box-shadow: 0 8px 32px 1px rgba(#000, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 70vw;
+  margin-top: -2rem;
+}
+
+text {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+.desc {
+  margin: 0.8rem 0 1rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+image {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  opacity: 0.3;
+}

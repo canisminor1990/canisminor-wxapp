@@ -1,6 +1,5 @@
 <import src="./entry.wxml"/>
 
-
 <view class="title" wx:if="{{ showTitle }}">{{ content.title }}</view>
 <view class="time"><text>{{ time }}</text> - CanisMinor</view>
 <template is="entry" data="{{...markdown}}"/>

@@ -5,13 +5,27 @@
 		      id="{{ index }}" class="post hide {{ show[index] ? 'show' : '' }}"
 		      wx:if="{{ showId >= index -1 }}"
 		>
-				<view class="title">{{ item.title }}</view>
-				<Markdown content="{{ item }}"/>
-				<view class="footer">
-					<Tags content="{{ item.tag }}"/>
-					<Btn icon="right">Read More</Btn>
-				</view>
+			<view class="title"
+			      bindtap="handleNav"
+			      data-src="/routes/BlogPage/index"
+			      data-title="{{ item.title }}"
+			      data-path="{{ item.filename }}"
+			>
+				{{ item.title }}
 			</view>
+			<Markdown content="{{ item }}" loading="{{ loading.global }}"/>
+			<view class="footer">
+				<Tags content="{{ item.tag }}"/>
+				<Btn icon="right"
+				     bindtap="handleNav"
+				     data-src="/routes/BlogPage/index"
+				     data-title="{{ item.title }}"
+				     data-path="{{ item.filename }}"
+				>
+					Read More
+				</Btn>
+			</view>
+		</view>
 	</view>
 </view>
 

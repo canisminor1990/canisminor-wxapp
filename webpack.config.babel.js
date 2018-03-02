@@ -3,6 +3,7 @@ import { DefinePlugin, EnvironmentPlugin, IgnorePlugin, optimize } from 'webpack
 import WXAppWebpackPlugin, { Targets } from './lib/wxappPlugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import MinifyPlugin from 'babel-minify-webpack-plugin';
+import Pxtorem from 'postcss-pxtorem';
 
 const { NODE_ENV } = process.env;
 const isDev = NODE_ENV !== 'production';
@@ -71,7 +72,14 @@ export default {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: loader => [require('postcss-pxtorem')({ rootValue: 16 })],
+              ident: 'postcss',
+              plugins: [
+                Pxtorem({
+                  rootValue: 16,
+                  propList: ['*'],
+                  minPixelValue: 2,
+                }),
+              ],
               sourceMap: isDev,
             },
           },

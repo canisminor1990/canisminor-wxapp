@@ -192,13 +192,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m1" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -208,7 +208,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -434,13 +434,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m2" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -450,7 +450,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -676,13 +676,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m3" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -692,7 +692,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -918,13 +918,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m4" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -934,7 +934,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -1160,13 +1160,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m5" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -1176,7 +1176,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -1402,13 +1402,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m6" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -1418,7 +1418,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -1644,13 +1644,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m7" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -1660,7 +1660,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -1886,13 +1886,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m8" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -1902,7 +1902,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -2128,13 +2128,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m9" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -2144,7 +2144,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
@@ -2370,13 +2370,13 @@
                         </block>
                     </textarea>
 
-	<navigator wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
-	           width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
-	           src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
+	<view wx:if="{{item.node === 'element' && item.tag === 'navigator'}}" class="{{item.attr.className}}"
+	      width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
+	      bindtap="handleNav" data-url="{{ item.attr.href }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">
 			<template is="m9" data="{{ item }}"/>
 		</block>
-	</navigator>
+	</view>
 
 	<audio wx:if="{{item.node === 'element' && item.tag === 'audio'}}" class="{{item.attr.className}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
@@ -2386,7 +2386,7 @@
 		</block>
 	</audio>
 
-	<image lazy-load="true" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
+	<image lazy-load="true" bindtap="previewImage" data-src="{{ item.attr.src }}" wx:if="{{item.node === 'element' && item.tag === 'image'}}" class="{{item.attr.className}} {{item.attr.alt}}"
 	       width="{{ item.attr.width }}" height="{{ item.attr.height }}" data="{{ item.attr.data }}"
 	       src="{{ item.attr.src }}" id="{{ item.attr.id }}" style="{{ item.attr.style }}" mode="{{ item.attr.alt !== 'nozoom'  ? 'widthFix' : 'aspectFit'}}">
 		<block wx:for="{{ item.child }}" wx:key="{{ item }}">

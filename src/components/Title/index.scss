@@ -24,3 +24,19 @@
   font-size: 1rem;
   margin-bottom: 2rem;
 }
+.icon {
+  color: #c2c2c2;
+  opacity: 1;
+  animation: blink 1s linear infinite;
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  .logo {
+    width: 140px;
+  }
+  .desc {
+    color: #222;
+    text-align: center;
+    width: 100%;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .icon {
+    color: #c2c2c2;
+    opacity: 1;
+    animation: blink 1s linear infinite;
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+.fadeout {
+  @include fadeout;
+}
+.showup {
+  @include showup;
+}

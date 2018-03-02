@@ -1,12 +1,11 @@
 import { usingComponents } from  '../../components';
 
 const components = [
-	'TabbarShadow',
-	'Iconfont',
-	'Title',
-	'Btn'
+	'Btn',
+	'Markdown',
+	'Tags'
 ];
 
 export default {
-	...usingComponents(components)
+	...usingComponents(components),
 };

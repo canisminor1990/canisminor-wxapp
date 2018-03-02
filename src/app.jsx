@@ -3,6 +3,7 @@ import { join } from 'path';
 const routes = [
 	'Intro',
 	'Blog',
+	'BlogPage',
 	'Projects',
 	'Contact',
 	'Qrcode'
@@ -12,7 +13,7 @@ const window = {
 	navigationBarTitleText      : 'CanisMinor',
 	navigationBarTextStyle      : 'black',
 	backgroundTextStyle         : 'light',
-	navigationBarBackgroundColor: 'transparent',
+	navigationBarBackgroundColor: '#fff',
 };
 
 const buildTab = name => ({

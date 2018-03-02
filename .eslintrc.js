@@ -30,7 +30,8 @@ module.exports = {
 		'Page'     : true,
 		'Component': true,
 		'wx'       : true,
-		'getApp'   : true
+		'getApp'   : true,
+		'getCurrentPages': true,
 	},
 	env          : {
 		'es6'     : true,

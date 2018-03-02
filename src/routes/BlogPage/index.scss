@@ -1,8 +1,7 @@
 @import 'import';
-@import 'main';
-@import 'highlight';
-@import 'image';
-
+.container {
+  padding: 0 1rem;
+}
 .title {
   border: none !important;
   color: #222;
@@ -13,13 +12,11 @@
   text-align: center;
   margin-top: 3rem;
 }
-
-.time {
-  color: #999;
-  font-size: 1rem;
-  margin-bottom: 4rem;
-  text-align: center;
-  > text {
-    font-size: 0.9em;
-  }
+.post {
+  border-bottom: 1px solid $c-split;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+}
+.footer {
+  margin: 4rem 0;
 }

@@ -2,7 +2,7 @@ const component = {
   properties: {
     content: {
       type: Array,
-      observer: function(value) {
+      observer(value) {
         let string = JSON.stringify(value)
           .replace(/\|/g, '; ')
           .replace(/#[0-9|A-Z]+/g, m => hexToRgb(m));

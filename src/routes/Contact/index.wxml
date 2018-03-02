@@ -4,9 +4,16 @@
 	<view class="contact">
 		<view class="box" wx:for="{{ contactData }}" wx:key="box">
 			<Iconfont type="contact-{{ item[0] }}" color="#666" size="20px"/>
-			<text class="text">{{ item[1] }}</text>
+			<view class="text"
+			      bindtap="handleNav"
+			      data-url="{{ item[2] }}"
+			      data-title="{{ item[0] }}"
+			      data-desc="{{ item[1] }}"
+			>
+				{{ item[1] }}
+			</view>
 		</view>
 	</view>
 </view>
 
-<TabbarShadow />
+<TabbarShadow/>

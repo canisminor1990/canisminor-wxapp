@@ -1,10 +1,11 @@
+import { wx, handleNav } from '../../utils';
 import { join } from 'path';
 
 const component = {
   properties: {
     content: {
       type: Object,
-      observer: function(value) {
+      observer(value) {
         const { imgPath, imgPage, video, btn } = value;
         this.setData({
           imgList: buildImgSrc(imgPage, imgPath),
@@ -16,7 +17,7 @@ const component = {
     num: {
       type: Number,
       value: 0,
-      observer: function(value) {
+      observer(value) {
         const num = value + 1;
         const numTilte = num > 9 ? num : `0${num}`;
         this.setData({ numTilte });
@@ -24,8 +25,15 @@ const component = {
     },
   },
   methods: {
-    handleShow: function() {
+    handleNav,
+    handleShow() {
       this.setData({ show: !this.data.show });
+    },
+    previewImage(e) {
+      wx.previewImage({
+        current: e.currentTarget.dataset.src,
+        urls: this.data.imgList,
+      });
     },
   },
   data: {

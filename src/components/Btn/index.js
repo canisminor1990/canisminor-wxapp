@@ -1,5 +1,12 @@
+import { wx, handleNav } from '../../utils';
+
 const component = {
   properties: {
+    openType: {
+      type: String,
+      value: 'navigate',
+    },
+    url: String,
     type: {
       type: String,
       value: 'primary',

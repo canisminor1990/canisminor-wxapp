@@ -5,8 +5,9 @@
   word-wrap: break-word;
   word-break: break-all;
 }
-.h2w__main {
-  @include showup;
+
+.h2w__a {
+  color: $c-primary !important;
 }
 
 /**标题**/
@@ -283,7 +284,7 @@
 /**链接**/
 
 .h2w__a {
-  color: darken($c-primary, 15%);
+  color: darken($c-primary, 15%) !important;
 }
 .h2w__hr {
   height: 8px;
