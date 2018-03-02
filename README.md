@@ -1,9 +1,7 @@
 # CanisMinor WxApp
 
 <br />
-<a href="https://canisminor.cc">
-<img src="http://qn.canisminor.cc/2018-02-11-icon-1.png" width="120" />
-</a>
+<img src="https://github.com/canisminor1990/canisminor-wxapp/blob/master/src/img/qrcode.jpg?raw=true" width="240" />
 <br />
 
 [![](https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg)](https://github.com/canisminor1990/canisminor-wxapp)
