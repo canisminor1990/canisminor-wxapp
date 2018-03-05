@@ -6,7 +6,7 @@
 
 [![](https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg)](https://github.com/canisminor1990/canisminor-wxapp)
 
-使用 `webpack`, `dva`, `babel`开发的微信小程序 Blog. (Read More)(https://canisminor.cc/blog/20180305104744_wxapp)
+使用 `webpack`, `dva`, `babel`开发的微信小程序 Blog. [🔗Read More](https://canisminor.cc/blog/20180305104744_wxapp)
 
 ## Intro
 
