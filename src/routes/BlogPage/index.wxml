@@ -11,4 +11,5 @@
 				</Btn>
 			</view>
 		</view>
+	<Footer />
 </view>

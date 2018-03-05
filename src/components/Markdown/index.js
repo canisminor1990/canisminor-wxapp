@@ -18,7 +18,7 @@ const component = {
       type: Object,
       observer(value) {
         if (!this.data.render && !this.data.loading) {
-          wx.showLoading({ title: 'Loading' });
+          wx.showNavigationBarLoading();
           try {
             const markdown = towxml.toJson(value.body, 'markdown');
             this.setData({
@@ -27,7 +27,7 @@ const component = {
               render: true,
             });
           } catch (e) {}
-          wx.hideLoading();
+          wx.hideNavigationBarLoading();
         }
       },
     },

@@ -1,5 +1,4 @@
-<view class="page container">
-	<Navbar/>
+<view class="page page-contact">
 	<Title title="{{ title.title }}" desc="{{ title.desc }}"/>
 	<view class="contact">
 		<view class="box" wx:for="{{ contactData }}" wx:key="box">
@@ -14,6 +13,7 @@
 			</view>
 		</view>
 	</view>
+	<Footer/>
 </view>
 
 <TabbarShadow/>

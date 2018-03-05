@@ -2,30 +2,31 @@
 
 <view class="page" hidden="{{ !splashDone }}">
 	<include src="./intro-1.wxml" wx:if="{{ splashDone }}"/>
-	<view id="1" class="hide {{ show[1] ? 'show' : '' }}">
+	<view id="1" class="hide {{ showId >= 1 ? 'show' : '' }}">
 		<include src="./intro-2.wxml"/>
 	</view>
-	<view id="2" class="hide {{ show[2] ? 'show' : '' }}" hidden="{{ showId < 2 }}">
+	<view id="2" class="hide {{ showId >= 2 ? 'show' : '' }}">
 		<include src="./intro-3.wxml"/>
 	</view>
-	<view id="3" class="hide {{ show[3] ? 'show' : '' }}" hidden="{{ showId < 3 }}">
+	<view id="3" class="hide {{ showId >= 3 ? 'show' : '' }}">
 		<include src="./intro-4.wxml"/>
 	</view>
-	<view id="4" class="hide {{ show[4] ? 'show' : '' }}" hidden="{{ showId < 4 }}">
+	<view id="4" class="hide {{ showId >= 4 ? 'show' : '' }}">
 		<include src="./intro-5.wxml"/>
 	</view>
-	<view id="5" class="hide {{ show[5] ? 'show' : '' }}" hidden="{{ showId < 5 }}">
+	<view id="5" class="hide {{ showId >= 5 ? 'show' : '' }}">
 		<include src="./intro-6.wxml"/>
 	</view>
-	<view id="6" class="hide {{ show[6] ? 'show' : '' }}" hidden="{{ showId < 6 }}">
+	<view id="6" class="hide {{ showId >= 6 ? 'show' : '' }}">
 		<include src="./intro-7.wxml"/>
 	</view>
-	<view id="7" class="hide {{ show[7] ? 'show' : '' }}" hidden="{{ showId < 7 }}">
+	<view id="7" class="hide {{ showId >= 7 ? 'show' : '' }}">
 		<include src="./intro-8.wxml"/>
 	</view>
-	<view id="8" class="hide {{ show[8] ? 'show' : '' }}" hidden="{{ showId < 8 }}">
+	<view id="8" class="hide {{ showId >= 8 ? 'show' : '' }}">
 		<include src="./intro-9.wxml"/>
 	</view>
+	<Footer />
 </view>
 
 <TabbarShadow/>

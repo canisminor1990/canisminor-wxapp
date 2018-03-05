@@ -18,11 +18,11 @@ export default {
       try {
         const Data = yield call(api.queryData);
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         yield put({ type: 'queryDataSuccess', payload: { Data } });
       } catch (e) {
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         console.log('data error', e);
       }
     },

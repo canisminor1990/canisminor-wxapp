@@ -16,7 +16,7 @@ const page = {
     typing: '',
     splashDone: false,
     showView: true,
-    showId: 1,
+    showId: 0,
   },
   splash() {
     const str = this.data.splash;

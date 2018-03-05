@@ -1,0 +1,15 @@
+@import 'import';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  > text {
+    font-size: 0.7rem;
+    color: #747c83;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}

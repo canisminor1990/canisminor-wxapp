@@ -25,11 +25,11 @@ export default {
       try {
         const Data = yield call(api.queryBlogToc);
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         yield put({ type: 'queryBlogTocSuccess', payload: { Data } });
       } catch (e) {
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         console.log('data error', e);
       }
     },
@@ -38,11 +38,11 @@ export default {
       try {
         const Data = yield call(() => api.queryBlogPage(action.path));
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         yield put({ type: 'queryBlogPageSuccess', payload: { Data } });
       } catch (e) {
         wx.hideLoading();
-        wx.stopPullDownRefresh();
+
         console.log('data error', e);
       }
     },

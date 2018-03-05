@@ -29,12 +29,10 @@ view {
 .show {
   @include showup;
   height: auto !important;
-  > view,
-  text {
-    @include showup;
-  }
+  overflow: visible !important;
 }
 .hide {
   opacity: 0;
-  height: 44px;
+  height: 100vh;
+  overflow: hidden;
 }

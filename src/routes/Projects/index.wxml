@@ -1,10 +1,10 @@
 <view class="page">
-	<Navbar/>
 	<view class="title">
 		<Title title="{{ title.title }}" desc="{{ title.desc }}"/>
 	</view>
 	<view class="showup">
 		<ProList wx:for="{{ projects }}" wx:key="projects" content="{{ item }}" num="{{ index }}"/>
 	</view>
+	<Footer />
 </view>
 <TabbarShadow/>

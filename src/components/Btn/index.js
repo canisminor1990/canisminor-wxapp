@@ -1,5 +1,3 @@
-import { wx, handleNav } from '../../utils';
-
 const component = {
   properties: {
     openType: {
