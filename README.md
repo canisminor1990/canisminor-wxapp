@@ -25,7 +25,7 @@
 
 ## Preview
 
-<img src="https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/preview.png?raw=true" width="900" />
+![](https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/preview.png?raw=true)
 
 ## Dev
 
