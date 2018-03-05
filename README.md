@@ -1,7 +1,7 @@
 # CanisMinor WxApp
 
 <br />
-<img src="https://github.com/canisminor1990/canisminor-wxapp/blob/master/src/img/qrcode.jpg?raw=true" width="240" />
+<img src="https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/qrcode.jpg?raw=true" width="240" />
 <br />
 
 [![](https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg)](https://github.com/canisminor1990/canisminor-wxapp)
