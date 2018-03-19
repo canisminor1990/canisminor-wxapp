@@ -13,7 +13,14 @@
 		       data-src="{{ item }}"
 		       bindtap="previewImage"
 		/>
-		<video wx:if="{{ video }}" src="{{ video }}"/>
+		<image
+				wx:if="{{ video }}"
+				class="video"
+				src="http://qr.liantu.com/api.php?w=720&m=48&pt=62e6ac&text={{ video }}&logo=http://qn.canisminor.cc/2018-03-02-share.png"
+				data-src="http://qr.liantu.com/api.php?w=720&m=48&pt=62e6ac&text={{ video }}&logo=http://qn.canisminor.cc/2018-03-02-share.png"
+				mode="widthFix"
+				bindtap="previewVideo"
+		/>
 		<view class="footer" wx:if="{{ btn }}">
 			<Btn data-url="{{ btn.url }}"
 			     data-title="{{ btn.title }}"

@@ -35,6 +35,12 @@ const component = {
         urls: this.data.imgList,
       });
     },
+    previewVideo(e) {
+      wx.previewImage({
+        current: e.currentTarget.dataset.src,
+        urls: [e.currentTarget.dataset.src],
+      });
+    },
   },
   data: {
     show: false,

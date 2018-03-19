@@ -12,10 +12,6 @@ export default {
       const sysInfo = action.payload;
       return { ...state, sysInfo };
     },
-    getUserInfoSuccess(state, action) {
-      const { userInfo } = action.payload;
-      return { ...state, userInfo };
-    },
   },
 
   effects: {
@@ -24,32 +20,8 @@ export default {
       yield put({ type: 'getSysInfoSuccess', payload: sysInfo });
     },
 
-    *getUserInfo(action, { call, put }) {
-      let userInfo;
-
-      try {
-        yield call(wx.checkSession);
-        const data = yield call(wx.getStorage, { key: 'userInfo' });
-        userInfo = data.data;
-      } catch (e) {
-        /* handle error */
-        yield call(wx.login);
-        const res = yield call(wx.getUserInfo);
-        userInfo = res.userInfo;
-        yield call(wx.setStorage, { key: 'userInfo', data: userInfo });
-      }
-
-      if (userInfo) {
-        yield put({ type: 'getUserInfoSuccess', payload: { userInfo } });
-      }
-    },
-
     *init(action, { all, put }) {
-      yield all([
-        put({ type: 'getUserInfo' }),
-        put({ type: 'getSysInfo' }),
-        put({ type: 'data/queryData' }),
-      ]);
+      yield all([put({ type: 'getSysInfo' }), put({ type: 'data/queryData' })]);
     },
   },
 };
