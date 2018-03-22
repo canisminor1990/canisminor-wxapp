@@ -2,8 +2,6 @@
 	<view class="container">
 		<view wx:for="{{ blogToc }}"
 		      wx:key="post"
-		      id="{{ index }}" class="post hide {{ showId >= index ? 'show' : '' }}"
-		      wx:if="{{ showId >= index -1 }}"
 		>
 			<view class="title"
 			      bindtap="handleNav"

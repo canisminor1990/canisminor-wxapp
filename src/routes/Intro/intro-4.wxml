@@ -11,10 +11,10 @@
 	</view>
 	<view class="row">
 		<Showcase content="{{ showcase[1] }}"/>
-		<view class="awards" wx:if="{{ showView === false }}">
+		<view class="awards" wx:if="{{ !showView }}">
 			<AwardList content="{{ awardList }}"/>
 		</view>
-		<Btn class="button" type="outline" wx:if="{{ showView === true }}" bindtap="handleShow">
+		<Btn wx:if="{{ showView }}" class="button" type="outline"  bindtap="handleShow">
 			Show Awards
 		</Btn>
 	</view>

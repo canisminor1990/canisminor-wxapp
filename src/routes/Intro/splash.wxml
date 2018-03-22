@@ -1,4 +1,4 @@
-<view class="splash {{ splashDone ? 'fadeout' : 'showup' }}">
+<view class="splash {{ splashDone ? 'fadeout' : 'fadein' }}">
 	<image class="logo" src="{{ '/img/logo.png' }}" mode="widthFix"/>
 	<text class="desc">{{ typing }}<text class="icon">_</text></text>
 </view>

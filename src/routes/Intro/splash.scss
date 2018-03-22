@@ -41,6 +41,6 @@
 .fadeout {
   @include fadeout;
 }
-.showup {
-  @include showup;
+.fadein {
+  @include fadein;
 }

@@ -1,4 +1,4 @@
-import { wx, connect, scroll, handleShare, handleNav } from '../../utils';
+import { wx, connect, handleShare, handleNav } from '../../utils';
 
 const page = {
   onLoad() {
@@ -6,15 +6,12 @@ const page = {
     this.queryBlogToc();
   },
   onShareAppMessage: () => handleShare('Blog'),
-  onPageScroll: scroll,
   data: {
     page: 1,
     title: {
       title: "Let's talk",
       desc: 'Feel free 2 contact me 😘',
     },
-    show: { 0: true },
-    showId: 0,
   },
   handleNav,
 };

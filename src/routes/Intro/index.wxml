@@ -1,33 +1,15 @@
 <include src="./splash.wxml"/>
-
-<view class="page" hidden="{{ !splashDone }}">
-	<include src="./intro-1.wxml" wx:if="{{ splashDone }}"/>
-	<view id="1" class="hide {{ showId >= 1 ? 'show' : '' }}">
-		<include src="./intro-2.wxml"/>
-	</view>
-	<view id="2" class="hide {{ showId >= 2 ? 'show' : '' }}">
-		<include src="./intro-3.wxml"/>
-	</view>
-	<view id="3" class="hide {{ showId >= 3 ? 'show' : '' }}">
-		<include src="./intro-4.wxml"/>
-	</view>
-	<view id="4" class="hide {{ showId >= 4 ? 'show' : '' }}">
-		<include src="./intro-5.wxml"/>
-	</view>
-	<view id="5" class="hide {{ showId >= 5 ? 'show' : '' }}">
-		<include src="./intro-6.wxml"/>
-	</view>
-	<view id="6" class="hide {{ showId >= 6 ? 'show' : '' }}">
-		<include src="./intro-7.wxml"/>
-	</view>
-	<view id="7" class="hide {{ showId >= 7 ? 'show' : '' }}">
-		<include src="./intro-8.wxml"/>
-	</view>
-	<view id="8" class="hide {{ showId >= 8 ? 'show' : '' }}">
-		<include src="./intro-9.wxml"/>
-	</view>
-	<Footer />
+<view class="page">
+	<include src="./intro-1.wxml"/>
+	<include src="./intro-2.wxml"/>
+	<include src="./intro-3.wxml"/>
+	<include src="./intro-4.wxml"/>
+	<include src="./intro-5.wxml"/>
+	<include src="./intro-6.wxml"/>
+	<include src="./intro-7.wxml"/>
+	<include src="./intro-8.wxml"/>
+	<include src="./intro-9.wxml"/>
+	<Footer/>
 </view>
-
 <TabbarShadow/>
 

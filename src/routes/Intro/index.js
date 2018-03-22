@@ -1,4 +1,4 @@
-import { wx, connect, scroll, handleNav, handleShare } from '../../utils';
+import { wx, connect, handleNav, handleShare } from '../../utils';
 
 const page = {
   onLoad() {
@@ -6,7 +6,7 @@ const page = {
     this.splash();
   },
   onShareAppMessage: () => handleShare('Intro'),
-  onPageScroll: scroll,
+
   data: {
     title: {
       title: 'CanisMinor',
@@ -35,6 +35,7 @@ const page = {
     typist();
   },
   handleShow() {
+    console.log('click');
     this.setData({ showView: false });
   },
   handleNav,
