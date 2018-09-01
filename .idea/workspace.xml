@@ -2,6 +2,247 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/1444983318907-_DSC1826.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/24213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/24280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/burger_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/comment2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/discovery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/discovery_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/draft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/good-bad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/heart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/icon1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/icon8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/icon9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/index_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/invite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/lighting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/live.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/recent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/star2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/asset/images/zhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/components/feed/feed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/components/feed/feed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/components/feed/feed.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/components/feed/feed.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/dva.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/model/feeds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/model/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/model/sys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/array/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/is-iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/object/define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/object/get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/object/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/object/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/core-js/symbol/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/arrayWithHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/arrayWithoutHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/classCallCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/createClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/defineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/interopRequireDefault.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/interopRequireWildcard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/iterableToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/iterableToArrayLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/nonIterableRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/nonIterableSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/objectSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/slicedToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/toConsumableArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/helpers/typeof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@babel/runtime/regenerator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@tarojs/async-await/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@tarojs/redux/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@tarojs/redux/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@tarojs/taro-weapp/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/@tarojs/taro-weapp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/array/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/is-iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/object/define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/object/get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/object/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/object/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/symbol/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/fn/symbol/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_a-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_add-to-unscopables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_an-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_an-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_array-includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_classof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_cof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_create-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_ctx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_defined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_descriptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_dom-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_enum-bug-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_enum-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_fails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_for-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_has.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_ie8-dom-define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_invoke.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_is-array-iter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_is-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iter-call.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iter-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iter-define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iter-detect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iter-step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_iterators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_microtask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_new-promise-capability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-dp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-dps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-gopd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-gopn-ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-gopn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-gops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-gpo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-keys-internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_object-sap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_perform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_promise-resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_property-desc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_redefine-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_redefine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_set-species.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_set-to-string-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_shared-key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_species-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_string-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-absolute-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-iobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_uid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_user-agent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_wks-define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_wks-ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/_wks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/core.get-iterator-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/core.get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/core.is-iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.array.from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.array.iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.object.define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.object.get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.object.keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.object.to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.string.iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es6.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es7.promise.finally.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es7.promise.try.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es7.symbol.async-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/es7.symbol.observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/core-js/library/modules/web.dom.iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/Plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/checkModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/createPromiseMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/createStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/getReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/getSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/handleActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/prefixNamespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/prefixType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/prefixedDispatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/subscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-core/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/dva-loading/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/flatten/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/global/window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/invariant/invariant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/is-plain-object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/isobject/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/promise-polyfill/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-logger/dist/redux-logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/buffers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/channel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/io.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/proc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/runSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/sagaHelpers/fsmIterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/sagaHelpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/sagaHelpers/takeEvery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/sagaHelpers/takeLatest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/sagaHelpers/throttle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/scheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux-saga/lib/internal/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/redux/lib/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/regenerator-runtime/runtime-module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/regenerator-runtime/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/symbol-observable/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/symbol-observable/lib/ponyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/npm/warning/warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/answer/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/answer/answer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/answer/answer.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/answer/answer.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/discovery/discovery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/discovery/discovery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/discovery/discovery.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/discovery/discovery.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/index/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/index/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/index/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/index/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/more/more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/more/more.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/more/more.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/more/more.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/question/question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/question/question.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/question/question.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pages/question/question.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/project.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/utils/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/utils/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
@@ -9,19 +250,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feed/feed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dva.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/feeds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/feeds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/sys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/sys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/answer/answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/answer/answer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/discovery/discovery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/discovery/discovery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/more/more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/question/question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/question/question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/delay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -61,12 +289,12 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="js" value="4" />
-          <entry key="json" value="14" />
+          <entry key="json" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="14" />
+          <entry key="JSON" value="16" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -90,16 +318,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="154">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding>
+                <element signature="e#502#543#0" />
+                <element signature="e#630#707#0" />
+                <element signature="e#779#856#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
@@ -114,8 +347,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1561">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="-1509">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -133,8 +366,8 @@
       <list>
         <option value="$PROJECT_DIR$/project.config.json" />
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -221,12 +454,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535809954194</updated>
-      <workItem from="1535809955675" duration="1026000" />
+      <workItem from="1535809955675" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1026000" />
+    <option name="totallyTimeSpent" value="1093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="977" extended-state="0" />
@@ -281,18 +514,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1561">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="-1509">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -302,6 +528,18 @@
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="78" selection-end-column="15" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#502#543#0" />
+            <element signature="e#630#707#0" />
+            <element signature="e#779#856#0" />
           </folding>
         </state>
       </provider>
