@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/feeds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/answer/answer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/discovery/discovery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/more/more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/question/question.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/feed/feed.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/feed/feed.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/model/feeds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/model/sys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/answer/answer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/answer/answer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/answer/answer.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/answer/answer.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/discovery/discovery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/discovery/discovery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/discovery/discovery.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/discovery/discovery.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/more/more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/more/more.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/more/more.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/more/more.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/question/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/question/question.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/question/question.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/question/question.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/utils/delay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feed/feed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dva.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/feeds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/sys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/sys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/answer/answer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/answer/answer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/answer/answer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/discovery/discovery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/discovery/discovery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/discovery/discovery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/more/more.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/question/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/question/question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/question/question.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/delay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/feeds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/feeds.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -79,28 +29,28 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="eslintrc" value="1" />
-          <entry key="js" value="13" />
+          <entry key="js" value="19" />
           <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="js" value="15" />
+          <entry key="js" value="29" />
           <entry key="json" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -123,32 +73,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="302">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/feeds.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -158,12 +90,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pages/</find>
+      <find>delay</find>
     </findStrings>
     <replaceStrings>
       <replace>routes/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/src/routes</dir>
+      <dir>$PROJECT_DIR$/src/components</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/pages/index/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/utils/delay.js" />
+        <option value="$PROJECT_DIR$/src/models/feeds.js" />
+        <option value="$PROJECT_DIR$/src/dva.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
@@ -227,12 +164,6 @@
               <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -275,15 +206,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535809954194</updated>
-      <workItem from="1535809955675" duration="2029000" />
+      <workItem from="1535809955675" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2029000" />
+    <option name="totallyTimeSpent" value="3224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -367,32 +299,6 @@
     <entry file="file://$PROJECT_DIR$/src/utils/request.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dva.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/sys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#267#296#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -403,10 +309,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/sys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/feeds.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/feed/feed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dva.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

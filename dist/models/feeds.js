@@ -18,10 +18,6 @@ var _request = require("../utils/request.js");
 
 var _request2 = _interopRequireDefault(_request);
 
-var _delay = require("../utils/delay.js");
-
-var _delay2 = _interopRequireDefault(_delay);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -99,13 +95,9 @@ exports.default = {
               _ref6 = _context2.sent;
               data = _ref6.data;
               _context2.next = 6;
-              return call(_delay2.default, 2000);
-
-            case 6:
-              _context2.next = 8;
               return put((0, _action2.default)('save', { list: data }));
 
-            case 8:
+            case 6:
             case "end":
               return _context2.stop();
           }
@@ -133,13 +125,9 @@ exports.default = {
               _ref9 = _context3.sent;
               data = _ref9.data;
               _context3.next = 6;
-              return call(_delay2.default, 2000);
-
-            case 6:
-              _context3.next = 8;
               return put((0, _action2.default)('saveMore', data));
 
-            case 8:
+            case 6:
             case "end":
               return _context3.stop();
           }

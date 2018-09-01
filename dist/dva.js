@@ -18,7 +18,7 @@ var app = void 0;
 var store = void 0;
 var dispatch = void 0;
 
-function createApp(opt) {
+var createApp = function createApp(opt) {
   opt.onAction = [(0, _reduxLogger.createLogger)()];
   app = (0, _index.create)(opt);
   app.use((0, _index3.default)({}));
@@ -38,7 +38,7 @@ function createApp(opt) {
 
   app.dispatch = dispatch;
   return app;
-}
+};
 
 exports.default = {
   createApp: createApp,
