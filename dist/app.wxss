@@ -22,7 +22,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background: #F0F4F3;
+  background: #f0f4f3;
   padding: 0;
   font-size: 20rpx;
   color: #000; }
@@ -43,7 +43,8 @@
     font-size: 24rpx; }
   .feed-item .feed-content {
     padding: 10rpx 0 0 0; }
-    .feed-item .feed-content .question text, .feed-item .feed-content .question span {
+    .feed-item .feed-content .question text,
+    .feed-item .feed-content .question span {
       font-size: 28rpx;
       font-weight: 600rpx;
       line-height: 40rpx;
@@ -55,9 +56,11 @@
       color: #5b5b5b; }
     .feed-item .feed-content .answer-actions {
       width: 690rpx;
-      padding: 10rpx 0  0;
+      padding: 10rpx 0 0;
       color: #a0acac; }
-      .feed-item .feed-content .answer-actions view, .feed-item .feed-content .answer-actions div, .feed-item .feed-content .answer-actions span {
+      .feed-item .feed-content .answer-actions view,
+      .feed-item .feed-content .answer-actions div,
+      .feed-item .feed-content .answer-actions span {
         display: inline-block;
         vertical-align: text-bottom;
         padding: 0 10rpx 0 0;
@@ -95,7 +98,8 @@
     .feed-item .feed-source .avatar {
       position: relative;
       display: inline-block; }
-      .feed-item .feed-source .avatar image, .feed-item .feed-source .avatar img {
+      .feed-item .feed-source .avatar image,
+      .feed-item .feed-source .avatar img {
         display: inline-block;
         width: 45rpx;
         height: 45rpx;
@@ -141,8 +145,8 @@
 .top-tab {
   width: 750rpx;
   height: 100rpx;
-  background: #298DE5;
-  color: #8CCEFD;
+  background: #298de5;
+  color: #8ccefd;
   font-size: 28rpx;
   line-height: 100rpx;
   -webkit-box-shadow: 0 2rpx 2rpx #bebebe;

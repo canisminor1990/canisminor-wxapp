@@ -3,16 +3,17 @@
   width: 100%;
   height: 70rpx;
   padding: 12.5rpx 0 12.5rpx 15rpx;
-  background: #2A8CE5; }
+  background: #2a8ce5; }
   .search .search-left {
     height: 65rpx;
     -webkit-box-flex: 8;
     -webkit-flex: 8;
         -ms-flex: 8;
             flex: 8;
-    background: #4EA3E7;
+    background: #4ea3e7;
     text-align: left; }
-    .search .search-left image, .search .search-left img {
+    .search .search-left image,
+    .search .search-left img {
       display: inline-block;
       width: 35rpx;
       height: 35rpx;
@@ -39,11 +40,12 @@
         -ms-flex: 1;
             flex: 1;
     height: 65rpx; }
-    .search .search-right image, .search .search-right img {
+    .search .search-right image,
+    .search .search-right img {
       width: 45rpx;
       height: 45rpx;
       padding: 10rpx; }
 
 .search-placeholder {
-  color: #8CCEFD;
+  color: #8ccefd;
   line-height: 20rpx; }

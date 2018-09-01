@@ -23,12 +23,14 @@
         -ms-flex: 5;
             flex: 5;
     text-align: left; }
-    .user .user-info text, .user .user-info div, .user .user-info span {
+    .user .user-info text,
+    .user .user-info div,
+    .user .user-info span {
       display: block; }
     .user .user-info .userinfo-nickname {
       padding: 8rpx 0 10rpx 0;
       font-size: 30rpx;
-      color: #818A8F; }
+      color: #818a8f; }
     .user .user-info .edit {
       font-size: 30rpx;
       color: #bababa;
@@ -52,7 +54,9 @@
           -ms-flex: 1;
               flex: 1;
       vertical-align: middle; }
-      .my .my-item .myitem-icon .myitem-img, .my .my-item .myitem-icon image, .my .my-item .myitem-icon img {
+      .my .my-item .myitem-icon .myitem-img,
+      .my .my-item .myitem-icon image,
+      .my .my-item .myitem-icon img {
         width: 40rpx;
         height: 40rpx;
         margin-left: 16rpx;

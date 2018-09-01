@@ -3,14 +3,14 @@
   padding: 0;
   min-height: 500rpx;
   font-size: 14rpx;
-  background: #F0F4F3;
+  background: #f0f4f3;
   color: #000; }
 
 .question {
   position: relative;
   width: 650rpx;
   padding: 40rpx 50rpx 30rpx;
-  background: #298DE5;
+  background: #298de5;
   color: #fff;
   font-size: 38rpx;
   line-height: 48rpx; }
@@ -25,10 +25,9 @@
     top: 0;
     width: 750rpx;
     height: 75rpx;
-    background: #298DE5; }
+    background: #298de5; }
 
-.answerer-wrp
-.answerer {
+.answerer-wrp .answerer {
   position: relative;
   margin: 0 auto;
   width: 630rpx;
@@ -39,23 +38,20 @@
   border-radius: 3rpx;
   -webkit-box-shadow: 0 1rpx 2rpx #bebebe;
           box-shadow: 0 1rpx 2rpx #bebebe; }
-  .answerer-wrp
-.answerer .avatar {
+  .answerer-wrp .answerer .avatar {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1;
     width: 90rpx;
     height: 90rpx; }
-    .answerer-wrp
-.answerer .avatar img, .answerer-wrp
-.answerer .avatar image {
+    .answerer-wrp .answerer .avatar img,
+    .answerer-wrp .answerer .avatar image {
       display: inline-block;
       width: 90rpx;
       height: 90rpx;
       border-radius: 90rpx; }
-  .answerer-wrp
-.answerer .answerer-info {
+  .answerer-wrp .answerer .answerer-info {
     -webkit-box-flex: 5;
     -webkit-flex: 5;
         -ms-flex: 5;
@@ -63,34 +59,28 @@
     text-align: left;
     padding: 10rpx 20rpx;
     line-height: 38rpx; }
-    .answerer-wrp
-.answerer .answerer-info text, .answerer-wrp
-.answerer .answerer-info span {
+    .answerer-wrp .answerer .answerer-info text,
+    .answerer-wrp .answerer .answerer-info span {
       display: block; }
-    .answerer-wrp
-.answerer .answerer-info .answerer-name {
+    .answerer-wrp .answerer .answerer-info .answerer-name {
       font-size: 32rpx; }
-    .answerer-wrp
-.answerer .answerer-info .answerer-des {
+    .answerer-wrp .answerer .answerer-info .answerer-des {
       font-size: 22rpx;
       color: #808080;
       line-height: 28rpx; }
-    .answerer-wrp
-.answerer .answerer-info .answerer-des {
+    .answerer-wrp .answerer .answerer-info .answerer-des {
       font-size: 22rpx;
       color: #808080;
       line-height: 28rpx; }
-  .answerer-wrp
-.answerer .follow {
+  .answerer-wrp .answerer .follow {
     -webkit-box-flex: 2;
     -webkit-flex: 2;
         -ms-flex: 2;
             flex: 2;
     padding: 15rpx 0;
     font-size: 22rpx; }
-    .answerer-wrp
-.answerer .follow span, .answerer-wrp
-.answerer .follow text {
+    .answerer-wrp .answerer .follow span,
+    .answerer-wrp .answerer .follow text {
       display: inline-block;
       padding: 15rpx 20rpx;
       color: #40bcd0;
@@ -100,11 +90,13 @@
 .answer-content {
   padding: 30rpx 40rpx;
   background: #ffffff; }
-  .answer-content text, .answer-content span {
+  .answer-content text,
+  .answer-content span {
     font-size: 32rpx;
     color: #454545;
     line-height: 44rpx; }
-  .answer-content image, .answer-content img {
+  .answer-content image,
+  .answer-content img {
     width: 100%;
     margin: 20rpx 0; }
 
@@ -128,7 +120,8 @@
     margin: 10rpx 0; }
     .answer-footer .good .good-bad {
       display: inline-block; }
-    .answer-footer .good image, .answer-footer .good img {
+    .answer-footer .good image,
+    .answer-footer .good img {
       display: inline-block;
       width: 38rpx;
       height: 38rpx;
@@ -147,7 +140,8 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0 0 0 60rpx; }
-    .answer-footer .operation image, .answer-footer .operation img {
+    .answer-footer .operation image,
+    .answer-footer .operation img {
       display: block;
       margin: 0 auto;
       width: 50rpx;
@@ -158,7 +152,8 @@
         -ms-flex: 1;
             flex: 1;
     text-align: center; }
-    .answer-footer .operation-btn text, .answer-footer .operation-btn span {
+    .answer-footer .operation-btn text,
+    .answer-footer .operation-btn span {
       display: block;
       font-size: 14rpx;
       color: #bebebe; }

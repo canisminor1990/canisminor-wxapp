@@ -5,8 +5,8 @@
 .top-tab {
   width: 750rpx;
   height: 100rpx;
-  background: #298DE5;
-  color: #8CCEFD;
+  background: #298de5;
+  color: #8ccefd;
   font-size: 28rpx;
   line-height: 100rpx;
   -webkit-box-shadow: 0 2rpx 2rpx #bebebe;
@@ -21,7 +21,8 @@
   width: 750rpx;
   height: 375rpx; }
 
-.activity image, .activity img {
+.activity image,
+.activity img {
   width: 750rpx;
   height: 400rpx; }
 
