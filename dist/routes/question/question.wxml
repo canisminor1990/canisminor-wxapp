@@ -48,9 +48,9 @@
                 </view>
                 <view class="feed-content">
                     <view class="answer-body">
-                        <view bindtap="navigateTo" data-e-navigateTo-so="this" data-e-navigateTo-a-a="/pages/answer/answer">
+                        <view bindtap="navigateTo" data-e-navigateTo-so="this" data-e-navigateTo-a-a="/routes/answer/answer">
                             <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
-                                另外，用kindle看小说的...</text>
+                                另外，用kindle看小说的...{{' '}}</text>
                         </view>
                         <view class="answer-actions">
                             <view class="like dot">
@@ -77,9 +77,9 @@
                 </view>
                 <view class="feed-content">
                     <view class="answer-body">
-                        <view bindtap="navigateTo" data-e-navigateTo-so="this" data-e-navigateTo-a-a="/pages/answer/answer">
+                        <view bindtap="navigateTo" data-e-navigateTo-so="this" data-e-navigateTo-a-a="/routes/answer/answer">
                             <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
-                                另外，用kindle看小说的...</text>
+                                另外，用kindle看小说的...{{' '}}</text>
                         </view>
                         <view class="answer-actions">
                             <view class="like dot">

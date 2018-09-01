@@ -6,7 +6,7 @@
             wx:for-index="index" data-e-switchTab-so="this" data-e-switchTab-a-a="{{index}}">{{item}}</view>
         </view>
         <scroll-view scroll-y="{{true}}" class="container discovery withtab">
-            <view class="ctnt0" hidden="{{currentNavtab == 0 ? false : true}}">
+            <view class="ctnt0" hidden="{{currentNavtab != 0}}">
                 <swiper class="activity" indicator-dots="true" autoplay="true" interval="5000"
                 duration="500">
                     <swiper-item wx:key="{{index}}" wx:for="{{imgUrls}}" wx:for-item="item"
@@ -20,13 +20,13 @@
                 good_num="{{item.good_num}}" comment_num="{{item.comment_num}}" answer_ctnt="{{item.answer_ctnt}}"
                 wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="index"></feed>
             </view>
-            <view class="txcenter" hidden="{{currentNavtab == 1 ? false : true}}">
+            <view class="txcenter" hidden="{{currentNavtab != 1}}">
                 <text>圆桌</text>
             </view>
-            <view class="txcenter" hidden="{{currentNavtab == 2 ? false : true}}">
+            <view class="txcenter" hidden="{{currentNavtab != 2}}">
                 <text>热门</text>
             </view>
-            <view class="txcenter" hidden="{{currentNavtab == 3 ? false : true}}">
+            <view class="txcenter" hidden="{{currentNavtab != 3}}">
                 <text>收藏</text>
             </view>
         </scroll-view>

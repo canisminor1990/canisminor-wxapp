@@ -2,14 +2,14 @@ export default {
   namespace: 'sys',
   state: {},
   reducers: {
-    save(state, {payload}) {
-      return {...state, ...payload};
+    save(state, { payload }) {
+      return { ...state, ...payload };
     },
   },
   effects: {
-    * error({payload: e}, {all, call, put}) {
+    *error({ payload: e }, { all, call, put }) {
       // debugger;
-      console.error("error:", e);
+      console.error('error:', e);
       // if (e instanceof String) {
       //   toast(`${e}`);
       // } else if (e instanceof Error) {

@@ -56,7 +56,7 @@ exports.default = {
               });
               _context.prev = 1;
               _context.next = 4;
-              return put((0, _action2.default)("load"));
+              return put((0, _action2.default)('load'));
 
             case 4:
               loadPro = _context.sent;
@@ -103,7 +103,7 @@ exports.default = {
 
             case 6:
               _context2.next = 8;
-              return put((0, _action2.default)("save", { list: data }));
+              return put((0, _action2.default)('save', { list: data }));
 
             case 8:
             case "end":
@@ -137,7 +137,7 @@ exports.default = {
 
             case 6:
               _context3.next = 8;
-              return put((0, _action2.default)("saveMore", data));
+              return put((0, _action2.default)('saveMore', data));
 
             case 8:
             case "end":

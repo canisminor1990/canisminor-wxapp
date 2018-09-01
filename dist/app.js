@@ -20,7 +20,7 @@ var _dva = require("./dva.js");
 
 var _dva2 = _interopRequireDefault(_dva);
 
-var _index3 = require("./model/index.js");
+var _index3 = require("./models/index.js");
 
 var _index4 = _interopRequireDefault(_index3);
 
@@ -38,7 +38,7 @@ var dvaApp = _dva2.default.createApp({
   initialState: {},
   models: _index4.default,
   onError: function onError(e, dispatch) {
-    dispatch((0, _action2.default)("sys/error", e));
+    dispatch((0, _action2.default)('sys/error', e));
   }
 });
 var store = dvaApp.getStore();
@@ -59,15 +59,6 @@ var _App = function (_BaseComponent) {
     value: function componentDidMount() {
       dvaApp.dispatch({ type: 'sys/test' });
     }
-  }, {
-    key: "componentDidShow",
-    value: function componentDidShow() {}
-  }, {
-    key: "componentDidHide",
-    value: function componentDidHide() {}
-  }, {
-    key: "componentCatchError",
-    value: function componentCatchError() {}
   }, {
     key: "_createData",
     value: function _createData() {}

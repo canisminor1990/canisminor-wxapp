@@ -1,5 +1,5 @@
-export default function (time) {
-  return new Promise(function(r){
-    setTimeout(r, time)
+export default time => {
+  return new Promise(resolve => {
+    setTimeout(resolve, time);
   });
-}
+};

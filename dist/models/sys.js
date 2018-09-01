@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -27,7 +27,7 @@ exports.default = {
           switch (_context.prev = _context.next) {
             case 0:
               // debugger;
-              console.error("error:", e);
+              console.error('error:', e);
               // if (e instanceof String) {
               //   toast(`${e}`);
               // } else if (e instanceof Error) {
@@ -56,7 +56,7 @@ exports.default = {
               // }
 
             case 1:
-            case "end":
+            case 'end':
               return _context.stop();
           }
         }

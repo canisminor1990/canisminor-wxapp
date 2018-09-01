@@ -1,7 +1,7 @@
 <block>
     <view class="answer_container">
         <view class="question" bindtap="navigateTo" data-e-navigateTo-so="this"
-        data-e-navigateTo-a-a="/pages/question/question">
+        data-e-navigateTo-a-a="/routes/question/question">
             <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？</text>
         </view>
         <view class="answerer-wrp">

@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function (time) {
-  return new Promise(function (r) {
-    setTimeout(r, time);
+  return new Promise(function (resolve) {
+    setTimeout(resolve, time);
   });
 };

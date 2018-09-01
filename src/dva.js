@@ -1,6 +1,7 @@
-import {create} from 'dva-core';
-import {createLogger} from 'redux-logger';
+import { create } from 'dva-core';
+import { createLogger } from 'redux-logger';
 import createLoading from 'dva-loading';
+
 let app;
 let store;
 let dispatch;
@@ -27,5 +28,5 @@ export default {
   createApp,
   getDispatch() {
     return app.dispatch;
-  }
-}
+  },
+};

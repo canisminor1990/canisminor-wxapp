@@ -1,86 +1,77 @@
-import '@tarojs/async-await'
-import action from './utils/action'
-import Taro, {Component} from '@tarojs/taro'
-import Index from './pages/index'
-import dva from './dva'
-import models from './model'
-import {Provider} from '@tarojs/redux'
+import '@tarojs/async-await';
+import action from './utils/action';
+import Taro, { Component } from '@tarojs/taro';
+import Index from './routes/index';
+import dva from './dva';
+import models from './models';
+import { Provider } from '@tarojs/redux';
 
-
-import './app.scss'
-
+import './index.scss';
 
 const dvaApp = dva.createApp({
   initialState: {},
   models: models,
   onError(e, dispatch) {
-    dispatch(action("sys/error", e));
+    dispatch(action('sys/error', e));
   },
 });
 const store = dvaApp.getStore();
 
 class App extends Component {
-
   config = {
     pages: [
-      'pages/index/index',
-      'pages/discovery/discovery',
-      'pages/more/more',
-      'pages/answer/answer',
-      'pages/question/question'
+      'routes/index/index',
+      'routes/discovery/discovery',
+      'routes/more/more',
+      'routes/answer/answer',
+      'routes/question/question',
     ],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#0068C4',
       navigationBarTitleText: 'taro知乎',
       navigationBarTextStyle: 'white',
-      enablePullDownRefresh: true
+      enablePullDownRefresh: true,
     },
     tabBar: {
-      color: "#626567",
-      selectedColor: "#2A8CE5",
-      backgroundColor: "#FBFBFB",
-      borderStyle: "white",
-      list: [{
-        pagePath: "pages/index/index",
-        text: "首页",
-        iconPath: "./asset/images/index.png",
-        selectedIconPath: "./asset/images/index_focus.png"
-      }, {
-        pagePath: "pages/discovery/discovery",
-        text: "发现",
-        iconPath: "./asset/images/discovery.png",
-        selectedIconPath: "./asset/images/discovery_focus.png"
-      },
+      color: '#626567',
+      selectedColor: '#2A8CE5',
+      backgroundColor: '#FBFBFB',
+      borderStyle: 'white',
+      list: [
         {
-          pagePath: "pages/more/more",
-          text: "我的",
-          iconPath: "./asset/images/burger.png",
-          selectedIconPath: "./asset/images/burger_focus.png"
-        }]
-    }
-  }
+          pagePath: 'routes/index/index',
+          text: '首页',
+          iconPath: './asset/images/index.png',
+          selectedIconPath: './asset/images/index_focus.png',
+        },
+        {
+          pagePath: 'routes/discovery/discovery',
+          text: '发现',
+          iconPath: './asset/images/discovery.png',
+          selectedIconPath: './asset/images/discovery_focus.png',
+        },
+        {
+          pagePath: 'routes/more/more',
+          text: '我的',
+          iconPath: './asset/images/burger.png',
+          selectedIconPath: './asset/images/burger_focus.png',
+        },
+      ],
+    },
+  };
 
   componentDidMount() {
-    dvaApp.dispatch({type: 'sys/test'})
-  }
-
-  componentDidShow() {
-  }
-
-  componentDidHide() {
-  }
-
-  componentCatchError() {
+    dvaApp.dispatch({ type: 'sys/test' });
   }
 
   render() {
     return (
       <Provider store={store}>
-        <Index/>
+        <Index />
       </Provider>
-    )
+    );
   }
 }
 
-Taro.render(dvaApp.start(<App/>), document.getElementById('app'))
+Taro.render(dvaApp.start(<App />), document.getElementById('app'));

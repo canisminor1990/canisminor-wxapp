@@ -13,7 +13,7 @@
         </view>
         <view class="feed-content">
             <view class="question" bindtap="navigateTo" data-e-navigateTo-so="this"
-            data-e-navigateTo-a-a="/pages/question/question">
+            data-e-navigateTo-a-a="/routes/question/question">
                 <view class="question-link">
                     <text>{{question}}</text>
                 </view>
@@ -21,7 +21,7 @@
             <view class="answer-body">
                 <view>
                     <text class="answer-txt" bindtap="navigateTo" data-e-navigateTo-so="this"
-                    data-e-navigateTo-a-a="/pages/answer/answer">{{answer_ctnt}}</text>
+                    data-e-navigateTo-a-a="/routes/answer/answer">{{answer_ctnt}}</text>
                 </view>
                 <view class="answer-actions">
                     <view class="like dot">
