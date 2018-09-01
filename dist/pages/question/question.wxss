@@ -1,0 +1,77 @@
+
+.answer-feed {
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000; }
+
+.question-wrp {
+  border-radius: 3rpx;
+  -webkit-box-shadow: 0 1rpx 2rpx #bebebe;
+          box-shadow: 0 1rpx 2rpx #bebebe; }
+
+.question-item {
+  width: 710rpx;
+  padding: 40rpx 20rpx 10rpx;
+  background: #fff; }
+  .question-item .que-tag .tag {
+    height: 28rpx;
+    padding: 15rpx 20rpx;
+    border-radius: 28rpx;
+    margin: 0 10rpx;
+    background: #EEF5F8;
+    color: #2186E0;
+    font-size: 28rpx;
+    vertical-align: middle; }
+  .question-item .que-title {
+    padding: 40rpx 20rpx 30rpx;
+    font-size: 38rpx; }
+  .question-item .que-content {
+    padding: 0 20rpx;
+    font-size: 26rpx; }
+  .question-item .que-follow {
+    margin: 20rpx;
+    height: 68rpx; }
+    .question-item .que-follow view, .question-item .que-follow div, .question-item .que-follow span {
+      display: inline-block;
+      margin: 0 40rpx 0 0; }
+    .question-item .que-follow image, .question-item .que-follow img {
+      width: 50rpx;
+      height: 50rpx;
+      margin: 0 10rpx 0 0;
+      vertical-align: middle; }
+    .question-item .que-follow .left {
+      float: left;
+      padding: 10rpx 0; }
+      .question-item .que-follow .left text, .question-item .que-follow .left div, .question-item .que-follow .left span {
+        color: #AFAFAF;
+        height: 50rpx;
+        vertical-align: middle;
+        padding: 18rpx 0;
+        font-size: 24rpx; }
+    .question-item .que-follow .right {
+      float: right;
+      padding: 20rpx 55rpx;
+      color: #ffffff;
+      background: #52C980;
+      border-radius: 3rpx;
+      font-size: 26rpx;
+      margin: 0; }
+
+.que-operate {
+  width: 750rpx;
+  border-top: solid 1rpx #ebebeb;
+  border-bottom: solid 1rpx #ebebeb;
+  color: #889091;
+  vertical-align: middle;
+  background: #ffffff; }
+  .que-operate .flex-item {
+    padding: 20rpx 0;
+    font-size: 26rpx; }
+  .que-operate .invite {
+    border-right: solid 2rpx #ebebeb; }
+  .que-operate image, .que-operate img {
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin: 0 20rpx 0 0; }

@@ -1,0 +1,40 @@
+<block>
+    <view class="feed-item">
+        <view class="feed-source">
+            <view class="avatar flex1">
+                <image src="{{feed_source_img}}" />
+            </view>
+            <view class="flex8">
+                <text class="feed-source-txt">{{feed_source_name}}{{feed_source_txt}}</text>
+            </view>
+            <view class="flex1">
+                <image class="item-more" mode="aspectFit" src="{{more}}" />
+            </view>
+        </view>
+        <view class="feed-content">
+            <view class="question" bindtap="navigateTo" data-e-navigateTo-so="this"
+            data-e-navigateTo-a-a="/pages/question/question">
+                <view class="question-link">
+                    <text>{{question}}</text>
+                </view>
+            </view>
+            <view class="answer-body">
+                <view>
+                    <text class="answer-txt" bindtap="navigateTo" data-e-navigateTo-so="this"
+                    data-e-navigateTo-a-a="/pages/answer/answer">{{answer_ctnt}}</text>
+                </view>
+                <view class="answer-actions">
+                    <view class="like dot">
+                        <view>{{good_num}} 赞同</view>
+                    </view>
+                    <view class="comments dot">
+                        <view>{{comment_num}} 评论</view>
+                    </view>
+                    <view class="follow-it">
+                        <view>关注问题</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

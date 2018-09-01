@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "feed": "../../components/feed/feed"
+  },
+  "navigationBarTitleText": "发现"
+}

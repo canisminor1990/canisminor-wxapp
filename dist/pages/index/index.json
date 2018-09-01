@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "feed": "../../components/feed/feed"
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

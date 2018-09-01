@@ -1,0 +1,34 @@
+<block>
+    <view>
+        <view class="top-tab flex-wrp flex-tab">
+            <view class="{{currentNavtab === index ? 'toptab flex-item active' : 'toptab flex-item'}}"
+            wx:key="{{index}}" bindtap="switchTab" wx:for="{{navTab}}" wx:for-item="item"
+            wx:for-index="index" data-e-switchTab-so="this" data-e-switchTab-a-a="{{index}}">{{item}}</view>
+        </view>
+        <scroll-view scroll-y="{{true}}" class="container discovery withtab">
+            <view class="ctnt0" hidden="{{currentNavtab == 0 ? false : true}}">
+                <swiper class="activity" indicator-dots="true" autoplay="true" interval="5000"
+                duration="500">
+                    <swiper-item wx:key="{{index}}" wx:for="{{imgUrls}}" wx:for-item="item"
+                    wx:for-index="index">
+                        <image src="{{item}}" class="slide-image" width="355" height="375" />
+                    </swiper-item>
+                </swiper>
+                <feed wx:key="{{item.$loopState__temp2}}" __triggerObserer="{{ _triggerObserer }}"
+                feed_source_img="{{item.feed_source_img}}" feed_source_name="{{item.feed_source_name}}"
+                feed_source_txt="{{item.feed_source_txt}}" question="{{item.question}}"
+                good_num="{{item.good_num}}" comment_num="{{item.comment_num}}" answer_ctnt="{{item.answer_ctnt}}"
+                wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="index"></feed>
+            </view>
+            <view class="txcenter" hidden="{{currentNavtab == 1 ? false : true}}">
+                <text>圆桌</text>
+            </view>
+            <view class="txcenter" hidden="{{currentNavtab == 2 ? false : true}}">
+                <text>热门</text>
+            </view>
+            <view class="txcenter" hidden="{{currentNavtab == 3 ? false : true}}">
+                <text>收藏</text>
+            </view>
+        </scroll-view>
+    </view>
+</block>
