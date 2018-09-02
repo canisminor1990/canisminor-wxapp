@@ -58,7 +58,7 @@ class App extends Component {
 		    },
 		    {
 			    pagePath        : 'routes/more/more',
-			    text            : 'Resume',
+			    text            : 'Profile',
 			    iconPath        : './asset/tabbar/resume.png',
 			    selectedIconPath: './asset/tabbar/resume-active.png'
 		    }

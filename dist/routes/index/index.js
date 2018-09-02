@@ -33,7 +33,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var searchPng = "/asset/images/search.png";
 var lightingPng = "/asset/images/lighting.png";
 
-var Index = (_dec = (0, _index3.connect)(function (_ref) {
+var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
   var feeds = _ref.feeds,
       loading = _ref.loading;
   return _extends({}, feeds, {
@@ -41,21 +41,22 @@ var Index = (_dec = (0, _index3.connect)(function (_ref) {
     isLoadMore: loading.effects["feeds/loadMore"]
   });
 }), _dec(_class = function (_BaseComponent) {
-  _inherits(Index, _BaseComponent);
+  _inherits(_TaroComponentClass, _BaseComponent);
 
-  function Index() {
+  function _TaroComponentClass() {
     var _ref2;
 
     var _temp, _this, _ret;
 
-    _classCallCheck(this, Index);
+    _classCallCheck(this, _TaroComponentClass);
 
     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref2 = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref2, [this].concat(args))), _this), _this.$usedState = ["searchPng", "lightingPng", "list", "isLoad", "isLoadMore"], _this.componentDidMount = function () {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref2 = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref2, [this].concat(args))), _this), _this.$usedState = ["searchPng", "lightingPng", "list", "isLoad", "isLoadMore"], _this.componentDidMount = function () {
       _this.props.dispatch((0, _action2.default)("feeds/load"));
+      _this.props.dispatch((0, _action2.default)("hola/get"));
     }, _this.onPullDownRefresh = function () {
       _this.props.dispatch((0, _action2.default)("feeds/load"));
     }, _this.onReachBottom = function () {
@@ -65,10 +66,10 @@ var Index = (_dec = (0, _index3.connect)(function (_ref) {
     }, _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
-  _createClass(Index, [{
+  _createClass(_TaroComponentClass, [{
     key: "_constructor",
-    value: function _constructor() {
-      _get(Index.prototype.__proto__ || Object.getPrototypeOf(Index.prototype), "_constructor", this).apply(this, arguments);
+    value: function _constructor(props) {
+      _get(_TaroComponentClass.prototype.__proto__ || Object.getPrototypeOf(_TaroComponentClass.prototype), "_constructor", this).call(this, props);
     }
   }, {
     key: "_createData",
@@ -93,15 +94,16 @@ var Index = (_dec = (0, _index3.connect)(function (_ref) {
     }
   }]);
 
-  return Index;
+  return _TaroComponentClass;
 }(_index.Component)) || _class);
-Index.properties = {
+
+_TaroComponentClass.properties = {
   "dispatch": null,
   "list": null,
   "isLoad": null,
   "isLoadMore": null
 };
-Index.$$events = ["updateList"];
-exports.default = Index;
+_TaroComponentClass.$$events = ["updateList"];
+exports.default = _TaroComponentClass;
 
-Component(require('../../npm/@tarojs/taro-weapp/index.js').default.createComponent(Index, true));
+Component(require('../../npm/@tarojs/taro-weapp/index.js').default.createComponent(_TaroComponentClass, true));

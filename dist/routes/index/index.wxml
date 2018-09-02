@@ -1,5 +1,6 @@
 <block>
     <view>
+        <text>121222</text>
         <view class="search flex-wrp">
             <view class="search-left flex-item">
                 <view class="flex-wrp">

@@ -1,10 +1,9 @@
 import Taro, {Component} from '@tarojs/taro'
-import {View, ScrollView, Input, Image} from '@tarojs/components'
+import {View, Text, Input, Image} from '@tarojs/components'
 import './index.scss'
 import Feed from '../../components/feed/feed'
 import searchPng from '../../asset/images/search.png'
 import lightingPng from '../../asset/images/lighting.png'
-import {create} from 'dva-core';
 import {connect} from '@tarojs/redux'
 import action from '../../utils/action'
 
@@ -13,19 +12,14 @@ import action from '../../utils/action'
   isLoad: loading.effects["feeds/load"],
   isLoadMore: loading.effects["feeds/loadMore"],
 }))
-export default class Index extends Component {
+export default class extends Component {
   config = {
-    navigationBarTitleText: '首页',
-    enablePullDownRefresh: true,
-    backgroundTextStyle: "dark",
+    navigationBarTitleText: 'CanisMinor',
   };
-
-  constructor() {
-    super(...arguments);
-  }
 
   componentDidMount = () => {
     this.props.dispatch(action("feeds/load"));
+	  this.props.dispatch(action("hola/get"));
   };
 
   onPullDownRefresh = () => {
@@ -44,6 +38,7 @@ export default class Index extends Component {
     const {list = [], isLoad, isLoadMore} = this.props;
     return (
       <View>
+        <Text>121222</Text>
         <View className='search flex-wrp'>
           <View className='search-left flex-item'>
             <View className='flex-wrp'>
