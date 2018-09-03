@@ -24,7 +24,7 @@
 
 .design .title {
   font-weight: 500;
-  margin-bottom: .3rem; }
+  margin-bottom: 0.3rem; }
 
 .design .type {
-  font-size: .6rem; }
+  font-size: 0.6rem; }

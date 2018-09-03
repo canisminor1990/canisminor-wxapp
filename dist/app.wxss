@@ -28,7 +28,9 @@ page {
   position: relative;
   font-weight: 400; }
 
-View, Text, Image {
+View,
+Text,
+image {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 

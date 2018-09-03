@@ -17,5 +17,5 @@
     text-align: center;
     line-height: 3rem;
     height: 3rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: #9d8352; }

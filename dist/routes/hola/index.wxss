@@ -2,7 +2,7 @@
 .banner {
   height: 50vw;
   position: relative; }
-  .banner Image {
+  .banner image {
     width: 100vw; }
   .banner .info {
     position: absolute;
@@ -23,11 +23,11 @@
             align-items: flex-start;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    padding: .6rem .8rem;
+    padding: 0.6rem 0.8rem;
     border-left: 4rpx solid #9d8352; }
   .banner .title {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: .4rem; }
+    margin-bottom: 0.4rem; }
   .banner .desc {
-    font-size: .6rem; }
+    font-size: 0.6rem; }
