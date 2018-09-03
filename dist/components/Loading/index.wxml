@@ -1,5 +1,0 @@
-<block>
-    <view class="loading" style="{{anonymousState__temp}}">
-        <at-activity-indicator color="#9d8352" __triggerObserer="{{ _triggerObserer }}"></at-activity-indicator>
-    </view>
-</block>

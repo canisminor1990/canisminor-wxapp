@@ -1,8 +1,0 @@
-<block>
-    <view class="{{anonymousState__temp}}" style="{{anonymousState__temp2}}">
-        <view class="content">
-            <view class="title">{{data.title}}</view>
-            <view class="type">{{anonymousState__temp3}}</view>
-        </view>
-    </view>
-</block>

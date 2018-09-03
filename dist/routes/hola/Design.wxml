@@ -1,8 +1,0 @@
-<block>
-    <view class="design">
-        <view class="project" wx:key="{{i}}" wx:for="{{data}}" wx:for-item="item"
-        wx:for-index="i">
-            <project data="{{item}}" __triggerObserer="{{ _triggerObserer }}"></project>
-        </view>
-    </view>
-</block>

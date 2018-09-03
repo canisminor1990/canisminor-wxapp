@@ -1,5 +1,0 @@
-
-.design .project {
-  margin-bottom: 1rem; }
-  .design .project:last-child {
-    margin-bottom: 0; }
