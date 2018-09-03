@@ -2,61 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Iconfont/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Iconfont/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Iconfont/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loading/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loading/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabbarShadow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabbarShadow/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WhiteSpace/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WhiteSpace/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Article.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Coding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Coding.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Design.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Design.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/Intro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/hola/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_font.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/import.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/textFormat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/hola.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/hola.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/discovery/discovery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/discovery/discovery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/discovery/discovery.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/discovery/discovery.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/more/more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/more/more.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/more/more.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/more/more.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Loading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Loading/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Iconfont/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Iconfont/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Iconfont/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Iconfont/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabbarShadow/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabbarShadow/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhiteSpace/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhiteSpace/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dva.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/hola.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/hola.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/discovery/discovery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/discovery/discovery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/more/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/more/more.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_iconfont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Iconfont/_iconfont.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/answer/answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/answer/answer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Coding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Coding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/dataCash.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/dataCash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/textFormat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/textFormat.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -105,7 +71,7 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="11" />
-          <entry key="js" value="3324" />
+          <entry key="js" value="3326" />
           <entry key="json" value="16" />
           <entry key="scss" value="2113" />
         </counts>
@@ -113,7 +79,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="3321" />
+          <entry key="JavaScript" value="3323" />
           <entry key="Less" value="3" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="SCSS" value="2113" />
@@ -163,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="89">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -382,18 +348,18 @@
       <workItem from="1535849467883" duration="2542000" />
       <workItem from="1535930870487" duration="14318000" />
       <workItem from="1535949855664" duration="10075000" />
-      <workItem from="1535975825268" duration="43000" />
+      <workItem from="1535975825268" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30446000" />
+    <option name="totallyTimeSpent" value="30604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -407,7 +373,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -764,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="89">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>

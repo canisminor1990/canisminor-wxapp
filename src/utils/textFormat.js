@@ -1,3 +1,3 @@
 export default texts => {
-  return texts.replace(/\|/g,'\n');
+  return texts.replace(/\|/g, '\n');
 };

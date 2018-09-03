@@ -11,15 +11,15 @@ import resume from './resume';
 import github from './github';
 
 export default [
-	sys,
-	feeds,
-	blog,
-	contact,
-	hola,
-	instantZine,
-	mail,
-	posts,
-	projects,
-	resume,
-	github
+  sys,
+  feeds,
+  blog,
+  contact,
+  hola,
+  instantZine,
+  mail,
+  posts,
+  projects,
+  resume,
+  github,
 ];

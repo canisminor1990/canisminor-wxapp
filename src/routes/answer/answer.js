@@ -23,7 +23,10 @@ export default class Answer extends Component {
   render() {
     return (
       <View className="answer_container">
-        <View className="question" onClick={this.navigateTo.bind(this, '/routes/question/question')}>
+        <View
+          className="question"
+          onClick={this.navigateTo.bind(this, '/routes/question/question')}
+        >
           <Text className="question-title">选择 Kindle 而不是纸质书的原因是什么？</Text>
         </View>
         <View className="answerer-wrp">

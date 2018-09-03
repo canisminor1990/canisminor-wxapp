@@ -39,7 +39,6 @@ export default class extends Component {
 						const cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
 						return (
 							<SwiperItem>
-
 								<Image src={cover} mode="widthFix"/>
 							</SwiperItem>
 						);

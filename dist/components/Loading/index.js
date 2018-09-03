@@ -45,7 +45,7 @@ var _TaroComponentClass = function (_BaseComponent) {
       this.__props = arguments[1] || this.props || {};
 
       var _props$height = this.__props.height,
-          height = _props$height === undefined ? "4rem" : _props$height;
+          height = _props$height === undefined ? '4rem' : _props$height;
 
       var anonymousState__temp = (0, _index.internal_inline_style)({ minHeight: height });
       Object.assign(this.__state, {

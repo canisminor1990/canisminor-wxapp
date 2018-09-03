@@ -22,7 +22,7 @@ const createApp = opt => {
 
   app.dispatch = dispatch;
   return app;
-}
+};
 
 export default {
   createApp,

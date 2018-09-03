@@ -8,7 +8,7 @@ export default class DataCash {
   }
 
   get() {
-    const local = Taro.getStorageSync(this.namespace)
+    const local = Taro.getStorageSync(this.namespace);
     if (local && _.size(local.data) > 0 && local.time && Date.now() - local.time < this.timeout) {
       return local.data;
     }
@@ -16,6 +16,6 @@ export default class DataCash {
   }
 
   set(data) {
-	  Taro.setStorageSync(this.namespace,{ time: Date.now(), data })
+    Taro.setStorageSync(this.namespace, { time: Date.now(), data });
   }
 }

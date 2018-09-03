@@ -4,24 +4,24 @@ import textFormat from '../../utils/textFormat';
 import './Intro.scss';
 
 export default class extends Component {
-	render() {
-		const {skills = [], title, desc} = this.props.data;
-		return (
-			<View className="intro">
-				<View  className="skills">
-					{skills.map(item => (
-						<View className="box">
-							<Image src={`https://canisminor.cc${item.icon}`} mode="widthFix"/>
-							<Text>{item.title}</Text>
-						</View>
-					))}
-				</View>
-				<View className="content">
-					<View className="title">{textFormat(title)}</View>
-					<View className="desc">{textFormat(desc[0])}</View>
-					<View className="desc">{textFormat(desc[1])}</View>
-				</View>
-			</View>
-		);
-	}
+  render() {
+    const { skills = [], title, desc } = this.props.data;
+    return (
+      <View className="intro">
+        <View className="skills">
+          {skills.map(item => (
+            <View className="box">
+              <Image src={`https://canisminor.cc${item.icon}`} mode="widthFix" />
+              <Text>{item.title}</Text>
+            </View>
+          ))}
+        </View>
+        <View className="content">
+          <View className="title">{textFormat(title)}</View>
+          <View className="desc">{textFormat(desc[0])}</View>
+          <View className="desc">{textFormat(desc[1])}</View>
+        </View>
+      </View>
+    );
+  }
 }
