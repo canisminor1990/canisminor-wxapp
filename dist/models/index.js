@@ -4,14 +4,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _sys = require("./sys.js");
-
-var _sys2 = _interopRequireDefault(_sys);
-
-var _feeds = require("./feeds.js");
-
-var _feeds2 = _interopRequireDefault(_feeds);
-
 var _blog = require("./blog.js");
 
 var _blog2 = _interopRequireDefault(_blog);
@@ -50,4 +42,4 @@ var _github2 = _interopRequireDefault(_github);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = [_sys2.default, _feeds2.default, _blog2.default, _contact2.default, _hola2.default, _instantZine2.default, _mail2.default, _posts2.default, _projects2.default, _resume2.default, _github2.default];
+exports.default = [_blog2.default, _contact2.default, _hola2.default, _instantZine2.default, _mail2.default, _posts2.default, _projects2.default, _resume2.default, _github2.default];

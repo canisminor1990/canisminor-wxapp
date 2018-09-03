@@ -4,13 +4,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
 var _index = require("../../npm/@tarojs/taro-weapp/index.js");
 
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+var _moment = require("../../npm/moment/moment.js");
+
+var _moment2 = _interopRequireDefault(_moment);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -32,7 +38,7 @@ var _TaroComponentClass = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = [], _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray0", "data"], _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(_TaroComponentClass, [{
@@ -46,9 +52,21 @@ var _TaroComponentClass = function (_BaseComponent) {
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
 
-      _objectDestructuringEmpty(this.__props.data);
+      var _props$data = this.__props.data,
+          data = _props$data === undefined ? [] : _props$data;
 
-      Object.assign(this.__state, {});
+      var loopArray0 = data.map(function (item, i) {
+        var cover = item.cover.s ? item.cover.s : item.cover.l + '!s';
+        var $loopState__temp2 = (0, _moment2.default)(item.date).format('MMM Do, YYYY');
+        return _extends({}, item, {
+          cover: cover,
+          $loopState__temp2: $loopState__temp2
+        });
+      });
+      Object.assign(this.__state, {
+        loopArray0: loopArray0,
+        data: data
+      });
       return this.__state;
     }
   }]);

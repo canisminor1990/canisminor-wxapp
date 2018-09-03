@@ -1,31 +1,5 @@
 
-.container {
-  height: 1500rpx; }
-
-.top-tab {
-  width: 750rpx;
-  height: 100rpx;
-  background: #298de5;
-  color: #8ccefd;
-  font-size: 28rpx;
-  line-height: 100rpx;
-  -webkit-box-shadow: 0 2rpx 2rpx #bebebe;
-          box-shadow: 0 2rpx 2rpx #bebebe;
-  margin: 0 0 8rpx 0;
-  z-index: 9999; }
-  .top-tab .active {
-    color: #ffffff;
-    border-bottom: solid 2rpx #ffffff; }
-
-.activity {
-  width: 750rpx;
-  height: 375rpx; }
-
-.activity image,
-.activity img {
-  width: 750rpx;
-  height: 400rpx; }
-
-.placehold {
-  font-size: 28rpx;
-  padding: 80rpx 0; }
+.projects .project {
+  margin-bottom: 1rem; }
+  .projects .project:last-child {
+    margin-bottom: 0; }

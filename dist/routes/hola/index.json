@@ -9,6 +9,5 @@
     "article": "./Article",
     "tabbar-shadow": "../../components/TabbarShadow/index"
   },
-  "navigationBarTitleText": "CanisMinor",
-  "navigationBarBackgroundColor": "#ffffff"
+  "navigationBarTitleText": "CanisMinor"
 }

@@ -1,7 +1,8 @@
 <block>
     <view class="intro">
         <view class="skills">
-            <view class="box" wx:for="{{loopArray0}}" wx:for-item="item">
+            <view class="box" wx:key="{{i}}" wx:for="{{loopArray0}}" wx:for-item="item"
+            wx:for-index="i">
                 <image src="{{item.$loopState__temp2}}" mode="widthFix" />
                 <text>{{item.title}}</text>
             </view>

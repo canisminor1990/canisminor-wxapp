@@ -17,7 +17,6 @@ export default class extends Component {
 
 	config = {
 		navigationBarTitleText      : 'CanisMinor',
-		navigationBarBackgroundColor: '#ffffff'
 	};
 
 	componentDidMount = () => {
@@ -25,7 +24,7 @@ export default class extends Component {
 	};
 
 	render() {
-		const {intro = {}, design = [], coding = [], article = [], loading} = this.props;
+		const {intro, design = [], coding = [], article = [], loading} = this.props;
 		return (
 			<View>
 				{loading ? <Loading/> : <Swiper
@@ -38,7 +37,7 @@ export default class extends Component {
 						if (i > 4) return;
 						const cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
 						return (
-							<SwiperItem>
+							<SwiperItem key={i}>
 								<Image src={cover} mode="widthFix"/>
 							</SwiperItem>
 						);
@@ -46,7 +45,7 @@ export default class extends Component {
 				</Swiper>
 				}
 				<Card title="Intro" btn="Checkout my resume" padding>
-					{loading ? <Loading/> : <Intro data={intro}/>}
+					{loading || !intro.skills ? <Loading/> : <Intro data={intro}/>}
 				</Card>
 				<WhiteSpace/>
 				<Card title="Design" btn="View my projects" padding>

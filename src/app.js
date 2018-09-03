@@ -24,8 +24,7 @@ class App extends Component {
       'routes/blog/index',
       'routes/projects/index',
       'routes/me/index',
-      'routes/answer/answer',
-      'routes/question/question',
+      'routes/post/index',
     ],
     window: {
       navigationBarTitleText: 'CanisMinor',

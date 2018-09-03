@@ -1,44 +1,29 @@
 <block>
-    <view>
-        <text>121222</text>
-        <view class="search flex-wrp">
-            <view class="search-left flex-item">
-                <view class="flex-wrp">
-                    <view class="flex1">
-                        <image src="{{searchPng}}" />
-                    </view>
-                    <view class="flex6">
-                        <input type="text" placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder"
-                        />
-                    </view>
+    <view class="blog">
+        <block>
+            <block wx:if="{{toc.length > 0}}">
+                <view class="post" wx:key="{{i}}" bindtap="navigateTo" wx:for="{{loopArray1}}"
+                wx:for-item="item" wx:for-index="i" data-e-navigateTo-so="this" data-e-navigateTo-a-a="{{item.filename}}">
+                    <card padding="{{true}}" __triggerObserer="{{ _triggerObserer }}">
+                        <view class="row">
+                            <view class="title">{{item.title}}</view>
+                            <view class="date">{{item.$loopState__temp2}}</view>
+                        </view>
+                        <view class="desc">{{item.desc}}</view>
+                        <image src="{{item.cover}}" mode="widthFix" />
+                    </card>
+                    <white-space __triggerObserer="{{ _triggerObserer }}"></white-space>
                 </view>
-            </view>
-            <view class="search-right flex-item">
-                <image bindtap="updateList" src="{{lightingPng}}" />
-            </view>
-        </view>
-        <view class="container">
-            <block>
-                <block wx:if="{{list.length}}">
-                    <feed wx:key="{{item}}" __triggerObserer="{{ _triggerObserer }}" feed_source_img="{{item.feed_source_img}}"
-                    feed_source_name="{{item.feed_source_name}}" feed_source_txt="{{item.feed_source_txt}}"
-                    question="{{item.question}}" answer_ctnt="{{item.answer_ctnt}}" good_num="{{item.good_num}}"
-                    comment_num="{{item.comment_num}}" wx:for="{{list}}" wx:for-item="item"></feed>
-                </block>
-                <block wx:else>
-                    <block>
-                        <block wx:if="{{isLoad}}">
-                            <view>加载中...</view>
-                        </block>
-                        <block wx:else>
-                            <view>没有数据</view>
-                        </block>
-                    </block>
+            </block>
+            <block wx:else>
+                <block wx:if="{{loading}}">
+                    <loading __triggerObserer="{{ _triggerObserer }}"></loading>
                 </block>
             </block>
-            <block wx:if="{{isLoadMore}}">
-                <view>加载中...</view>
-            </block>
-        </view>
+        </block>
+        <block wx:if="{{loading}}">
+            <loading __triggerObserer="{{ _triggerObserer }}"></loading>
+        </block>
+        <tabbar-shadow __triggerObserer="{{ _triggerObserer }}"></tabbar-shadow>
     </view>
 </block>

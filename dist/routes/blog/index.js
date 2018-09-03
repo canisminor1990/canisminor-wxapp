@@ -22,6 +22,14 @@ var _action = require("../../utils/action.js");
 
 var _action2 = _interopRequireDefault(_action);
 
+var _moment = require("../../npm/moment/moment.js");
+
+var _moment2 = _interopRequireDefault(_moment);
+
+var _index4 = require("../../npm/queryString/index.js");
+
+var _index5 = _interopRequireDefault(_index4);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30,15 +38,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var searchPng = "/asset/images/search.png";
-var lightingPng = "/asset/images/lighting.png";
-
 var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
-  var feeds = _ref.feeds,
+  var blog = _ref.blog,
       loading = _ref.loading;
-  return _extends({}, feeds, {
-    isLoad: loading.effects["feeds/load"],
-    isLoadMore: loading.effects["feeds/loadMore"]
+  return _extends({}, blog, {
+    loading: loading.effects['blog/get']
   });
 }), _dec(_class = function (_BaseComponent) {
   _inherits(_TaroComponentClass, _BaseComponent);
@@ -54,15 +58,12 @@ var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref2 = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref2, [this].concat(args))), _this), _this.$usedState = ["searchPng", "lightingPng", "list", "isLoad", "isLoadMore"], _this.componentDidMount = function () {
-      _this.props.dispatch((0, _action2.default)("feeds/load"));
-      _this.props.dispatch((0, _action2.default)("hola/get"));
-    }, _this.onPullDownRefresh = function () {
-      _this.props.dispatch((0, _action2.default)("feeds/load"));
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref2 = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref2, [this].concat(args))), _this), _this.$usedState = ["loopArray0", "loopArray1", "toc", "loading"], _this.componentDidMount = function () {
+      _this.props.dispatch((0, _action2.default)('blog/get', 1));
     }, _this.onReachBottom = function () {
-      _this.props.dispatch((0, _action2.default)("feeds/loadMore"));
-    }, _this.updateList = function () {
-      _this.props.dispatch((0, _action2.default)("feeds/search", true));
+      if (_this.props.page < _this.props.pages) {
+        _this.props.dispatch((0, _action2.default)('blog/get', _this.props.page + 1));
+      }
     }, _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
@@ -72,23 +73,53 @@ var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
       _get(_TaroComponentClass.prototype.__proto__ || Object.getPrototypeOf(_TaroComponentClass.prototype), "_constructor", this).call(this, props);
     }
   }, {
+    key: "navigateTo",
+    value: function navigateTo(filename) {
+      var url = '/routes/post/index?' + _index5.default.stringify({
+        id: filename
+      });
+      _index2.default.navigateTo({ url: url });
+    }
+  }, {
     key: "_createData",
     value: function _createData() {
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
 
       var _props = this.__props,
-          _props$list = _props.list,
-          list = _props$list === undefined ? [] : _props$list,
-          isLoad = _props.isLoad,
-          isLoadMore = _props.isLoadMore;
+          _props$toc = _props.toc,
+          toc = _props$toc === undefined ? [] : _props$toc,
+          loading = _props.loading;
 
+      var loopArray0 = toc.map(function (item, i) {
+        var cover = void 0;
+        if (item.cover.l) {
+          cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
+        } else {
+          cover = item.cover.s;
+        }
+        var $loopState__temp2 = toc.length > 0 ? (0, _moment2.default)(item.date).format('MMM Do, YYYY') : null;
+        return _extends({}, item, {
+          cover: cover,
+          $loopState__temp2: $loopState__temp2
+        });
+      });
+      var loopArray1 = toc.map(function (item, i) {
+        var cover = void 0;if (item.cover.l) {
+          cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
+        } else {
+          cover = item.cover.s;
+        }var $loopState__temp2 = toc.length > 0 ? (0, _moment2.default)(item.date).format('MMM Do, YYYY') : null;
+        return _extends({}, item, {
+          cover: cover,
+          $loopState__temp2: $loopState__temp2
+        });
+      });
       Object.assign(this.__state, {
-        searchPng: searchPng,
-        lightingPng: lightingPng,
-        list: list,
-        isLoad: isLoad,
-        isLoadMore: isLoadMore
+        loopArray0: loopArray0,
+        loopArray1: loopArray1,
+        toc: toc,
+        loading: loading
       });
       return this.__state;
     }
@@ -99,11 +130,12 @@ var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
 
 _TaroComponentClass.properties = {
   "dispatch": null,
-  "list": null,
-  "isLoad": null,
-  "isLoadMore": null
+  "page": null,
+  "pages": null,
+  "toc": null,
+  "loading": null
 };
-_TaroComponentClass.$$events = ["updateList"];
+_TaroComponentClass.$$events = ["navigateTo"];
 exports.default = _TaroComponentClass;
 
 Component(require('../../npm/@tarojs/taro-weapp/index.js').default.createComponent(_TaroComponentClass, true));

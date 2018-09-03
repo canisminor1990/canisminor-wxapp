@@ -7,7 +7,8 @@
             <block wx:else>
                 <swiper class="banner" indicator-color="#999" indicator-active-color="#333"
                 circular="{{true}}" autoplay="{{true}}">
-                    <swiper-item wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="i">
+                    <swiper-item wx:key="{{i}}" wx:for="{{loopArray0}}" wx:for-item="item"
+                    wx:for-index="i">
                         <image src="{{item.cover}}" mode="widthFix" />
                     </swiper-item>
                 </swiper>
@@ -16,7 +17,7 @@
         <card title="Intro" __triggerObserer="{{ _triggerObserer }}" btn="Checkout my resume"
         padding="{{true}}">
             <block>
-                <block wx:if="{{loading}}">
+                <block wx:if="{{loading || !intro.skills}}">
                     <loading __triggerObserer="{{ _triggerObserer }}"></loading>
                 </block>
                 <block wx:else>

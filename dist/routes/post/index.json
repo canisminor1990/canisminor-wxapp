@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "loading": "../../components/Loading/index",
+    "card": "../../components/Card/index"
+  },
+  "navigationBarTitleText": ""
+}

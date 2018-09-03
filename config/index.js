@@ -54,7 +54,9 @@ const config = {
   },
   copy: {
      patterns: [
-	     { from: 'public', to: 'dist/asset' }
+	     { from: 'public', to: 'dist/asset' },
+	     { from: 'src/components/wxParse/wxParse.wxss', to: 'dist/components/wxParse/wxParse.wxss'},
+	     { from: 'src/components/wxParse/wxParse.wxml', to: 'dist/components/wxParse/wxParse.wxml'}
     ],
     options: {
     }

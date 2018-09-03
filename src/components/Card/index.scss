@@ -10,10 +10,11 @@
     padding: 0 1rem;
     line-height: 3rem;
     background: #fff;
-    border-bottom: 1px solid #eee;
   }
-  .body {
-    border-bottom: 1px solid #eee;
+  .split {
+    height: 1px;
+    background: #eee;
+    width: 100%;
   }
   .footer {
     text-align: center;

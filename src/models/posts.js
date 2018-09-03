@@ -1,22 +1,20 @@
 import request from '../utils/request';
+import action from '../utils/action';
 
 export default {
   namespace: 'posts',
   state: {},
   reducers: {
-    save(state, action) {
-      state = action.payload.data;
-      return state;
+    save(state, {payload}) {
+	    return { ...state, ...payload };
     },
   },
   effects: {
-    *get(action, { call, put }) {
-      const id = action.payload;
-      const data = yield call(() => request(`https://canisminor.cc/v2/blog/posts/${id}`));
-      yield put({
-        type: 'save',
-        payload: data,
-      });
+    *get({payload}, { call, put }) {
+	    const data = yield call(request, {
+		    url: `https://canisminor.cc/v2/blog/posts/${payload}`,
+	    });
+	    yield put(action('save', data));
     },
   },
 };

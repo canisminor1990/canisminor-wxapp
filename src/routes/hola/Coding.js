@@ -5,7 +5,20 @@ import './Coding.scss';
 
 export default class extends Component {
   render() {
-    const {} = this.props.data;
-    return <View className="coding" />;
+    const {data = []} = this.props;
+    return (
+	    <View className="coding" >
+        {data.map((item,i) => (
+          <View className="box" key={i}>
+            <Image src={`https://canisminor.cc${item.cover}`} mode="widthFix"/>
+            <View className="content">
+	            <View className="title">{item.title}</View>
+	            <View className="desc">{item.desc}</View>
+	            <View className="type">{item.type}</View>
+            </View>
+          </View>
+        ))}
+      </View>
+    );
   }
 }

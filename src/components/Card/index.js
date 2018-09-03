@@ -11,9 +11,11 @@ export default class extends Component {
     return (
       <View className="card">
         {title ? <View className="header">{title}</View> : null}
+	      {title ? <View className="split" /> : null}
         <View className="body" style={padding ? s : null}>
           {this.props.children}
         </View>
+	      {btn ? <View className="split" /> : null}
         {btn ? <View className="footer">{btn}</View> : null}
       </View>
     );

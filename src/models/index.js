@@ -1,5 +1,3 @@
-import sys from './sys';
-import feeds from './feeds';
 import blog from './blog';
 import contact from './contact';
 import hola from './hola';
@@ -11,8 +9,6 @@ import resume from './resume';
 import github from './github';
 
 export default [
-  sys,
-  feeds,
   blog,
   contact,
   hola,

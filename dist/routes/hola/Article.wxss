@@ -1,1 +1,43 @@
 
+.article .box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem; }
+  .article .box:last-child {
+    margin-bottom: 0; }
+
+.article Image {
+  width: 3rem;
+  min-width: 3rem;
+  margin-right: 1rem; }
+
+.article .content {
+  height: 4rem; }
+
+.article .title {
+  font-weight: 500;
+  margin-bottom: .4rem; }
+
+.article .desc {
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3; }
+
+.article .type {
+  font-size: .6rem;
+  color: #9d8352;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .article .type View {
+    color: #999;
+    margin-left: .5rem; }

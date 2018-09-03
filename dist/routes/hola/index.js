@@ -67,8 +67,7 @@ var _TaroComponentClass = (_dec = (0, _index3.connect)(function (_ref) {
       this.__props = arguments[1] || this.props || {};
 
       var _props = this.__props,
-          _props$intro = _props.intro,
-          intro = _props$intro === undefined ? {} : _props$intro,
+          intro = _props.intro,
           _props$design = _props.design,
           design = _props$design === undefined ? [] : _props$design,
           _props$coding = _props.coding,

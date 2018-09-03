@@ -1,0 +1,35 @@
+.coding {
+  .box {
+    display: flex;
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  image {
+    width: 3rem;
+    min-width: 3rem;
+    margin-right: 1rem;
+  }
+  .content {
+    height: 4rem;
+  }
+  .title {
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  .desc {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.3;
+  }
+  .type {
+    font-size: 0.6rem;
+    color: #999;
+  }
+}

@@ -1,6 +1,10 @@
 {
   "usingComponents": {
-    "feed": "../../components/feed/feed"
+    "card": "../../components/Card/index",
+    "loading": "../../components/Loading/index",
+    "project": "../../components/Project/index",
+    "white-space": "../../components/WhiteSpace/index",
+    "tabbar-shadow": "../../components/TabbarShadow/index"
   },
-  "navigationBarTitleText": "发现"
+  "navigationBarTitleText": "Projects"
 }

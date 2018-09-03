@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "feed": "../../components/feed/feed"
+    "card": "../../components/Card/index",
+    "white-space": "../../components/WhiteSpace/index",
+    "loading": "../../components/Loading/index",
+    "tabbar-shadow": "../../components/TabbarShadow/index"
   },
-  "navigationBarTitleText": "CanisMinor"
+  "navigationBarTitleText": "Blog"
 }

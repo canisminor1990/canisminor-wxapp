@@ -3,9 +3,15 @@
         <block wx:if="{{title}}">
             <view class="header">{{title}}</view>
         </block>
+        <block wx:if="{{title}}">
+            <view class="split"></view>
+        </block>
         <view class="body" style="{{anonymousState__temp}}">
             <slot></slot>
         </view>
+        <block wx:if="{{btn}}">
+            <view class="split"></view>
+        </block>
         <block wx:if="{{btn}}">
             <view class="footer">{{btn}}</view>
         </block>

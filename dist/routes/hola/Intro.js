@@ -61,7 +61,7 @@ var _TaroComponentClass = function (_BaseComponent) {
       var anonymousState__temp3 = (0, _textFormat2.default)(title);
       var anonymousState__temp4 = (0, _textFormat2.default)(desc[0]);
       var anonymousState__temp5 = (0, _textFormat2.default)(desc[1]);
-      var loopArray0 = skills.map(function (item) {
+      var loopArray0 = skills.map(function (item, i) {
         var $loopState__temp2 = "https://canisminor.cc" + item.icon;
         return _extends({}, item, {
           $loopState__temp2: $loopState__temp2

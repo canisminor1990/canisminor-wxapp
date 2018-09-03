@@ -1,27 +1,8 @@
 .design {
-  .cover {
-    width: 100%;
-    height: 6rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: ce nter;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
+  .project {
     margin-bottom: 1rem;
     &:last-child {
       margin-bottom: 0;
     }
-  }
-  .content {
-    padding: 1rem 0;
-    color: #fff;
-  }
-  .title {
-    font-weight: 500;
-    margin-bottom: 0.3rem;
-  }
-  .type {
-    font-size: 0.6rem;
   }
 }

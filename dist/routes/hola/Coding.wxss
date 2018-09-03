@@ -1,1 +1,36 @@
 
+.coding .box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem; }
+  .coding .box:last-child {
+    margin-bottom: 0; }
+
+.coding Image {
+  width: 3rem;
+  min-width: 3rem;
+  margin-right: 1rem; }
+
+.coding .content {
+  height: 4rem; }
+
+.coding .title {
+  font-weight: 500;
+  margin-bottom: .4rem; }
+
+.coding .desc {
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3; }
+
+.coding .type {
+  font-size: .6rem;
+  color: #999; }
