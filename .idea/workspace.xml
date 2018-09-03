@@ -2,253 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Project/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Project/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/00.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/emojis/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/html2json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/htmlparser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/showdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/wxDiscode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/wxParse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/wxParse.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wxParse/wxParse.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/post/_markdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/post/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/post/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/1444983318907-_DSC1826.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/24213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/24280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/comment2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/good-bad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/heart2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/icon1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/icon8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/icon9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/invite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/lighting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/more.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/star2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/images/write.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Card/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Card/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Card/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Card/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Iconfont/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/feed/feed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/feed/feed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/feed/feed.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/feed/feed.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/feeds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/sys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/answer/answer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/answer/answer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/answer/answer.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/answer/answer.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/blog/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/blog/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/blog/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/blog/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/blog/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/blog/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/blog/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Article.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Article.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Article.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Article.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Coding.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Coding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Coding.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Coding.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Coding.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Coding.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Design.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Design.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Design.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Design.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Design.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Design.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Design.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/Intro.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/Intro.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/hola/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/hola/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/projects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/projects/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/projects/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/projects/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/projects/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/projects/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/projects/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/question/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/question/question.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/question/question.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/question/question.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/_font.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/import.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/feeds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/sys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/answer/answer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/answer/answer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Coding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Coding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Coding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Coding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/question/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/question/question.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -276,6 +31,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="1" />
           <entry key="eslintrc" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="153" />
           <entry key="json" value="5" />
@@ -289,7 +45,7 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="153" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="59" />
           <entry key="TypeScript" value="2" />
         </counts>
@@ -298,6 +54,7 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="11" />
+          <entry key="gitignore" value="6" />
           <entry key="js" value="4776" />
           <entry key="json" value="22" />
           <entry key="scss" value="2795" />
@@ -308,7 +65,7 @@
           <entry key="JSON" value="22" />
           <entry key="JavaScript" value="4773" />
           <entry key="Less" value="3" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="SCSS" value="2795" />
         </counts>
       </usages-collector>
@@ -345,6 +102,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/post/index.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -354,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/post/_markdown.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="234">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -406,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/dataCash.js" />
         <option value="$PROJECT_DIR$/src/models/hola.js" />
         <option value="$PROJECT_DIR$/src/components/Icon/index.js" />
         <option value="$PROJECT_DIR$/src/components/Iconfont/icon.js" />
@@ -457,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/routes/post/index.scss" />
         <option value="$PROJECT_DIR$/src/routes/post/index.js" />
         <option value="$PROJECT_DIR$/src/routes/post/_markdown.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -503,24 +269,6 @@
             <path>
               <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -584,12 +332,12 @@
       <workItem from="1535849467883" duration="2542000" />
       <workItem from="1535930870487" duration="14318000" />
       <workItem from="1535949855664" duration="10075000" />
-      <workItem from="1535975825268" duration="9390000" />
+      <workItem from="1535975825268" duration="9566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39793000" />
+    <option name="totallyTimeSpent" value="39969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="977" extended-state="0" />
@@ -623,16 +371,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Loading/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="3" lean-forward="true" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Loading/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1010,6 +748,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/post/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/post/_markdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/post/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1021,17 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/post/index.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/post/_markdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="384">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
