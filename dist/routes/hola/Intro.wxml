@@ -1,0 +1,15 @@
+<block>
+    <view class="intro">
+        <view class="skills">
+            <view class="box" wx:for="{{loopArray0}}" wx:for-item="item">
+                <image src="{{item.$loopState__temp2}}" mode="widthFix" />
+                <text>{{item.title}}</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="title">{{anonymousState__temp3}}</view>
+            <view class="desc">{{anonymousState__temp4}}</view>
+            <view class="desc">{{anonymousState__temp5}}</view>
+        </view>
+    </view>
+</block>

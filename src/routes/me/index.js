@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Text, Image } from '@tarojs/components';
-import './more.scss';
+import './index.scss';
 
 import eyePng from '../../asset/images/eye.png';
 import starPng from '../../asset/images/star.png';
@@ -10,7 +10,7 @@ import bookPng from '../../asset/images/book.png';
 import livePng from '../../asset/images/live.png';
 import zhiPng from '../../asset/images/zhi.png';
 
-export default class More extends Component {
+export default class Index extends Component {
   config = {
     navigationBarTitleText: '我的',
   };

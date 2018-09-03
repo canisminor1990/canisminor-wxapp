@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('https://canisminor.cc/fonts/airbnbcereal-book.woff2')
+      format('woff2'),
+    url('https://canisminor.cc/fonts/airbnbcereal-book.woff') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('https://canisminor.cc/fonts/airbnbcereal-medium.woff2')
+      format('woff2'),
+    url('https://canisminor.cc/fonts/airbnbcereal-medium.woff') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('https://canisminor.cc/fonts/airbnbcereal-bold.woff2')
+      format('woff2'),
+    url('https://canisminor.cc/fonts/airbnbcereal-bold.woff') format('woff');
+  font-weight: 600;
+}
+
+page {
+  font-family: /* EN */ 'Airbnb Cereal', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial,
+    /* CN */ 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI',
+    'Microsoft Yahei', 'Source Han Sans CN', sans-serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}

@@ -1,0 +1,30 @@
+
+.design .cover {
+  width: 100%;
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: ce nter;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+  .design .cover:last-child {
+    margin-bottom: 0; }
+
+.design .content {
+  padding: 1rem 0;
+  color: #fff; }
+
+.design .title {
+  font-weight: 500;
+  margin-bottom: .3rem; }
+
+.design .type {
+  font-size: .6rem; }

@@ -1,0 +1,11 @@
+<block>
+    <view class="design">
+        <view class="cover" style="{{item.$loopState__temp2}}" wx:for="{{loopArray0}}"
+        wx:for-item="item">
+            <view class="content">
+                <view class="title">{{item.title}}</view>
+                <view class="type">{{item.$loopState__temp4}}</view>
+            </view>
+        </view>
+    </view>
+</block>

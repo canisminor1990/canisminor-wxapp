@@ -10,69 +10,58 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _index = require("../../npm/@tarojs/taro-weapp/index.js");
 
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var eyePng = "/asset/images/eye.png";
-var starPng = "/asset/images/star.png";
-var draftPng = "/asset/images/draft.png";
-var recentPng = "/asset/images/recent.png";
-var bookPng = "/asset/images/book.png";
-var livePng = "/asset/images/live.png";
-var zhiPng = "/asset/images/zhi.png";
+var _TaroComponentClass = function (_BaseComponent) {
+  _inherits(_TaroComponentClass, _BaseComponent);
 
-var More = function (_BaseComponent) {
-  _inherits(More, _BaseComponent);
-
-  function More() {
+  function _TaroComponentClass() {
     var _ref;
 
     var _temp, _this, _ret;
 
-    _classCallCheck(this, More);
+    _classCallCheck(this, _TaroComponentClass);
 
     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = More.__proto__ || Object.getPrototypeOf(More)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["eyePng", "starPng", "draftPng", "recentPng", "bookPng", "livePng", "zhiPng"], _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _TaroComponentClass.__proto__ || Object.getPrototypeOf(_TaroComponentClass)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp"], _this.$$refs = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
-  _createClass(More, [{
+  _createClass(_TaroComponentClass, [{
     key: "_constructor",
     value: function _constructor(props) {
-      _get(More.prototype.__proto__ || Object.getPrototypeOf(More.prototype), "_constructor", this).call(this, props);
+      _get(_TaroComponentClass.prototype.__proto__ || Object.getPrototypeOf(_TaroComponentClass.prototype), "_constructor", this).call(this, props);
     }
   }, {
     key: "_createData",
     value: function _createData() {
       this.__state = arguments[0] || this.state || {};
       this.__props = arguments[1] || this.props || {};
+
+      var _props$height = this.__props.height,
+          height = _props$height === undefined ? "4rem" : _props$height;
+
+      var anonymousState__temp = (0, _index.internal_inline_style)({ minHeight: height });
       Object.assign(this.__state, {
-        eyePng: eyePng,
-        starPng: starPng,
-        draftPng: draftPng,
-        recentPng: recentPng,
-        bookPng: bookPng,
-        livePng: livePng,
-        zhiPng: zhiPng
+        anonymousState__temp: anonymousState__temp
       });
       return this.__state;
     }
   }]);
 
-  return More;
+  return _TaroComponentClass;
 }(_index.Component);
 
-More.properties = {};
-More.$$events = [];
-exports.default = More;
+_TaroComponentClass.properties = {
+  "height": null
+};
+_TaroComponentClass.$$events = [];
+exports.default = _TaroComponentClass;
 
-Component(require('../../npm/@tarojs/taro-weapp/index.js').default.createComponent(More, true));
+Component(require('../../npm/@tarojs/taro-weapp/index.js').default.createComponent(_TaroComponentClass));

@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Text, ScrollView, Image, Swiper, SwiperItem } from '@tarojs/components';
-import './discovery.scss';
+import './index.scss';
 import Feed from '../../components/feed/feed.js';
 
 import img1 from '../../asset/images/24213.jpg';
@@ -10,7 +10,7 @@ import img4 from '../../asset/images/icon1.jpeg';
 import img5 from '../../asset/images/icon8.jpg';
 import img6 from '../../asset/images/icon9.jpeg';
 
-export default class Discovery extends Component {
+export default class Index extends Component {
   config = {
     navigationBarTitleText: '发现',
   };

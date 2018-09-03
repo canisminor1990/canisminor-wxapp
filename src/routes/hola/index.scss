@@ -1,0 +1,30 @@
+@import '../../styles/import';
+$height: 10rem;
+
+.banner {
+  height: 50vw;
+  position: relative;
+  image {
+    width: 100vw;
+  }
+  .info {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(#000, 0.8);
+    color: #fff;
+    padding: 0.6rem 0.8rem;
+    border-left: 4px solid $gold-dark;
+  }
+  .title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  .desc {
+    font-size: 0.6rem;
+  }
+}

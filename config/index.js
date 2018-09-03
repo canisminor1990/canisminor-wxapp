@@ -54,6 +54,7 @@ const config = {
   },
   copy: {
      patterns: [
+	     { from: 'public', to: 'dist/asset' }
     ],
     options: {
     }
@@ -61,6 +62,11 @@ const config = {
   weapp: {
     module: {
       postcss: {
+        pxtorem: {
+	        rootValue: 16,
+	        propList: ['*'],
+	        minPixelValue: 1,
+        },
         autoprefixer: {
           enable: true
         },

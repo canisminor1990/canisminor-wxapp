@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "loading": "../../components/Loading/index",
+    "card": "../../components/Card/index",
+    "intro": "./Intro",
+    "white-space": "../../components/WhiteSpace/index",
+    "design": "./Design",
+    "coding": "./Coding",
+    "article": "./Article",
+    "tabbar-shadow": "../../components/TabbarShadow/index"
+  },
+  "navigationBarTitleText": "CanisMinor",
+  "navigationBarBackgroundColor": "#ffffff"
+}

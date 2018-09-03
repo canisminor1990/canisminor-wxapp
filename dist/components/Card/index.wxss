@@ -1,0 +1,21 @@
+
+.card {
+  background: #fff;
+  width: 100%;
+  position: relative;
+  background: #fff; }
+  .card .header {
+    font-weight: 600;
+    height: 3rem;
+    padding: 0 1rem;
+    line-height: 3rem;
+    background: #fff;
+    border-bottom: 1rpx solid #eee; }
+  .card .body {
+    border-bottom: 1rpx solid #eee; }
+  .card .footer {
+    text-align: center;
+    line-height: 3rem;
+    height: 3rem;
+    font-size: .9rem;
+    color: #9d8352; }

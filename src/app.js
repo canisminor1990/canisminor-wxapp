@@ -1,7 +1,7 @@
 import '@tarojs/async-await';
 import action from './utils/action';
 import Taro, { Component } from '@tarojs/taro';
-import Index from './routes/index';
+import Index from './routes/blog';
 import dva from './dva';
 import models from './models';
 import { Provider } from '@tarojs/redux';
@@ -20,9 +20,10 @@ const store = dvaApp.getStore();
 class App extends Component {
   config = {
     pages: [
-      'routes/index/index',
-      'routes/discovery/discovery',
-      'routes/more/more',
+	    'routes/hola/index',
+      'routes/blog/index',
+      'routes/projects/index',
+      'routes/me/index',
       'routes/answer/answer',
       'routes/question/question',
     ],
@@ -31,7 +32,8 @@ class App extends Component {
 	    navigationBarTextStyle      : 'black',
 	    backgroundTextStyle         : 'light',
 	    navigationBarBackgroundColor: '#fff',
-	    enablePullDownRefresh       : true
+	    backgroundColor: '#f8f8f8',
+	    enablePullDownRefresh       : false
     },
     tabBar: {
 	    color          : '#c1c1c1',
@@ -40,25 +42,25 @@ class App extends Component {
 	    backgroundColor: '#fff',
 	    list           :[
 		    {
-			    pagePath        : 'routes/index/index',
+			    pagePath        : 'routes/hola/index',
 			    text            : 'Hola',
 			    iconPath        : './asset/tabbar/hola.png',
 			    selectedIconPath: './asset/tabbar/hola-active.png'
 		    },		{
-			    pagePath        : 'routes/index/index',
+			    pagePath        : 'routes/blog/index',
 			    text            : 'Blog',
 			    iconPath        : './asset/tabbar/blog.png',
 			    selectedIconPath: './asset/tabbar/blog-active.png'
 		    },
 		    {
-			    pagePath        : 'routes/discovery/discovery',
+			    pagePath        : 'routes/projects/index',
 			    text            : 'Projects',
 			    iconPath        : './asset/tabbar/projects.png',
 			    selectedIconPath: './asset/tabbar/projects-active.png'
 		    },
 		    {
-			    pagePath        : 'routes/more/more',
-			    text            : 'Profile',
+			    pagePath        : 'routes/me/index',
+			    text            : 'Me',
 			    iconPath        : './asset/tabbar/resume.png',
 			    selectedIconPath: './asset/tabbar/resume-active.png'
 		    }

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "at-activity-indicator": "../../../npm/taro-ui/dist/weapp/components/activity-indicator/index"
+  }
+}

@@ -1,0 +1,12 @@
+
+.tabbar-shadow {
+  width: 100%;
+  position: fixed;
+  height: 4rpx;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.05)), to(transparent));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.05), transparent);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.05), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.05), transparent);
+  bottom: 0;
+  z-index: 2;
+  left: 0; }
