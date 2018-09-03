@@ -1,5 +1,5 @@
 
-.blog Image {
+.blog image {
   width: 100%; }
 
 .blog .row {
@@ -7,10 +7,10 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: .5rem 0 .8rem; }
+  margin: 0.5rem 0 0.8rem; }
 
 .blog .date {
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #999; }
 
 .blog .title {
@@ -19,5 +19,5 @@
   line-height: 1; }
 
 .blog .desc {
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-bottom: 1.5rem; }
