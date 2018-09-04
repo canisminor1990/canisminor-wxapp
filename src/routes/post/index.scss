@@ -30,9 +30,29 @@
     width: 100%;
   }
   .date {
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: right;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #999;
+  }
+  .footer {
+    border-top: 1px solid #eee;
+    padding: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: grayscale(100%);
+  }
+  .avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .name {
+    text-align: center;
+    font-size: 0.7rem;
   }
 }

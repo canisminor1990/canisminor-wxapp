@@ -1,6 +1,6 @@
 import Taro, { Component, RichText } from '@tarojs/taro';
 import { View, Image } from '@tarojs/components';
-import { Loading, Card,Markdown } from '../../components';
+import { Loading, Card, Markdown } from '../../components';
 import './index.scss';
 import { connect } from '@tarojs/redux';
 import action from '../../utils/action';
@@ -27,7 +27,7 @@ export default class extends Component {
 	};
 
 	config = {
-		navigationBarTitleText: '',
+		navigationBarTitleText: ''
 	};
 
 	componentDidMount = () => {
@@ -52,8 +52,11 @@ export default class extends Component {
 								<Markdown md={body}/>
 							</View>
 							<View className="date">{moment(date).format('MMM Do, YYYY')}</View>
+							<View className="footer">
+								<Image className="avatar" src="https://canisminor.cc/img/canisminor.jpg" mode="widthFix"/>
+								<View className="name">CanisMinor</View>
+							</View>
 						</Card>
-
 					</View>
 				)}
 			</View>
