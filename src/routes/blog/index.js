@@ -57,7 +57,7 @@ export default class extends Component {
 										<View className="date">{moment(item.date).format('MMM Do, YYYY')}</View>
 									</View>
 									<View className="desc">{item.desc}</View>
-									<Image src={cover} mode="widthFix"/>
+									<Image lazyLoad src={cover} mode="widthFix"/>
 								</Card>
 								<WhiteSpace/>
 							</View>

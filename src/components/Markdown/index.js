@@ -2,7 +2,8 @@ import Taro, { Component } from '@tarojs/taro';
 import Remarkable from 'remarkable';
 import { View, Text, Image } from '@tarojs/components';
 import './index.scss';
-
+import _ from 'lodash'
+import ImageStyle from '../../utils/imageStyle'
 const parser = new Remarkable({
 	                              html: true
                               });
@@ -17,8 +18,8 @@ export default class  extends Component {
 	}
 
 	componentDidMount() {
-		const {md} = this.props
-		const markdown = md.replace(/\: \*\*/g,":**")
+		const {md}       = this.props;
+		const markdown   = md.replace(/\: \*\*/g, ':**');
 		const renderList = this.parse(markdown);
 		this.setState({
 			              renderList
@@ -31,7 +32,6 @@ export default class  extends Component {
 		if (!options.name) options.name = 'md';
 
 		var tokens = parser.parse(md, {});
-
 		// markdwon渲染列表
 		var renderList  = [];
 		// 图片高度数组
@@ -92,6 +92,7 @@ export default class  extends Component {
 					} else if (token.type === 'image') {
 						ret.push({
 							         type: token.type,
+							         alt : token.alt,
 							         src : token.src
 						         });
 					}
@@ -101,7 +102,7 @@ export default class  extends Component {
 			return ret;
 		};
 
-		var getBlockContent = function (blockToken, index) {
+		const getBlockContent = (blockToken, index) => {
 			if (blockToken.type === 'htmlblock') {
 				return getInlineContent(blockToken);
 			} else if (blockToken.type === 'heading_open') {
@@ -213,9 +214,9 @@ export default class  extends Component {
 		return (
 			<View class="wrapper">
 				{
-					this.state.renderList.length > 0 && this.state.renderList.map((renderBlock) =>
-						                                                              <View className={renderBlock.type}
-						                                                                    key={renderBlock.blockIndex}>
+					this.state.renderList.length > 0 && this.state.renderList.map((renderBlock) => {
+						                                                              return <View className={renderBlock.type}
+						                                                                           key={renderBlock.blockIndex}>
 							                                                              {
 								                                                              renderBlock.isArray &&
 								                                                              renderBlock.content.map((renderInline) =>
@@ -226,10 +227,15 @@ export default class  extends Component {
 											                                                                                      <Text
 												                                                                                      className={'inline_' + renderInline.type}>{renderInline.content}</Text>
 											                                                                                                                    :
-											                                                                                      <Image
-												                                                                                      mode="widthFix"
-												                                                                                      className="inline_image"
-												                                                                                      src={renderInline.src}></Image>
+											                                                                                      (
+												                                                                                      renderInline.alt !== 'video' ?
+												                                                                                      <Image
+													                                                                                      mode="widthFix"
+													                                                                                      className="inline_image"
+													                                                                                      style={ImageStyle(renderInline.alt)}
+													                                                                                      src={renderInline.src}></Image>
+												                                                                                                                   : <View className="no-video">暂不支持视频</View>
+											                                                                                      )
 										                                                                                      }
 									                                                                                      </block>
 								                                                              )
@@ -238,7 +244,8 @@ export default class  extends Component {
 								                                                              !renderBlock.isArray && renderBlock.type === 'code' &&
 								                                                              <View>{renderBlock.content}</View>
 							                                                              }
-						                                                              </View>
+						                                                              </View>;
+					                                                              }
 					)
 				}
 			</View>

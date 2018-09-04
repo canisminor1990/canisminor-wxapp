@@ -1,0 +1,21 @@
+.qrcode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+  height: 90vh;
+  image {
+    width: 70vw;
+    margin-bottom: 2rem;
+  }
+  .title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .desc {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}

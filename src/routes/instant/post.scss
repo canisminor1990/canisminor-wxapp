@@ -1,0 +1,24 @@
+@import '../../styles/import';
+.instant-post {
+  .footer {
+    border-top: 1px solid #eee;
+    padding: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: grayscale(100%);
+  }
+
+  .avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .name {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}

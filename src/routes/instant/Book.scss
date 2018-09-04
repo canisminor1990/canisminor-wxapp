@@ -1,0 +1,50 @@
+@import '../../styles/import';
+.book {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .tag {
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: center;
+    border-bottom: 1px solid $gold-dark;
+    margin-bottom: 1rem;
+  }
+  .desc {
+    text-align: center;
+    line-height: 1.3;
+    font-size: 0.9rem;
+  }
+  .cover {
+    width: 100%;
+  }
+  .date {
+    margin-top: 4rem;
+    text-align: right;
+    font-size: 0.7rem;
+    color: #999;
+  }
+  .content {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+
+  .page {
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 0 0.2rem 0.5rem rgba(#000, 0.2);
+  }
+}

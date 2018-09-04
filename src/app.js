@@ -25,6 +25,9 @@ class App extends Component {
       'routes/projects/index',
       'routes/me/index',
       'routes/post/index',
+      'routes/qrcode/index',
+      'routes/instant/index',
+      'routes/instant/post',
     ],
     window: {
       navigationBarTitleText: 'CanisMinor',
@@ -67,10 +70,6 @@ class App extends Component {
       ],
     },
   };
-
-  componentDidMount() {
-    dvaApp.dispatch({ type: 'sys/test' });
-  }
 
   render() {
     return (

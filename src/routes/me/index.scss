@@ -1,74 +1,48 @@
-.user {
-  width: 725px;
-  background: #ffffff;
-  padding: 30px 25px 30px 0;
-  margin: 15rpx 0 0 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #dcdcdc;
-  box-shadow: 0 2px 5px #eeeeee;
-
-  .userinfo-avatar {
-    flex: 1;
-    display: inline-block;
-    width: 100px !important;
-    height: 100px !important;
-    border-radius: 80px;
-  }
-  .user-info {
-    flex: 5;
-    text-align: left;
-
-    text,
-    div,
-    span {
-      display: block;
-    }
-    .userinfo-nickname {
-      padding: 8px 0 10px 0;
-      font-size: 30px;
-      color: #818a8f;
-    }
-    .edit {
-      font-size: 30px;
-      color: #bababa;
-      line-height: 34px;
-    }
-  }
-}
-.my {
-  margin: 15px 0 0 0;
-  border-top: solid 1px #ebebeb;
-  border-bottom: solid 2px #ebebeb;
-
-  .my-item {
+.me {
+  .header {
     display: flex;
-    width: 750px;
-    background: #ffffff;
-    padding: 0;
-
-    .myitem-icon {
+    align-items: center;
+    image {
+      width: 3.5rem;
+      margin-right: 1rem;
+    }
+    .title {
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+    .desc {
+      font-size: 0.6rem;
+    }
+  }
+  .num {
+    display: flex;
+    margin-top: 1rem;
+    .box {
       flex: 1;
-      vertical-align: middle;
-      .myitem-img,
-      image,
-      img {
-        width: 40px;
-        height: 40px;
-        margin-left: 16px;
-        margin-right: 16px;
-      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    .myitem-name {
-      flex: 5;
-      text-align: left;
-      font-size: 34px;
-      color: #6d6d6d;
-      line-height: 60px;
-      padding: 30px 0;
-      border-bottom: solid 1px #ebebeb;
+    .value {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
     }
-
-    &:last-child .myitem-name {
+    .title {
+      font-size: 0.6rem;
+      text-align: center;
+    }
+  }
+  .cell {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    &:last-child {
       border-bottom: none;
     }
   }

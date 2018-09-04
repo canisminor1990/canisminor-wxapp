@@ -17,7 +17,7 @@ export default class extends Component {
         <View className="skills">
           {skills.map((item,i) => (
             <View className="box" key={i}>
-              <Image src={`https://canisminor.cc${item.icon}`} mode="widthFix" />
+              <Image lazyLoad src={`https://canisminor.cc${item.icon}`} mode="widthFix" />
               <Text>{item.title}</Text>
             </View>
           ))}

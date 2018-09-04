@@ -1,5 +1,6 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Swiper } from '@tarojs/components';
+import QueryString from 'query-string';
 import { WhiteSpace, Loading, Card, TabbarShadow } from '../../components';
 import './index.scss';
 import { connect } from '@tarojs/redux';
@@ -37,6 +38,10 @@ export default class extends Component {
 
 	render() {
 		const {intro, design, coding, article, loading} = this.props;
+		const github = QueryString.stringify({
+			                                  url  : "https://github.com/canisminor1990",
+			                                  title: "Github: canisminor1990"
+		                                  });
 		return (
 			<View>
 				{loading ? <Loading/> : <Swiper
@@ -50,7 +55,7 @@ export default class extends Component {
 						const cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
 						return (
 							<SwiperItem key={i} onClick={this.navigateTo.bind(this, item.filename)}>
-								<Image src={cover} mode="widthFix"/>
+								<Image lazyLoad src={cover} mode="widthFix"/>
 							</SwiperItem>
 						);
 					})}
@@ -60,11 +65,11 @@ export default class extends Component {
 					{loading || !intro.skills ? <Loading/> : <Intro data={intro}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Design" btn="View my projects" to="/routes/projects/index" tab padding>
+				<Card title="Design" btn="View my projects" to="/routes/projects/index" tab>
 					{loading ? <Loading/> : <Design data={design}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Coding" btn="View my repos" padding>
+				<Card title="Coding" btn="View my repos" to={`/routes/qrcode/index?${github}`} padding>
 					{loading ? <Loading/> : <Coding data={coding}/>}
 				</Card>
 				<WhiteSpace/>

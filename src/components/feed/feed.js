@@ -12,7 +12,7 @@ export default class Feed extends Component {
       <View className="feed-item">
         <View className="feed-source">
           <View className="avatar flex1">
-            <Image src={this.props.feed_source_img} />
+            <Image lazyLoad src={this.props.feed_source_img} />
           </View>
           <View className="flex8">
             <Text className="feed-source-txt">
@@ -21,7 +21,7 @@ export default class Feed extends Component {
             </Text>
           </View>
           <View className="flex1">
-            <Image className="item-more" mode="aspectFit" src={more} />
+            <Image lazyLoad className="item-more" mode="aspectFit" src={more} />
           </View>
         </View>
         <View className="feed-content">

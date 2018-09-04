@@ -28,7 +28,9 @@ export default class extends Component {
 
 	navigateTo(filename) {
 		filename = _.last(filename.split(/\//g));
-		const url = `/routes/post/index?id=${filename}`
+		const url = filename === 'instant-zine'
+		            ? '/routes/instant/index'
+		            : `/routes/post/index?id=${filename}`;
 		Taro.navigateTo({url});
 	}
 
@@ -36,18 +38,18 @@ export default class extends Component {
 		const {main, extra, loading} = this.props;
 		return (
 			<View className='projects'>
-				<Card padding>
+				<Card>
 					{loading ? <Loading/> : main.map((item, i) => (
 						<View className="project" key={i} onClick={this.navigateTo.bind(this, item.to)}>
-							<Project data={item}/>
+							<Project data={item} num={i}/>
 						</View>
 					))}
 				</Card>
 				<WhiteSpace/>
-				<Card title="School Works" padding>
+				<Card title="School Works">
 					{loading ? <Loading/> : extra.map((item, i) => (
-						<View className="project" key={i}>
-							<Project data={item}/>
+						<View className="project" key={i*10} onClick={this.navigateTo.bind(this, item.to)}>
+							<Project data={item} num={i}/>
 						</View>
 					))}
 				</Card>

@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/Book.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/Intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/Intro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/instant/post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/qrcode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/qrcode/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/imageStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/instant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/feed/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feed/feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/instantZine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/instantZine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Coding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Coding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/hola/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/me/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/me/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/post/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/post/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/post/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/post/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,10 +66,11 @@
           <entry key="eslintrc" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="213" />
+          <entry key="js" value="271" />
           <entry key="json" value="10" />
-          <entry key="scss" value="70" />
-          <entry key="ts" value="2" />
+          <entry key="md" value="1" />
+          <entry key="scss" value="97" />
+          <entry key="ts" value="3" />
           <entry key="wxml" value="15" />
           <entry key="wxss" value="8" />
         </counts>
@@ -47,10 +79,11 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="213" />
+          <entry key="JavaScript" value="271" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="SCSS" value="70" />
-          <entry key="TypeScript" value="2" />
+          <entry key="SCSS" value="97" />
+          <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,9 +91,9 @@
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="11" />
           <entry key="gitignore" value="6" />
-          <entry key="js" value="5637" />
+          <entry key="js" value="8404" />
           <entry key="json" value="35" />
-          <entry key="scss" value="3369" />
+          <entry key="scss" value="4683" />
           <entry key="wxml" value="26" />
           <entry key="wxss" value="1" />
         </counts>
@@ -68,16 +101,16 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="35" />
-          <entry key="JavaScript" value="5634" />
+          <entry key="JavaScript" value="8401" />
           <entry key="Less" value="3" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="SCSS" value="3369" />
+          <entry key="SCSS" value="4683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="ESLintLanguageService" value="1" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -95,43 +128,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/post/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
+            <state relative-caret-position="424">
+              <caret line="236" column="166" selection-start-line="236" selection-start-column="158" selection-end-line="236" selection-end-column="166" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret column="11" selection-start-column="7" selection-end-column="11" />
+            <state relative-caret-position="3601">
+              <caret line="160" column="19" lean-forward="true" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/post/index.scss">
+        <entry file="file://$PROJECT_DIR$/src/routes/me/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="260">
+              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Card/index.js">
+        <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/me/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -140,20 +182,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wxss</find>
-      <find>wxParse-p</find>
-      <find>square</find>
-      <find>circle</find>
-      <find>wxParse-code</find>
-      <find>timeFormat</find>
-      <find>toUpperCase</find>
-      <find>skills</find>
-      <find>markdown</find>
-      <find>Remarkable</find>
-      <find>highlight</find>
       <find>tokens</find>
       <find>prism</find>
-      <find>parser</find>
       <find>wemark</find>
       <find>md_</find>
       <find>block_</find>
@@ -168,8 +198,20 @@
       <find>Wx</find>
       <find>inline_text</find>
       <find>qu</find>
-      <find>navigateTo</find>
       <find>import Taro</find>
+      <find>navigateTo</find>
+      <find>instant/post</find>
+      <find>desc</find>
+      <find>book</find>
+      <find>grey</find>
+      <find>parser</find>
+      <find>renderList</find>
+      <find>typetype</find>
+      <find>image</find>
+      <find>Image</find>
+      <find>e.alt</find>
+      <find>console.</find>
+      <find>&lt;Image</find>
     </findStrings>
     <replaceStrings>
       <replace>routes/</replace>
@@ -178,15 +220,19 @@
       <replace>px</replace>
       <replace>md</replace>
       <replace />
+      <replace>alt</replace>
+      <replace>navPostTo</replace>
+      <replace>&lt;Image lazyLoad</replace>
+      <replace>&lt;Image lazyLoad</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/models</dir>
       <dir>$PROJECT_DIR$/dist</dir>
-      <dir>$PROJECT_DIR$/src/routes</dir>
       <dir>$PROJECT_DIR$/src/routes/hola</dir>
       <dir>$PROJECT_DIR$/src/components</dir>
       <dir>$PROJECT_DIR$/src/components/wxParse</dir>
       <dir>$PROJECT_DIR$/src/components/Markdown</dir>
+      <dir>$PROJECT_DIR$/src/routes</dir>
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
@@ -196,39 +242,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/styles/import.scss" />
-        <option value="$PROJECT_DIR$/src/routes/hola/index.scss" />
-        <option value="$PROJECT_DIR$/src/routes/hola/intro.scss" />
-        <option value="$PROJECT_DIR$/src/utils/textFormat.js" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Intro.scss" />
-        <option value="$PROJECT_DIR$/src/components/Loading/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/WhiteSpace/index.js" />
-        <option value="$PROJECT_DIR$/src/components/WhiteSpace/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/TabbarShadow/index.js" />
-        <option value="$PROJECT_DIR$/src/components/TabbarShadow/index.scss" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Coding.scss" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Article.scss" />
-        <option value="$PROJECT_DIR$/project.config.json" />
-        <option value="$PROJECT_DIR$/src/models/blog.js" />
-        <option value="$PROJECT_DIR$/src/components/Card/index.scss" />
-        <option value="$PROJECT_DIR$/src/routes/blog/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/Project/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Project/index.scss" />
-        <option value="$PROJECT_DIR$/src/models/projects.js" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Design.scss" />
-        <option value="$PROJECT_DIR$/src/routes/projects/index.scss" />
-        <option value="$PROJECT_DIR$/src/models/index.js" />
-        <option value="$PROJECT_DIR$/src/models/resume.js" />
         <option value="$PROJECT_DIR$/src/models/contact.js" />
         <option value="$PROJECT_DIR$/src/models/posts.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/taro-wemark/remarkable.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/wxParse/wxParse.wxml" />
         <option value="$PROJECT_DIR$/src/routes/hola/Intro.js" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Coding.js" />
         <option value="$PROJECT_DIR$/src/components/Markdown/index.json" />
         <option value="$PROJECT_DIR$/src/components/Markdown/index.wxml" />
         <option value="$PROJECT_DIR$/src/components/wemark/wemark.js" />
@@ -237,16 +257,42 @@
         <option value="$PROJECT_DIR$/src/routes/post/_markdown.scss" />
         <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/config/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Markdown/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Markdown/index.scss" />
         <option value="$PROJECT_DIR$/src/routes/hola/Article.js" />
         <option value="$PROJECT_DIR$/src/routes/blog/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/hola/Design.js" />
-        <option value="$PROJECT_DIR$/src/routes/projects/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/hola/index.js" />
         <option value="$PROJECT_DIR$/src/components/Card/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/post/index.js" />
         <option value="$PROJECT_DIR$/src/routes/post/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/qrocde/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/qrocde/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/routes/hola/Coding.js" />
+        <option value="$PROJECT_DIR$/src/routes/qrcode/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/qrcode/index.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/models/instantZine.js" />
+        <option value="$PROJECT_DIR$/src/utils/instant.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/post/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/intro.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/post.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/Intro.js" />
+        <option value="$PROJECT_DIR$/src/routes/instant/Intro.scss" />
+        <option value="$PROJECT_DIR$/src/routes/instant/post.scss" />
+        <option value="$PROJECT_DIR$/src/routes/instant/Book.scss" />
+        <option value="$PROJECT_DIR$/src/routes/instant/Book.js" />
+        <option value="$PROJECT_DIR$/src/routes/hola/Design.scss" />
+        <option value="$PROJECT_DIR$/src/routes/hola/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/projects/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/projects/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/hola/Design.js" />
+        <option value="$PROJECT_DIR$/src/components/Project/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Project/index.scss" />
+        <option value="$PROJECT_DIR$/src/utils/imageStyle.js" />
+        <option value="$PROJECT_DIR$/src/components/Markdown/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Markdown/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/me/index.scss" />
+        <option value="$PROJECT_DIR$/src/routes/me/index.js" />
       </list>
     </option>
   </component>
@@ -272,10 +318,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="977" />
+    <option name="width" value="840" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,14 +348,20 @@
               <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Markdown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
@@ -322,14 +374,7 @@
               <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="hola" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="canisminor-wxapp-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canisminor-wxapp-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,11 +400,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/instant" />
+      <recent name="$PROJECT_DIR$/src/routes/qrocde" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/routes/post" />
       <recent name="$PROJECT_DIR$/src/components/Project" />
-      <recent name="$PROJECT_DIR$/src/routes/hola" />
-      <recent name="$PROJECT_DIR$/src/components/TabbarShadow" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -396,15 +441,15 @@
       <workItem from="1535930870487" duration="14318000" />
       <workItem from="1535949855664" duration="10075000" />
       <workItem from="1535975825268" duration="9624000" />
-      <workItem from="1536017485283" duration="13909000" />
+      <workItem from="1536017485283" duration="27578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53936000" />
+    <option name="totallyTimeSpent" value="67605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="977" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="978" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
@@ -421,7 +466,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32873562" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,157 +480,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/dataCash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/post/question.js" />
-    <entry file="file://$PROJECT_DIR$/src/models/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/remarkable.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/common.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/taro-wemark/taro-wemark.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wxParse/wxParse.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="18" lean-forward="true" selection-end-line="206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wxParse/showdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wxParse/wxParse.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5954">
-          <caret line="226" column="17" lean-forward="true" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/wxParse/wxParse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#290#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/hola/Intro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/components/Markdown/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/components/Markdown/index.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/components/Markdown/index.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/components/Markdown/index.wxml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/routes/post/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/routes/post/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="6" column="451" selection-start-line="6" selection-start-column="451" selection-end-line="6" selection-end-column="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/renderTemplate.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23529">
-          <caret column="263660" lean-forward="true" selection-start-column="263660" selection-end-column="263660" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Markdown/entry.wxml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -654,27 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -698,63 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/projects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="40" column="91" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/hola/Design.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="89" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/hola/Coding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret column="11" selection-start-column="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/post/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Card/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -765,10 +585,293 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/import.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/qrcode/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/qrcode/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1772">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="27" lean-forward="true" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/instantZine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#672#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/hola.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/hola/Coding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/View.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/post/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/Intro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/Intro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/Book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/instant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/instant/Book.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/post/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="1170">
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/hola/Design.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="67" column="83" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/projects/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/projects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/hola/Design.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Project/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Project/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/imageStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3601">
+          <caret line="160" column="19" lean-forward="true" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Markdown/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="236" column="166" selection-start-line="236" selection-start-column="158" selection-end-line="236" selection-end-column="166" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/me/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/me/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

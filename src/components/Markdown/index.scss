@@ -149,9 +149,18 @@ $code: Hack, Menlo, Consolas, Courier, monospace !important;
 }
 .inline_image {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .inline_text {
   word-wrap: break-word;
+}
+.no-video {
+  width: 100%;
+  height: 4rem;
+  font-size: 0.7rem;
+  color: #999;
+  background: #f8f8f8;
+  text-align: center;
+  line-height: 4rem;
 }
