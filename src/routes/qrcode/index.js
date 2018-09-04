@@ -32,9 +32,11 @@ export default class extends Component {
 
 		return (
 			<View className='qrcode'>
+				<View className='box'>
 				<Image lazyLoad src={qrcode} mode="widthFix"/>
 				<View className='title'>{title}</View>
 				<View className='desc'>{url}</View>
+				</View>
 			</View>
 		);
 	}

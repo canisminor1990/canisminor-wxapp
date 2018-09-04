@@ -7,6 +7,7 @@ page {
   color: #222;
   position: relative;
   font-weight: 400;
+  background: #f8f8f8;
 }
 
 View,
@@ -37,4 +38,9 @@ image {
   padding-right: 1rem;
   width: 100%;
   position: relative;
+}
+
+.view {
+  width: 100vw;
+  overflow: hidden;
 }

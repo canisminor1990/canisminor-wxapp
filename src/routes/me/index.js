@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Text, Image } from '@tarojs/components';
-import { Card,WhiteSpace,TabbarShadow } from '../../components';
+import { Card, WhiteSpace, TabbarShadow } from '../../components';
 import './index.scss';
 
 export default class Index extends Component {
 	config = {
-		navigationBarTitleText: 'Resume'
+		navigationBarTitleText: 'Resume',
+		backgroundColor: '#f8f8f8',
 	};
 
 	state = {
@@ -14,16 +15,22 @@ export default class Index extends Component {
 			{title: 'experience', value: `+${(new Date).getFullYear() - 2012}`},
 			{title: 'energy', value: '∞'}
 		],
-		cell : [
-			{title:"About Me",icon:"cell-about.png",to:""},
-			{title:"Education",icon:"cell-education.png",to:""},
-			{title:"Experience",icon:"cell-experience.png",to:""},
-			{title:"Design Skills",icon:"cell-design.png",to:""},
-			{title:"Front-End Skills",icon:"cell-fe.png",to:""},
-			{title:"Specialities",icon:"cell-specialities.png",to:""},
-			{title:"Contact",icon:"cell-contact.png",to:""},
+		cell: [
+			{title: 'About Me', icon: 'cell-about.png', to: 'about'},
+			{title: 'Education', icon: 'cell-education.png', to: 'education'},
+			{title: 'Experience', icon: 'cell-experience.png', to: 'experience'},
+			{title: 'Design Skills', icon: 'cell-design.png', to: 'design'},
+			{title: 'Front-End Skills', icon: 'cell-fe.png', to: 'fe'},
+			{title: 'Specialities', icon: 'cell-specialities.png', to: 'specialities'},
+			{title: 'Contact', icon: 'cell-contact.png', to: 'contact'}
+
 		]
 	};
+
+	navigateTo(prop) {
+		const url = `/routes/me/${prop}`;
+		Taro.navigateTo({url});
+	}
 
 	render() {
 		return (
@@ -37,8 +44,8 @@ export default class Index extends Component {
 						</View>
 					</View>
 					<View className="num">
-						{this.state.info.map((item,i) => (
-							<View  className="box" key={i}>
+						{this.state.info.map((item, i) => (
+							<View className="box" key={i}>
 								<View className="value">{item.value}</View>
 								<View className="title">{item.title.toUpperCase()}</View>
 							</View>
@@ -47,12 +54,12 @@ export default class Index extends Component {
 				</Card>
 				<WhiteSpace/>
 				<Card>
-					{this.state.cell.map((item,i) => (
-						<View  className="cell" hoverClass="cell-hover" key={i}>
-							<Image className="icon" src={`/asset/img/${item.icon}`} mode="widthFix" lazyLoad />
+					{this.state.cell.map((item, i) => (
+						<View className="cell" hoverClass="cell-hover" key={i} onClick={this.navigateTo.bind(this, item.to)}>
+							<Image className="icon" src={`/asset/img/${item.icon}`} mode="widthFix" lazyLoad/>
 							<View className="title">
 								{item.title}
-								<Image className="right" src={`/asset/img/right.png`} mode="widthFix" lazyLoad />
+								<Image className="right" src={`/asset/img/right.png`} mode="widthFix" lazyLoad/>
 							</View>
 						</View>
 					))}

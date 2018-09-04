@@ -1,0 +1,26 @@
+.skills {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 1.5rem;
+    position: relative;
+    Text {
+      font-size: 0.6rem;
+      text-align: center;
+      line-height: 1.3;
+    }
+  }
+  image {
+    width: 2rem;
+    margin-bottom: 0.8rem;
+  }
+}

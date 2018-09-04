@@ -1,0 +1,21 @@
+@import '../../styles/import';
+.header {
+  display: flex;
+  padding: 1rem 1rem 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .avatar {
+    width: 6rem;
+    margin-bottom: 1rem;
+  }
+  .intro {
+    line-height: 1.8;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    text-align: justify;
+  }
+  .animation {
+    width: 100%;
+  }
+}

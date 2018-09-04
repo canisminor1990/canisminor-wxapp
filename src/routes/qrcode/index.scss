@@ -1,11 +1,17 @@
 .qrcode {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  flex-direction: column;
-  height: 90vh;
-  background: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+  .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+    height: 90vh;
+  }
+
   image {
     width: 70vw;
     margin-bottom: 2rem;

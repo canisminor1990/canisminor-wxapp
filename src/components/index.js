@@ -5,3 +5,7 @@ export { default as WhiteSpace } from './WhiteSpace';
 export { default as TabbarShadow } from './TabbarShadow';
 export { default as Project } from './Project';
 export { default as Markdown } from './Markdown';
+export { default as Title } from './Title';
+export { default as Cell } from './Cell';
+export { default as Skills } from './Skills';
+export { default as Tools } from './Tools';

@@ -1,6 +1,5 @@
 .me {
   width: 100vw;
-  overflow-x: hidden;
   .header {
     display: flex;
     align-items: center;
@@ -42,8 +41,9 @@
     display: flex;
     align-items: center;
     padding-left: 1rem;
-    width: 100%;
+    width: 100vw;
     position: relative;
+    overflow-x: hidden;
     .title {
       height: 100%;
       display: flex;
@@ -59,7 +59,7 @@
     }
     .right {
       width: 32px;
-      margin-right: 2rem;
+      margin-right: 1rem;
     }
     &:last-child {
       .title {

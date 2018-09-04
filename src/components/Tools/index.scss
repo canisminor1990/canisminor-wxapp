@@ -1,0 +1,22 @@
+.tool {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.1rem 0.6rem rgba(#000, 0.05);
+  padding: 0.3rem;
+  border-radius: 3rem;
+  image {
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    min-height: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.4rem;
+  }
+  .title {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

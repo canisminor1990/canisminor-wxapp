@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Image } from '@tarojs/components';
 import _ from 'lodash';
-import { WhiteSpace, Loading, Card, TabbarShadow, Project } from '../../components';
+import { WhiteSpace, Loading, Card, TabbarShadow, Project, Title } from '../../components';
 import './index.scss';
 import { connect } from '@tarojs/redux';
 import action from '../../utils/action';
@@ -38,6 +38,7 @@ export default class extends Component {
 		const {main, extra, loading} = this.props;
 		return (
 			<View className='projects'>
+				<Title type="project" desc="Selection of my recent works" />
 				<Card>
 					{loading ? <Loading/> : main.map((item, i) => (
 						<View className="project" key={i} onClick={this.navigateTo.bind(this, item.to)}>

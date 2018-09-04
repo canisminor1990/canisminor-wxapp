@@ -1,0 +1,29 @@
+@import '../../styles/import';
+
+.header {
+  display: flex;
+  padding: 3rem 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .school {
+    width: 70vw;
+  }
+}
+
+.awards {
+  margin: 2rem 0;
+  font-size: 0.8rem;
+}
+.award {
+  margin-bottom: 1rem;
+  display: flex;
+  color: $gold-dark;
+}
+.item {
+  margin-left: 1rem;
+  color: #222;
+  View {
+    margin-bottom: 0.5rem;
+  }
+}

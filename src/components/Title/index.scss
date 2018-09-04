@@ -1,0 +1,30 @@
+.header {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  .subtitle {
+    text-align: center;
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    > View {
+      color: #aaa;
+      animation: blink 1s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

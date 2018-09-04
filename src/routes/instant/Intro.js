@@ -1,7 +1,7 @@
 import { View } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
 import { Card, Markdown } from '../../components';
-import './post.scss';
+import './Intro.scss';
 
 export default class extends Component {
 	static defaultProps = {

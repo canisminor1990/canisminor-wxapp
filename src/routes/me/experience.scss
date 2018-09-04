@@ -1,0 +1,64 @@
+@import '../../styles/import';
+.main-list {
+  padding: 1rem 0;
+}
+.main-exp {
+  display: flex;
+  margin-bottom: 2rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  image {
+    min-width: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .time {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .desc {
+    font-size: 0.7rem;
+    line-height: 1.7;
+  }
+}
+
+.extra-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0.5rem;
+}
+.extra-exp {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.25rem 0.5rem rgba(#000, 0.05);
+  padding: 0.3rem;
+  border-radius: 3rem;
+  image {
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.4rem;
+  }
+  .content {
+    margin-right: 0.7rem;
+  }
+  .title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .desc {
+    font-size: 0.6rem;
+  }
+}

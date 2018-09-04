@@ -1,0 +1,22 @@
+.cell {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #eee;
+
+  .title {
+    height: 100%;
+    line-height: 3rem;
+    width: 5rem;
+    font-size: 0.8rem;
+  }
+  .desc {
+    height: 100%;
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
