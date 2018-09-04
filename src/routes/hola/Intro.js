@@ -4,8 +4,14 @@ import textFormat from '../../utils/textFormat';
 import './Intro.scss';
 
 export default class extends Component {
+	static defaultProps = {
+		title : '',
+		desc  : [null,null],
+		skills: [],
+		loading: true
+	};
   render() {
-    const { skills = [], title, desc } = this.props.data;
+    const { skills, title, desc } = this.props.data;
     return (
       <View className="intro">
         <View className="skills">

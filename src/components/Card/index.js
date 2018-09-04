@@ -1,10 +1,18 @@
 import { View, Text } from '@tarojs/components';
-import { Component } from '@tarojs/taro';
+import Taro,{ Component } from '@tarojs/taro';
 import './index.scss';
 
 export default class extends Component {
+	switchTab(url) {
+		Taro.switchTab({url});
+	}
+
+	navigateTo(url) {
+		Taro.navigateTo({url});
+	}
+
   render() {
-    const { title, btn, padding } = this.props;
+    const { title, btn, padding,to,tab } = this.props;
     const s = {
       padding: '1rem',
     };
@@ -16,7 +24,9 @@ export default class extends Component {
           {this.props.children}
         </View>
 	      {btn ? <View className="split" /> : null}
-        {btn ? <View className="footer">{btn}</View> : null}
+        {btn ? <View className="footer"
+                     onClick={tab ? this.switchTab.bind(this, to) : this.navigateTo.bind(this, to)}
+        >{btn}</View> : null}
       </View>
     );
   }

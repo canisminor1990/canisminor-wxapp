@@ -4,8 +4,12 @@ import textFormat from '../../utils/textFormat';
 import './Coding.scss';
 
 export default class extends Component {
+	static defaultProps = {
+		data: [],
+		loading: true
+	};
   render() {
-    const {data = []} = this.props;
+    const {data} = this.props;
     return (
 	    <View className="coding" >
         {data.map((item,i) => (

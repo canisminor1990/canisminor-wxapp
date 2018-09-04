@@ -1,17 +1,27 @@
 import { View, Image, Text } from '@tarojs/components';
-import { Component } from '@tarojs/taro';
+import Taro,{ Component } from '@tarojs/taro';
 import moment from 'moment';
 import './Article.scss';
 
 export default class extends Component {
+	static defaultProps = {
+		data: [],
+		loading: true
+	};
+
+	navigateTo(filename) {
+		const url = `/routes/post/index?id=${filename}`
+		Taro.navigateTo({url});
+	}
+
   render() {
-	  const {data = []} = this.props;
+	  const {data} = this.props;
 	  return (
 		  <View className="article" >
 			  {data.map((item,i) => {
 				  let cover = item.cover.s ? item.cover.s : item.cover.l + '!s';
 			    return (
-				    <View className="box" key={i}>
+				    <View className="box" key={i} onClick={this.navigateTo.bind(this, item.filename)}>
 					    <Image src={cover} mode="widthFix"/>
 					    <View className="content">
 						    <View className="title">{item.title}</View>

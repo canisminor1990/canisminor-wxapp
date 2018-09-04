@@ -14,17 +14,29 @@ import Article from './Article';
 	loading: loading.effects['hola/get']
 }))
 export default class extends Component {
+	static defaultProps = {
+		intro  : {},
+		design : [],
+		coding : [],
+		article: [],
+		loading: true
+	};
 
 	config = {
-		navigationBarTitleText      : 'CanisMinor',
+		navigationBarTitleText: 'CanisMinor'
 	};
 
 	componentDidMount = () => {
 		this.props.dispatch(action('hola/get'));
 	};
 
+	navigateTo(filename) {
+		const url = `/routes/post/index?id=${filename}`
+		Taro.navigateTo({url});
+	}
+
 	render() {
-		const {intro, design = [], coding = [], article = [], loading} = this.props;
+		const {intro, design, coding, article, loading} = this.props;
 		return (
 			<View>
 				{loading ? <Loading/> : <Swiper
@@ -37,18 +49,18 @@ export default class extends Component {
 						if (i > 4) return;
 						const cover = item.cover.m ? item.cover.m : item.cover.l + '!m';
 						return (
-							<SwiperItem key={i}>
+							<SwiperItem key={i} onClick={this.navigateTo.bind(this, item.filename)}>
 								<Image src={cover} mode="widthFix"/>
 							</SwiperItem>
 						);
 					})}
 				</Swiper>
 				}
-				<Card title="Intro" btn="Checkout my resume" padding>
+				<Card title="Intro" btn="Checkout my resume" to="/routes/me/index" tab padding>
 					{loading || !intro.skills ? <Loading/> : <Intro data={intro}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Design" btn="View my projects" padding>
+				<Card title="Design" btn="View my projects" to="/routes/projects/index" tab padding>
 					{loading ? <Loading/> : <Design data={design}/>}
 				</Card>
 				<WhiteSpace/>
@@ -56,7 +68,7 @@ export default class extends Component {
 					{loading ? <Loading/> : <Coding data={coding}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Article" btn="View my blog" padding>
+				<Card title="Article" btn="View my blog" to="/routes/blog/index" tab padding>
 					{loading ? <Loading/> : <Article data={article}/>}
 				</Card>
 				<WhiteSpace/>

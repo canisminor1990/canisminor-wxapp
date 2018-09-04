@@ -85,14 +85,13 @@
     "lodash": "^4.17.10",
     "marked": "^0.5.0",
     "moment": "^2.22.2",
-    "polished": "^2.0.3",
     "postcss-pxtorem": "^4.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.14.2",
+    "prismjs": "^1.15.0",
     "query-string": "^6.1.0",
-    "rc-tween-one": "^2.2.3",
-    "react-markdown": "^3.4.1",
-    "styled-components": "^3.4.5",
-    "taro-ui": "^1.1.0"
+    "remarkable": "^1.7.1",
+    "taro-ui": "^1.1.0",
+    "towxml": "^2.0.1"
   }
 }

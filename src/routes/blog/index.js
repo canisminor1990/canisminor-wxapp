@@ -5,13 +5,17 @@ import './index.scss';
 import { connect } from '@tarojs/redux';
 import action from '../../utils/action';
 import moment from 'moment';
-import queryString from 'queryString';
 
 @connect(({blog, loading}) => ({
 	...blog,
 	loading: loading.effects['blog/get']
 }))
 export default class extends Component {
+
+	static defaultProps = {
+		toc    : [],
+		loading: true
+	};
 
 	config = {
 		navigationBarTitleText: 'Blog'
@@ -28,10 +32,7 @@ export default class extends Component {
 	};
 
 	navigateTo(filename) {
-		const url = '/routes/post/index?' + queryString.stringify(
-			{
-				id: filename
-			});
+		const url = `/routes/post/index?id=${filename}`
 		Taro.navigateTo({url});
 	}
 
