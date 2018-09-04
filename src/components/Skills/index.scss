@@ -3,14 +3,14 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 33%;
     margin-bottom: 1.5rem;
     position: relative;
     Text {

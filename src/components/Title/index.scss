@@ -7,10 +7,10 @@
   background: #fff;
   .subtitle {
     text-align: center;
-    display: flex;
     font-size: 0.8rem;
-    margin-top: 0.5rem;
-    > View {
+    margin-top: 0.6rem;
+    line-height: 1.5;
+    > Text {
       color: #aaa;
       animation: blink 1s ease-in-out infinite;
     }

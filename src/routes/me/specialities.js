@@ -1,18 +1,20 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Image } from '@tarojs/components';
+import QueryString from 'query-string';
 import { WhiteSpace, Loading, Card } from '../../components';
 import './specialities.scss';
 import { connect } from '@tarojs/redux';
 import action from '../../utils/action';
 
 @connect(({resume, loading}) => ({
-	...resume,
-	loading: loading.effects['resume/get']
+	specialities: resume.specialities,
+	loading     : loading.effects['resume/get']
 }))
 export default class extends Component {
 
 	static defaultProps = {
-		loading: true
+		specialities: [],
+		loading     : true
 	};
 
 	config = {
@@ -24,15 +26,29 @@ export default class extends Component {
 	};
 
 	render() {
-		const {loading} = this.props;
+		const {loading, specialities} = this.props;
 		return (
 			<View className='specialities'>
-				<Card padding>
-					{loading ? <Loading/> : (
-						<View></View>
-					)}
-				</Card>
-				<WhiteSpace />
+				{loading ? <Loading/> : specialities.map((item, i) => {
+					const to = (item.button.href === '/projects/instant-zine')
+					           ? `/routes/instant/index`
+					           : `/routes/qrcode/index?${QueryString.stringify({
+						                                                           url  : item.button.href,
+						                                                           title: item.button.title
+					                                                           })}`;
+
+					return (
+						<View key={i}>
+							<Card btn={item.button.title} to={to} padding>
+								<View className="spec">
+									<Image src={`https://canisminor.cc${item.img}`} mode="widthFix" lazyLoad/>
+									<View className="desc">{item.desc}</View>
+								</View>
+							</Card>
+							<WhiteSpace/>
+						</View>
+					);
+				})}
 			</View>
 		);
 	}

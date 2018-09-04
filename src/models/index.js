@@ -8,14 +8,4 @@ import projects from './projects';
 import resume from './resume';
 import github from './github';
 
-export default [
-  blog,
-  contact,
-  hola,
-  instantZine,
-  mail,
-  posts,
-  projects,
-  resume,
-  github,
-];
+export default [blog, contact, hola, instantZine, mail, posts, projects, resume, github];

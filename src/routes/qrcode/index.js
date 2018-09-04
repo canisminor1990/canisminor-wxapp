@@ -4,40 +4,41 @@ import './index.scss';
 import QueryString from 'query-string';
 
 export default class extends Component {
-	state = {
-		url  : '',
-		title: ''
-	};
+  state = {
+    url: '',
+    title: '',
+  };
 
-	config = {
-		navigationBarTitleText: 'Qrcode',
-		backgroundColor: '#ffffff',
-	};
+  config = {
+    navigationBarTitleText: 'Qrcode',
+    backgroundColor: '#ffffff',
+  };
 
-	componentDidMount = () => {
-		const {url, title} = this.$router.params;
-		this.setState({url, title});
-	};
+  componentDidMount = () => {
+    const { url, title } = this.$router.params;
+    this.setState({ url, title });
+  };
 
-	render() {
-		const {url, title} = this.state;
-		const qrcode       = 'http://qr.liantu.com/api.php?' + QueryString.stringify(
-			{
-				w   : 720,
-				m   : 48,
-				el  : 'l',
-				pt  : '9d8352',
-				text: url
-			});
+  render() {
+    const { url, title } = this.state;
+    const qrcode =
+      'http://qr.liantu.com/api.php?' +
+      QueryString.stringify({
+        w: 720,
+        m: 48,
+        el: 'l',
+        pt: '9d8352',
+        text: url,
+      });
 
-		return (
-			<View className='qrcode'>
-				<View className='box'>
-				<Image lazyLoad src={qrcode} mode="widthFix"/>
-				<View className='title'>{title}</View>
-				<View className='desc'>{url}</View>
-				</View>
-			</View>
-		);
-	}
+    return (
+      <View className="qrcode">
+        <View className="box">
+          <Image lazyLoad src={qrcode} mode="widthFix" />
+          <View className="title">{title}</View>
+          <View className="desc">{url}</View>
+        </View>
+      </View>
+    );
+  }
 }

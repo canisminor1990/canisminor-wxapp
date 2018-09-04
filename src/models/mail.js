@@ -1,5 +1,6 @@
 import request from '../utils/request';
 import queryString from 'query-string';
+import action from '../utils/action';
 
 export default {
   namespace: 'mail',
@@ -7,25 +8,22 @@ export default {
     id: '',
   },
   reducers: {
-    save(state, action) {
-      state = action.payload;
-      return state;
+    save(state, { payload }) {
+      return { ...action, ...payload };
     },
   },
   effects: {
-    *get(action, { call, put }) {
-      const { subject, text } = action.payload;
+    *get({ payload }, { call, put }) {
+      const { subject, text } = payload;
       const Query = queryString.stringify({ subject, text });
       const data = yield call(() =>
-        request(['https://canisminor.cc/v2/mail', Query].join('?'), {
+        request({
+          url: ['https://canisminor.cc/v2/mail', Query].join('?'),
           method: 'POST',
           credentials: 'include',
         })
       );
-      yield put({
-        type: 'save',
-        payload: data.data,
-      });
+      yield put(action('save', data));
     },
   },
 };
