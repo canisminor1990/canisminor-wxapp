@@ -32,7 +32,7 @@ export default class extends Component {
 	};
 
 	navigateTo(filename) {
-		const url = `/routes/post/index?id=${filename}`
+		const url = `/routes/post/index?id=${filename}`;
 		Taro.navigateTo({url});
 	}
 
@@ -50,14 +50,16 @@ export default class extends Component {
 							cover = item.cover.s;
 						}
 						return (
-							<View className="post" key={i} onClick={this.navigateTo.bind(this, item.filename)}>
-								<Card padding>
-									<View className="row">
-										<View className="title">{item.title}</View>
-										<View className="date">{moment(item.date).format('MMM Do, YYYY')}</View>
+							<View key={i} onClick={this.navigateTo.bind(this, item.filename)}>
+								<Card>
+									<View className="post" hoverClass="post-hover">
+										<View className="row">
+											<View className="title">{item.title}</View>
+											<View className="date">{moment(item.date).format('MMM Do, YYYY')}</View>
+										</View>
+										<View className="desc">{item.desc}</View>
+										<Image lazyLoad src={cover} mode="widthFix"/>
 									</View>
-									<View className="desc">{item.desc}</View>
-									<Image lazyLoad src={cover} mode="widthFix"/>
 								</Card>
 								<WhiteSpace/>
 							</View>

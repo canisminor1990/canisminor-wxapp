@@ -21,7 +21,7 @@ export default class extends Component {
 			  {data.map((item,i) => {
 				  let cover = item.cover.s ? item.cover.s : item.cover.l + '!s';
 			    return (
-				    <View className="box" key={i} onClick={this.navigateTo.bind(this, item.filename)}>
+				    <View className="box" hoverClass="box-hover" key={i} onClick={this.navigateTo.bind(this, item.filename)}>
 					    <Image lazyLoad src={cover} mode="widthFix"/>
 					    <View className="content">
 						    <View className="title">{item.title}</View>

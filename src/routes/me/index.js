@@ -15,12 +15,13 @@ export default class Index extends Component {
 			{title: 'energy', value: '∞'}
 		],
 		cell : [
-			{title:"About Me",icon:"",to:""},
-			{title:"Education",icon:"",to:""},
-			{title:"Experience",icon:"",to:""},
-			{title:"Skills",icon:"",to:""},
-			{title:"Specialities",icon:"",to:""},
-			{title:"Contact",icon:"",to:""},
+			{title:"About Me",icon:"cell-about.png",to:""},
+			{title:"Education",icon:"cell-education.png",to:""},
+			{title:"Experience",icon:"cell-experience.png",to:""},
+			{title:"Design Skills",icon:"cell-design.png",to:""},
+			{title:"Front-End Skills",icon:"cell-fe.png",to:""},
+			{title:"Specialities",icon:"cell-specialities.png",to:""},
+			{title:"Contact",icon:"cell-contact.png",to:""},
 		]
 	};
 
@@ -47,9 +48,12 @@ export default class Index extends Component {
 				<WhiteSpace/>
 				<Card>
 					{this.state.cell.map((item,i) => (
-						<View  className="cell" key={i}>
-
-							<View className="title">{item.title}</View>
+						<View  className="cell" hoverClass="cell-hover" key={i}>
+							<Image className="icon" src={`/asset/img/${item.icon}`} mode="widthFix" lazyLoad />
+							<View className="title">
+								{item.title}
+								<Image className="right" src={`/asset/img/right.png`} mode="widthFix" lazyLoad />
+							</View>
 						</View>
 					))}
 				</Card>

@@ -24,7 +24,7 @@ export default class extends Component {
 						                                  title: item.title
 					                                  });
 					return (
-						<View className="box" key={i} onClick={this.navigateTo.bind(this, url)}>
+						<View className="box" hoverClass="box-hover" key={i} onClick={this.navigateTo.bind(this, url)}>
 							<Image lazyLoad src={`https://canisminor.cc${item.cover}`} mode="widthFix"/>
 							<View className="content">
 								<View className="title">{item.title}</View>

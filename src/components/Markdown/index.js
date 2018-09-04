@@ -3,7 +3,8 @@ import Remarkable from 'remarkable';
 import { View, Text, Image } from '@tarojs/components';
 import './index.scss';
 import _ from 'lodash'
-import ImageStyle from '../../utils/imageStyle'
+import MdImage from './MdImage'
+
 const parser = new Remarkable({
 	                              html: true
                               });
@@ -227,15 +228,9 @@ export default class  extends Component {
 											                                                                                      <Text
 												                                                                                      className={'inline_' + renderInline.type}>{renderInline.content}</Text>
 											                                                                                                                    :
-											                                                                                      (
-												                                                                                      renderInline.alt !== 'video' ?
-												                                                                                      <Image
-													                                                                                      mode="widthFix"
-													                                                                                      className="inline_image"
-													                                                                                      style={ImageStyle(renderInline.alt)}
-													                                                                                      src={renderInline.src}></Image>
-												                                                                                                                   : <View className="no-video">暂不支持视频</View>
-											                                                                                      )
+											                                                                                      <MdImage
+												                                                                                      alt={renderInline.alt}
+												                                                                                      src={renderInline.src} />
 										                                                                                      }
 									                                                                                      </block>
 								                                                              )

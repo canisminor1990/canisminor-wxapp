@@ -69,11 +69,11 @@ export default class extends Component {
 					{loading ? <Loading/> : <Design data={design}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Coding" btn="View my repos" to={`/routes/qrcode/index?${github}`} padding>
+				<Card title="Coding" btn="View my repos" to={`/routes/qrcode/index?${github}`} >
 					{loading ? <Loading/> : <Coding data={coding}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Article" btn="View my blog" to="/routes/blog/index" tab padding>
+				<Card title="Article" btn="View my blog" to="/routes/blog/index" tab >
 					{loading ? <Loading/> : <Article data={article}/>}
 				</Card>
 				<WhiteSpace/>

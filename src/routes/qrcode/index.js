@@ -10,7 +10,8 @@ export default class extends Component {
 	};
 
 	config = {
-		navigationBarTitleText: 'Qrcode'
+		navigationBarTitleText: 'Qrcode',
+		backgroundColor: '#ffffff',
 	};
 
 	componentDidMount = () => {

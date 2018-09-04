@@ -27,7 +27,8 @@ export default class extends Component {
 	};
 
 	config = {
-		navigationBarTitleText: ''
+		navigationBarTitleText: '',
+		backgroundColor: '#ffffff',
 	};
 
 	componentDidMount = () => {

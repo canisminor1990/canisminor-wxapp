@@ -25,9 +25,11 @@ export default class extends Component {
 				</View>
 				{btn ? <View className="split"/> : null}
 				{(btn && !tab) ? <View className="footer"
+				                       hoverClass="footer-hover"
 				             onClick={this.navigateTo.bind(this, to)}
 				>{btn}</View> : null}
 				{(btn && tab) ? <View className="footer"
+				                      hoverClass="footer-hover"
 				             onClick={this.switchTab.bind(this, to)}
 				>{btn}</View> : null}
 			</View>

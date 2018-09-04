@@ -24,7 +24,8 @@ export default class extends Component {
 	};
 
 	config = {
-		navigationBarTitleText: 'Instant Zine'
+		navigationBarTitleText: 'Instant Zine',
+		backgroundColor: '#ffffff',
 	};
 
 	componentDidMount = () => {
