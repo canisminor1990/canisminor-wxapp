@@ -43,8 +43,9 @@ export default class extends Component {
 				<WhiteSpace/>
 				<Card>
 					{loading ? <Loading/> : about.showcase.map((item, i) => (
-						<Cell key={i} title={item.title.toUpperCase()} desc={item.desc} noLine={i === about.showcase.length - 1}/>
+						<Cell key={i} title={item.title.toUpperCase()} desc={item.desc} />
 					))}
+					<Cell key={4} title="WEBSITE" desc="https://canisminor.cc" noline/>
 				</Card>
 				<WhiteSpace/>
 			</View>

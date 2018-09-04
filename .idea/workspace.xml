@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cell/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown/MdImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown/MdImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tools/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tools/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/instantZine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/instantZine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/mail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Coding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Coding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/hola/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/hola/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/instant/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/instant/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/instant/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/instant/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/me/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/me/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/me/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/me/specialities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/specialities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/me/specialities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/specialities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/qrcode/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/qrcode/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/imageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/imageStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/instant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/instant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/me/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/me/about.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,7 +33,7 @@
           <entry key="eslintrc" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="359" />
+          <entry key="js" value="360" />
           <entry key="json" value="10" />
           <entry key="md" value="1" />
           <entry key="scss" value="156" />
@@ -78,7 +46,7 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="359" />
+          <entry key="JavaScript" value="360" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="SCSS" value="156" />
@@ -90,7 +58,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="11" />
           <entry key="gitignore" value="6" />
-          <entry key="js" value="11955" />
+          <entry key="js" value="11997" />
           <entry key="json" value="35" />
           <entry key="scss" value="6399" />
           <entry key="wxml" value="26" />
@@ -100,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="35" />
-          <entry key="JavaScript" value="11952" />
+          <entry key="JavaScript" value="11994" />
           <entry key="Less" value="3" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="SCSS" value="6399" />
@@ -127,6 +95,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/me/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/me/contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -142,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/models/mail.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -194,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/me/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -312,7 +292,6 @@
         <option value="$PROJECT_DIR$/src/routes/me/about.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/routes/me/education.js" />
-        <option value="$PROJECT_DIR$/src/routes/me/about.js" />
         <option value="$PROJECT_DIR$/src/routes/me/education.scss" />
         <option value="$PROJECT_DIR$/src/routes/me/experience.js" />
         <option value="$PROJECT_DIR$/src/routes/me/experience.scss" />
@@ -335,6 +314,7 @@
         <option value="$PROJECT_DIR$/src/routes/me/contact.scss" />
         <option value="$PROJECT_DIR$/src/models/mail.js" />
         <option value="$PROJECT_DIR$/src/routes/me/contact.js" />
+        <option value="$PROJECT_DIR$/src/routes/me/about.js" />
       </list>
     </option>
   </component>
@@ -490,12 +470,12 @@
       <workItem from="1535949855664" duration="10075000" />
       <workItem from="1535975825268" duration="9624000" />
       <workItem from="1536017485283" duration="32877000" />
-      <workItem from="1536067099159" duration="11547000" />
+      <workItem from="1536067099159" duration="11700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84451000" />
+    <option name="totallyTimeSpent" value="84604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="979" extended-state="6" />
@@ -506,7 +486,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -515,7 +495,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -826,16 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/me/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="118" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/hola/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -889,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/me/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="273">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -940,7 +910,7 @@
     <entry file="file://$PROJECT_DIR$/src/models/mail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -951,6 +921,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/me/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
