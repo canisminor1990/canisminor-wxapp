@@ -56,11 +56,12 @@ export default class extends Component {
                     <View className="desc">{item.desc}</View>
                   </View>
                 </Card>
-                <WhiteSpace footer />
+                <WhiteSpace />
               </View>
             );
           })
         )}
+        <WhiteSpace footer />
       </View>
     );
   }

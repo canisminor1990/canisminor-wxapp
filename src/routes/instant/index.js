@@ -50,11 +50,11 @@ export default class extends Component {
         </Card>
         <WhiteSpace />
         <Card title="Book List">
-          <View className="list">
-            {loading ? (
-              <Loading />
-            ) : (
-              books.map((item, i) => {
+          {loading ? (
+            <Loading />
+          ) : (
+            <View className="list">
+              {books.map((item, i) => {
                 const url = QueryString.stringify({
                   type: 'issue',
                   value: i,
@@ -71,9 +71,9 @@ export default class extends Component {
                     <View className="book-desc">{item.title[1].toUpperCase()}</View>
                   </View>
                 );
-              })
-            )}
-          </View>
+              })}
+            </View>
+          )}
         </Card>
         <WhiteSpace footer />
       </View>
