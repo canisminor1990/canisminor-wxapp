@@ -1,6 +1,6 @@
-import { View, Image, Text } from '@tarojs/components';
-import { Skills } from '../../components';
+import { View } from '@tarojs/components';
 import { Component } from '@tarojs/taro';
+import { Skills } from '../../components';
 import textFormat from '../../utils/textFormat';
 import './Intro.scss';
 

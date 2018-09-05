@@ -1,7 +1,7 @@
-import { View, Image, Text } from '@tarojs/components';
+import { View, Image } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
-import './Coding.scss';
 import QueryString from 'query-string';
+import './Coding.scss';
 
 export default class extends Component {
   static defaultProps = {

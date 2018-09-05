@@ -1,8 +1,8 @@
-import { View, Image, Text } from '@tarojs/components';
+import { View } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
+import _ from 'lodash';
 import { Project } from '../../components';
 import './Design.scss';
-import _ from 'lodash';
 
 export default class extends Component {
   static defaultProps = {

@@ -1,5 +1,5 @@
-import Taro, { Component } from '@tarojs/taro';
-import { View, Image, Text } from '@tarojs/components';
+import { Component } from '@tarojs/taro';
+import { Text } from '@tarojs/components';
 import _ from 'lodash';
 import classNames from 'classnames';
 import './index.scss';

@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro';
 import _ from 'lodash';
 
-export default class DataCash {
+export default class {
   constructor(namespace, timeout = 60000) {
     this.namespace = namespace;
     this.timeout = timeout;

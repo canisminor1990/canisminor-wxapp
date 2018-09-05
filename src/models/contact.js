@@ -1,7 +1,7 @@
+import _ from 'lodash';
 import request from '../utils/request';
 import DataCash from '../utils/dataCash';
 import action from '../utils/action';
-import _ from 'lodash';
 
 const Cash = new DataCash('contact');
 

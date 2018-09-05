@@ -1,4 +1,4 @@
-import { View, Image, Text } from '@tarojs/components';
+import { View, Image } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
 import moment from 'moment';
 import './Article.scss';

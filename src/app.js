@@ -1,11 +1,10 @@
+import Taro, { Component } from '@tarojs/taro';
+import { Provider } from '@tarojs/redux';
 import '@tarojs/async-await';
 import action from './utils/action';
-import Taro, { Component } from '@tarojs/taro';
 import Index from './routes/blog';
 import dva from './dva';
 import models from './models';
-import { Provider } from '@tarojs/redux';
-
 import './index.scss';
 
 const dvaApp = dva.createApp({

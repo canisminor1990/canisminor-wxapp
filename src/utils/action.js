@@ -1,3 +1,1 @@
-const action = (type, payload) => ({ type, payload });
-
-export default action;
+export default (type, payload) => ({ type, payload });

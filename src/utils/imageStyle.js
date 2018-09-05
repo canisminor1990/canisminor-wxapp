@@ -9,7 +9,7 @@ export default alt => {
   } else if (_.includes(alt, '%')) {
     return { maxWidth: alt };
   } else if (_.includes(alt, 'auto')) {
-	  return { maxWidth: '100px' };
+    return { maxWidth: '100px' };
   } else {
     return {};
   }

@@ -1,5 +1,5 @@
-import request from '../utils/request';
 import queryString from 'query-string';
+import request from '../utils/request';
 import action from '../utils/action';
 
 export default {
