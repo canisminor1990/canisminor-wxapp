@@ -19,6 +19,10 @@
     "lint"
   ],
   "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ],
     "README.md": [
       "prettier --write",
       "git add"
