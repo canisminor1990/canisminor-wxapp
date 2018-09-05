@@ -26,6 +26,14 @@ export default class extends Component {
 		this.props.dispatch(action('projects/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'Projects - CanisMinor',
+			path : 'routes/projects/index',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
 	navigateTo(filename) {
 		filename = _.last(filename.split(/\//g));
 		const url = filename === 'instant-zine'

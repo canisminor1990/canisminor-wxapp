@@ -25,6 +25,14 @@ export default class extends Component {
 		this.props.dispatch(action('instantzine/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'InstantZine - CanisMinor',
+			path : 'routes/instant/index',
+			imageUrl: `${Instant.videoCover}!wxshare`
+		};
+	};
+
 	navigateTo(props) {
 		const url = `/routes/instant/post?${props}`
 		Taro.navigateTo({url});
@@ -58,7 +66,7 @@ export default class extends Component {
 						})}
 					</View>
 				</Card>
-				<WhiteSpace/>
+				<WhiteSpace footer/>
 			</View>
 		);
 	}

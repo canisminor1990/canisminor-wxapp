@@ -2,6 +2,7 @@ import { View } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
 import { Card, Markdown } from '../../components';
 import './Intro.scss';
+import Instant from '../../utils/instant';
 
 export default class extends Component {
   static defaultProps = {
@@ -11,6 +12,7 @@ export default class extends Component {
       body: '',
     },
   };
+
 
   render() {
     const { data } = this.props;

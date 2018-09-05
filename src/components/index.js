@@ -9,3 +9,4 @@ export { default as Title } from './Title';
 export { default as Cell } from './Cell';
 export { default as Skills } from './Skills';
 export { default as Tools } from './Tools';
+export { default as Img } from './Img';

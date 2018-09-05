@@ -25,6 +25,14 @@ export default class extends Component {
 		this.props.dispatch(action('resume/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'Specialities - Resume',
+			path : 'routes/me/specialities',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
 	render() {
 		const {loading, specialities} = this.props;
 		return (
@@ -45,7 +53,7 @@ export default class extends Component {
 									<View className="desc">{item.desc}</View>
 								</View>
 							</Card>
-							<WhiteSpace/>
+							<WhiteSpace footer/>
 						</View>
 					);
 				})}

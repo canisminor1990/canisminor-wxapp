@@ -26,6 +26,14 @@ export default class Index extends Component {
     ],
   };
 
+	onShareAppMessage = () => {
+		return {
+			title: 'Resume - CanisMinor',
+			path : 'routes/me/index',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
   navigateTo(prop) {
     const url = `/routes/me/${prop}`;
     Taro.navigateTo({ url });

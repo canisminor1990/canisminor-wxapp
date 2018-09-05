@@ -25,6 +25,14 @@ export default class extends Component {
 		this.props.dispatch(action('blog/get', 1));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'Blog - CanisMinor',
+			path : 'routes/blog/index',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
 	onReachBottom = () => {
 		if (this.props.page < this.props.pages) {
 			this.props.dispatch(action('blog/get', this.props.page + 1));

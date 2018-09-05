@@ -5,6 +5,7 @@ import './index.scss';
 import { connect } from '@tarojs/redux';
 import action from '../../utils/action';
 import moment from 'moment';
+import Instant from '../../utils/instant';
 
 @connect(({posts, loading}) => ({
 	...posts,
@@ -28,12 +29,22 @@ export default class extends Component {
 
 	config = {
 		navigationBarTitleText: '',
-		backgroundColor: '#ffffff',
+		backgroundColor       : '#ffffff'
 	};
 
 	componentDidMount = () => {
 		const {id} = this.$router.params;
 		this.props.dispatch(action('posts/get', id));
+		this.setState({id});
+	};
+
+	onShareAppMessage = () => {
+		const {title, tag, cover} = this.props;
+		return {
+			title   : `${title} - ${tag.toUpperCase()}`,
+			path    : `/routes/post/index?id=${this.state.id}`,
+			imageUrl: cover.l ? `${cover.l}!wxshare` : `${cover.s}!wxshare`
+		};
 	};
 
 	render() {

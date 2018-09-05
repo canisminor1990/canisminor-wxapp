@@ -31,17 +31,25 @@ export default class extends Component {
 		this.props.dispatch(action('hola/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'CanisMinor',
+			path : 'routes/hola/index',
+			imageUrl: '/asset/share.png'
+		};
+	};
+
 	navigateTo(filename) {
-		const url = `/routes/post/index?id=${filename}`
+		const url = `/routes/post/index?id=${filename}`;
 		Taro.navigateTo({url});
 	}
 
 	render() {
 		const {intro, design, coding, article, loading} = this.props;
-		const github = QueryString.stringify({
-			                                  url  : "https://github.com/canisminor1990",
-			                                  title: "Github: canisminor1990"
-		                                  });
+		const github                                    = QueryString.stringify({
+			                                                                        url  : 'https://github.com/canisminor1990',
+			                                                                        title: 'Github: canisminor1990'
+		                                                                        });
 		return (
 			<View>
 				{loading ? <Loading/> : <Swiper
@@ -69,11 +77,11 @@ export default class extends Component {
 					{loading ? <Loading/> : <Design data={design}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Coding" btn="View my repos" to={`/routes/qrcode/index?${github}`} >
+				<Card title="Coding" btn="View my repos" to={`/routes/qrcode/index?${github}`}>
 					{loading ? <Loading/> : <Coding data={coding}/>}
 				</Card>
 				<WhiteSpace/>
-				<Card title="Article" btn="View my blog" to="/routes/blog/index" tab >
+				<Card title="Article" btn="View my blog" to="/routes/blog/index" tab>
 					{loading ? <Loading/> : <Article data={article}/>}
 				</Card>
 				<WhiteSpace/>

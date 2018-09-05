@@ -37,6 +37,14 @@ export default class extends Component {
 		this.props.dispatch(action('contact/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'Contant - Resume',
+			path : 'routes/me/contact',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
 	handleInput({target}) {
 		this.setState({[target.id]: target.value});
 	}
@@ -102,9 +110,7 @@ export default class extends Component {
 					          onBlur={this.handleInput.bind(this)}/>
 					<View className="footer" hoverClass="footer-hover" onClick={this.handleSend.bind(this)}>SEND MESSAGE</View>
 				</Card>
-				<WhiteSpace/>
-				<WhiteSpace/>
-				<WhiteSpace/>
+				<WhiteSpace footer/>
 				<AtModal isOpened={this.state.open}>
 					<AtModalContent>
 						<View className="modal">

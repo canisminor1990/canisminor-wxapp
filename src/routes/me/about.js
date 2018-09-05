@@ -27,6 +27,14 @@ export default class extends Component {
 		this.props.dispatch(action('resume/get'));
 	};
 
+	onShareAppMessage = () => {
+		return {
+			title: 'About - Resume',
+			path : 'routes/me/about',
+			imageUrl: '/asset/share-projects.png'
+		};
+	};
+
 	render() {
 		const {loading, about} = this.props;
 		return (
@@ -47,7 +55,7 @@ export default class extends Component {
 					))}
 					<Cell key={4} title="WEBSITE" desc="https://canisminor.cc" noline/>
 				</Card>
-				<WhiteSpace/>
+				<WhiteSpace footer/>
 			</View>
 		);
 	}
