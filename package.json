@@ -1,5 +1,5 @@
 {
-  "name": "canisminor",
+  "name": "canisminor-wxapp",
   "version": "2.0.2",
   "private": true,
   "description": "Collection of my designs, articles and open-source programs.",
@@ -7,6 +7,10 @@
     "name": "CanisMinor",
     "email": "i@canisminor.cc",
     "url": "https://canisminor.cc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:canisminor1990/canisminor-wxapp.git"
   },
   "main": "index.js",
   "scripts": {
@@ -88,7 +92,6 @@
     "eslint-plugin-taro": "^1.0.0-beta.22",
     "lint-staged": "^7.2.2",
     "lodash": "^4.17.10",
-    "marked": "^0.5.0",
     "moment": "^2.22.2",
     "postcss-pxtorem": "^4.0.1",
     "pre-commit": "^1.2.2",
@@ -97,6 +100,5 @@
     "query-string": "^6.1.0",
     "remarkable": "^1.7.1",
     "taro-ui": "^1.1.0",
-    "towxml": "^2.0.1"
   }
 }
