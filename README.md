@@ -135,21 +135,21 @@ $ yarn build
 ```
 + src
   + components
-  	+ Card
-  	  - index.js
-  	  - index.scss
-  	...
+    + Card
+      - index.js
+      - index.scss
+    ...
   + models
-  	- hola.js
-  	...
+    - hola.js
+    ...
   + routes
     + hola
       - index.js
       - index.scss
     ...
   + styles
-  	- var.scss
-  	...
+    - var.scss
+    ...
   + utils
     - request.js
     ...
