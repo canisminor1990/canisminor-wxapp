@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa8854a-8028-489d-aa27-fcdd3b76b551" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -62,7 +61,7 @@
           <entry key="gitignore" value="6" />
           <entry key="js" value="13674" />
           <entry key="json" value="38" />
-          <entry key="md" value="47" />
+          <entry key="md" value="56" />
           <entry key="scss" value="6514" />
           <entry key="wxml" value="26" />
           <entry key="wxss" value="1" />
@@ -73,7 +72,7 @@
           <entry key="JSON" value="38" />
           <entry key="JavaScript" value="13671" />
           <entry key="Less" value="3" />
-          <entry key="Markdown" value="47" />
+          <entry key="Markdown" value="56" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="SCSS" value="6514" />
         </counts>
@@ -149,8 +148,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="169">
-                <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+              <first_editor relative-caret-position="67">
+                <caret line="168" column="71" selection-start-line="168" selection-start-column="71" selection-end-line="168" selection-end-column="71" />
                 <folding>
                   <element signature="e#0#47#0" expanded="true" />
                 </folding>
@@ -428,18 +427,18 @@
       <workItem from="1536110724232" duration="3056000" />
       <workItem from="1536118930051" duration="794000" />
       <workItem from="1536193053531" duration="1246000" />
-      <workItem from="1536197881085" duration="75000" />
+      <workItem from="1536197881085" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97773000" />
+    <option name="totallyTimeSpent" value="97943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -453,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -781,8 +780,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="169">
-            <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+          <first_editor relative-caret-position="67">
+            <caret line="168" column="71" selection-start-line="168" selection-start-column="71" selection-end-line="168" selection-end-column="71" />
             <folding>
               <element signature="e#0#47#0" expanded="true" />
             </folding>

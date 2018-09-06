@@ -166,7 +166,7 @@ $ yarn build
 
 ## Link
 
-<img src="http://qn.canisminor.cc/2018-09-05-wx-qrcode.png" width=200 />
+<img src="http://qn.canisminor.cc/2018-09-05-wx-qrcode.png" width="200" />
 
 <br />
 
