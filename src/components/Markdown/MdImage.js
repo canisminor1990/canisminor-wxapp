@@ -1,4 +1,4 @@
-import { View, Image } from '@tarojs/components';
+import { Video, Image } from '@tarojs/components';
 import Taro, { Component } from '@tarojs/taro';
 import ImageStyle from '../../utils/imageStyle';
 import './MdImage.scss';
@@ -25,9 +25,7 @@ export default class extends Component {
         onClick={this.handleImgPreview.bind(this, src)}
       />
     ) : (
-      <View className="no-video" onClick={this.navigateTo.bind(this, src)}>
-        暂不支持视频
-      </View>
+      <Video className="video" src={src} />
     );
   }
 }

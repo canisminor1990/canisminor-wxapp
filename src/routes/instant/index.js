@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro';
-import { View, Image } from '@tarojs/components';
+import { View, Image, Video } from '@tarojs/components';
 import { connect } from '@tarojs/redux';
 import QueryString from 'query-string';
 import { Loading, Card, WhiteSpace } from '../../components';
@@ -42,7 +42,7 @@ export default class extends Component {
     const { loading, books } = this.props;
     return (
       <View className="instant">
-        <Image lazyLoad className="cover" src={Instant.videoCover} mode="widthFix" />
+        <Video className="cover" poster={Instant.videoCover} src={Instant.video} />
         <Card btn="Introduciton" to="/routes/instant/post?type=intro" padding>
           <View className="title">须臾映社</View>
           <View className="desc">Instant-Zine</View>
