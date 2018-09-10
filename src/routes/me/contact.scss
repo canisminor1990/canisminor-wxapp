@@ -15,7 +15,6 @@
   }
 }
 .input {
-  border: none;
   background-color: transparent;
   border-radius: 0 !important;
   padding: 0;
@@ -25,6 +24,9 @@
   font-size: 0.9rem;
   height: 3.5rem;
   margin-left: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom: 1px solid #eee;
   View {
     width: 4rem;
