@@ -71,8 +71,7 @@ export default class extends Component {
                 </View>
               );
             })
-          : loading && <Loading />}
-        {loading && <Loading />}
+          : loading && <Loading height="80vh" />}
         <TabbarShadow />
       </View>
     );

@@ -1,5 +1,5 @@
-import { Component } from '@tarojs/taro';
-import { View, Image, Input, Textarea } from '@tarojs/components';
+import Taro, { Component } from '@tarojs/taro';
+import { View, Image, Input, Textarea, Button } from '@tarojs/components';
 import { connect } from '@tarojs/redux';
 import { AtModal, AtModalContent } from 'taro-ui';
 import { WhiteSpace, Loading, Card, Title } from '../../components';
@@ -77,6 +77,16 @@ export default class extends Component {
     this.setState({ open: true });
   }
 
+  handleName({ target }) {
+    if (target.value !== '') return;
+    Taro.getUserInfo({
+      success: res => {
+        console.log(res.userInfo);
+        this.setState({ name: res.userInfo.nickName });
+      },
+    });
+  }
+
   handleClick() {
     this.setState({ open: false });
   }
@@ -103,10 +113,16 @@ export default class extends Component {
         </Card>
         <WhiteSpace />
         <Card title="Send Message">
-          <View className="input">
+          <Button className="input" open-type="getUserInfo">
             <View>NAME</View>
-            <Input id="name" placeholder="your name" onBlur={this.handleInput.bind(this)} />
-          </View>
+            <Input
+              id="name"
+              placeholder="your name"
+              value={this.state.name}
+              onBlur={this.handleInput.bind(this)}
+              onFocus={this.handleName.bind(this)}
+            />
+          </Button>
           <View className="input">
             <View>E-MAIL</View>
             <Input id="email" placeholder="your e-mail" onBlur={this.handleInput.bind(this)} />

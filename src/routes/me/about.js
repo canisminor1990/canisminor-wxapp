@@ -59,7 +59,7 @@ export default class extends Component {
               <Cell key={i} title={item.title.toUpperCase()} desc={item.desc} />
             ))
           )}
-          <Cell key={4} title="WEBSITE" desc="https://canisminor.cc" noline />
+          <Cell key={4} title="WEBSITE" desc="canisminor.cc" noline />
         </Card>
         <WhiteSpace footer />
       </View>

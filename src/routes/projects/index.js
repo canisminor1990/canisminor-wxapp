@@ -47,7 +47,7 @@ export default class extends Component {
         <Title type="project" desc="Selection of my recent works" />
         <Card>
           {loading ? (
-            <Loading />
+            <Loading height="50vh" />
           ) : (
             main.map((item, i) => (
               <View className="project" key={i} onClick={this.navigateTo.bind(this, item.to)}>

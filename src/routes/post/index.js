@@ -50,7 +50,7 @@ export default class extends Component {
     return (
       <View className="post">
         {loading ? (
-          <Loading />
+          <Loading height="80vh" />
         ) : (
           <View>
             <View className="header">

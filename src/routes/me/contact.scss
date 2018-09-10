@@ -15,6 +15,11 @@
   }
 }
 .input {
+  border: none;
+  background-color: transparent;
+  border-radius: 0 !important;
+  padding: 0;
+  text-align: left;
   display: flex;
   align-items: center;
   font-size: 0.9rem;
@@ -23,6 +28,9 @@
   border-bottom: 1px solid #eee;
   View {
     width: 4rem;
+  }
+  &:after {
+    border: none;
   }
 }
 .textarea {

@@ -55,7 +55,7 @@ export default class extends Component {
                 key={i}
                 title={item.title.toUpperCase()}
                 desc={item.desc}
-                noLine={i === education.showcase.length - 1}
+                noline={i === education.showcase.length - 1}
               />
             ))
           )}
