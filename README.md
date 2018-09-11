@@ -88,7 +88,6 @@ export default class extends Component {
 - 小程序 `API`优化，异步 `API Promise` 化等等。
 - 使用 `remarkable` 提供完整 `markdown` 解析方案。
 - 所有外链自动转换为 `Qrcode` 并将连接复制到剪切板。
-- 因为个人开发者不支持 `video` 也自动转为 `Qrcode` 。
 
 ## Preview
 
